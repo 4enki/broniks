@@ -17,6 +17,10 @@ gulp.task('html', function() {
     .pipe(nunjucksRender({
       path: 'app/templates'
     }))
-    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      minifyJS: true,
+      removeComments: true
+    }))
     .pipe(gulp.dest(paths.build.html));
 });
