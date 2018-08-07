@@ -28,8 +28,11 @@ a {
   &.active {
     color: $link-active-color;
   }
+}
 
-  &[href]:not([class]) {
-    color: $link-color;
-  }
+.button {
+  background-color: #2E2B77;
+  padding: 20px 43px 16px 19px;
+  border-radius: 0px 5px 100px 0px;
+  color: #ffffff;
 }
