@@ -1,0 +1,55 @@
+.contacts {
+  background-color: #fff;
+
+  &_wrap {
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    height: 620px;
+  }
+
+  &_col {
+    flex: 1 50%;
+    min-width: 720px;
+  }
+
+  &_map {
+    height: 620px;
+    background-image: linear-gradient(
+      -45deg,
+      rgba(46, 43, 119, .125) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(46, 43, 119, .125) 50%,
+      rgba(46, 43, 119, .125) 75%,
+      transparent 75%,
+      transparent
+    );
+    background-size: 40px 40px;
+    animation: mapBgAnimation 1.3s linear infinite;
+  }
+
+  &_info {
+    text-align: left;
+    padding: 133px 116px;
+  }
+}
+
+.balloon{
+  text-align: left;
+
+  &_body {
+    font-size: 18px;
+    text-align: left;
+
+    &_footer {
+      text-align: left;
+    }
+  }
+}
+
+// анимация для форма блока карты во время её подгрузки
+@keyframes mapBgAnimation {
+  0% { background-position: 0 0; }
+  100% { background-position: 35px 35px; }
+}

@@ -1,20 +1,49 @@
+<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script type="text/javascript">
+  ymaps.ready(init);
+  var myMap,
+    myPlacemark;
+  function init(){
+    myMap = new ymaps.Map ("map", {
+      center: [55.614780, 37.527121],
+      zoom: 15,
+      controls: []
+    });
+    var myPlacemark = new ymaps.Placemark([55.614780, 37.527121], {
+      hintContent: 'Броникс-Сервис',
+      balloonContentBody: '<div class="balloon_body">Броникс-Сервис</div>',
+      balloonContentFooter: '<div class="balloon-map_footer">Москва, Литовский бул., 1А</div>',
+    }, {
+      iconColor: '#2E2B77'
+    });
+    myMap.geoObjects.add(myPlacemark);
+    myMap.controls.add('zoomControl');
+    myMap.controls.remove('typeSelector');
+  }
+</script>
+
 <!-- begin .contacts -->
 <section class="contacts">
   <!-- begin .contacts_wrap -->
   <div class="contacts_wrap">
     <!-- begin .contacts_col contacts_map -->
-    <div class="contacts_col contacts_map">
-
-    </div>
+    <div class="contacts_col contacts_map" id="map"></div>
     <!-- end .contacts_col contacts_map -->
     <!-- begin .contacts_col -->
-    <div class="contacts_col">
-      <form action="" class="form-horizontal">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Email Address">
-          <button class="button">Отправить</button>
-        </div>
-      </form>
+    <div class="contacts_col contacts_info">
+      <!-- begin .contacts_box -->
+      <div class="contacts_box">
+        <h2 class="h2">Контакты</h2>
+        <p>Адрес: Литовский б-р, 1 а, Москва, 117593 <br> Телефон: 8 (495) 649-64-94</p>
+        <p><a href="#">банковские реквизиты</a></p>
+        <form action="" class="form-horizontal">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Email Address">
+            <button class="button">Отправить</button>
+          </div>
+        </form>
+      </div>
+      <!-- end .contacts_box -->
     </div>
     <!-- end .contacts_col -->
   </div>
