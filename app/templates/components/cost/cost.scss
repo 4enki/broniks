@@ -1,0 +1,92 @@
+.cost {
+  padding-top: 80px;
+  padding-bottom: 90px;
+
+  &_wrap {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  &_headline {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  &_list {
+    padding-left: 44px;
+    padding-right: 44px;
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+  }
+
+  &_item {
+    margin-right: 20px;
+    width: 340px;
+
+    &:last-child { margin-right: 0; }
+
+    &_name {
+      text-align: center;
+      margin-bottom: 24px;
+      color: #A6A19F;
+    }
+
+    &_box {
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+      padding: 50px 40px 50px 50px;
+      position: relative;
+      min-height: 450px;
+    }
+
+    &_footer {
+      position: absolute;
+      bottom: 25px;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+
+    &_price {
+      margin-bottom: 30px;
+      text-align: center;
+      color: #2E2B77;
+    }
+
+    &_text,
+    &_list {
+      color: #2E2B77;
+      margin: 0;
+      padding: 0;
+    }
+
+    &_list {
+      list-style-type: none;
+      margin: 10px 0 0 0;
+      padding: 0;
+
+      & > li {
+        margin: 0 0 10px 0;
+        padding: 0;
+
+        &:last-child { margin-bottom: 0; }
+      }
+    }
+
+    &.highlighted {
+
+      .cost_item_name {
+        font-weight: bold;
+        color: #8681FC;
+      }
+
+      .cost_item_box {
+        background-color: #F3F7F8;
+      }
+    }
+  }
+}
