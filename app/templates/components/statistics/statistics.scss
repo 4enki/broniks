@@ -1,3 +1,27 @@
 .statistics {
   background-color: #2E2B77;
+  color: #FFF;
+
+  &_wrap {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  &_list {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 132px;
+  }
+
+  &_item {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 }

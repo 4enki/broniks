@@ -1,0 +1,17 @@
+.additional {
+  background-color: #F3F7F8;
+  padding-top: 110px;
+  padding-bottom: 120px;
+
+  &_wrap {
+    max-width: 1169px;
+    margin: 0 auto;
+  }
+
+  &_headline {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+}
