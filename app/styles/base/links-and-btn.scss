@@ -1,9 +1,10 @@
 // Ссылки
-a {
+a,
+a:visited {
   transition: .3s ease;
   text-decoration: none;
   color: $link-color;
-  border-bottom: 1px solid;
+  border-bottom: 0;
 
   &:focus {
     outline: none;
@@ -13,15 +14,6 @@ a {
   &.hover {
     color: $link-hover-color;
     transition: .2s ease;
-  }
-
-  &:visited {
-    color: $link-visited-color;
-
-    &:hover {
-      color: $link-hover-color;
-      transition: .2s ease;
-    }
   }
 
   &:active,
