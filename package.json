@@ -75,5 +75,8 @@
       "semi": 2
     }
   },
-  "sasslintConfig": "sass-lint.yml"
+  "sasslintConfig": "sass-lint.yml",
+  "dependencies": {
+    "gulp-htmlmin": "^4.0.0"
+  }
 }
