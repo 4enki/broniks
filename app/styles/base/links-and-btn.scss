@@ -1,6 +1,5 @@
 // Ссылки
-a,
-a:visited {
+a {
   transition: .3s ease;
   text-decoration: none;
   color: $link-color;
@@ -24,7 +23,12 @@ a:visited {
 
 .button {
   background-color: #2E2B77;
-  padding: 20px 43px 16px 19px;
-  border-radius: 0px 5px 100px 0px;
+  padding: 22px 67px 18px 32px;
+  border-radius: 10px 5px 100px 10px;
   color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  font-weight: normal;
 }
