@@ -1,7 +1,7 @@
 .case {
   background-color: #fff;
   padding-top: 83px;
-  padding-bottom: 238px;
+  padding-bottom: 106px;
 
   &_wrap {
     max-width: 980px;
@@ -55,6 +55,8 @@
     color: #6B797F;
     font-size: 14px;
     line-height: 22px;
+
+    p:last-child { margin-bottom: 0; }
   }
 }
 
@@ -62,4 +64,36 @@
   display: flex;
   align-items: stretch;
   align-content: stretch;
+}
+
+.case_switch {
+  color: #A6A19F;
+  font-family: 'TT Prosto Sans';
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  text-transform: lowercase;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 42px;
+
+  &_item {
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+    background-color: transparent;
+    padding: 7px 11px 7px 11px;
+
+    &.is-active {
+      background-color: #6B797F;
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
