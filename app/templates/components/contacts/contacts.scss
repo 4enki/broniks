@@ -32,6 +32,19 @@
   &_info {
     text-align: left;
     padding: 133px 116px;
+    font-family: 'TT Prosto Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #666666;
+
+    h2 {
+      margin-bottom: 25px;
+    }
+
+    .form-horizontal {
+      max-width: 530px;
+    }
   }
 }
 

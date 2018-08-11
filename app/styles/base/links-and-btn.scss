@@ -21,8 +21,21 @@ a {
   }
 }
 
+.light-link {
+  color: #666666;
+  font-weight: 100;
+  font-size: 18px;
+  font-family: 'TT Prosto Sans';
+  line-height: 27px;
+
+  &:hover {
+    color: #2E2B77;
+  }
+}
+
 .button {
   background-color: #2E2B77;
+  border: 1px solid #2E2B77;
   padding: 22px 67px 18px 32px;
   border-radius: 10px 5px 100px 10px;
   color: #ffffff;
@@ -38,4 +51,16 @@ a {
   transition: all .2s ease;
   vertical-align: middle;
   position: relative;
+
+  &:hover {
+    background-color: #8681FC;
+    border-color: #8681FC;
+    color: #ffffff;
+  }
+
+  &:focus {
+    background-color: #F3F7F8;
+    border-color: #8681FC;
+    color: #2E2B77;
+  }
 }
