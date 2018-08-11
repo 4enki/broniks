@@ -117,3 +117,18 @@ code {
   background-color: $code-bg;
   border-radius: $border-radius-base;
 }
+
+.text {
+
+  p {
+    margin-bottom: 35px;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 32px;
+    color: #1D1D1D;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
