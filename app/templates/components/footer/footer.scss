@@ -19,6 +19,10 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    color: rgba(255, 255, 255, .44);
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 24px;
 
     p:last-child { margin-bottom: 0; }
   }
