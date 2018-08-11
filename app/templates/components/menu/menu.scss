@@ -39,6 +39,22 @@
     padding: 35px 0;
     font-weight: bold;
   }
+
+  &.menu-vertical {
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+
+    .menu-item {
+      margin-bottom: 10px;
+
+      &:last-child { margin-bottom: 0; }
+    }
+
+    .menu-link {
+      padding: 0;
+    }
+  }
 }
 
 .tel-link {
