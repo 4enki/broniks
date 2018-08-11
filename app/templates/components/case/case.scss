@@ -7,4 +7,59 @@
     max-width: 980px;
     margin: 0 auto;
   }
+
+  &_item {
+    flex-basis: 25%;
+    margin-right: 42px;
+
+    &:last-child { margin-right: 0; }
+
+    &:nth-child(2) {
+      margin-right: 55px;
+    }
+  }
+
+  &_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+
+  &_icon {
+    min-height: 75px;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 43px;
+  }
+
+  &_head,
+  &_head h3 {
+    font-family: 'TT Prosto Sans';
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    color: #6B797F;
+    margin: 0;
+    padding: 0;
+  }
+
+  &_head {
+    margin-bottom: 21px;
+  }
+
+  &_description {
+    font-family: 'TT Prosto Sans';
+    color: #6B797F;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+.cases {
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
 }
