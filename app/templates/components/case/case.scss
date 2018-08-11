@@ -121,7 +121,8 @@
   &_info {
     border-color: #C0C8CB;
     position: relative;
-    margin-right: 25px;
+    margin-right: 27px;
+    flex-basis: 100%;
 
     &:after,
     &:before {
@@ -148,6 +149,8 @@
   }
 
   &_help {
+    flex-basis: 330px;
+    min-width: 330px;
     background-color: #F2F2F2;
     border-color: #F2F2F2;
   }

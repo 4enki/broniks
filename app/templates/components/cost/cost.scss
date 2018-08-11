@@ -15,6 +15,7 @@
   }
 
   &_list {
+    margin-top: 90px;
     padding-left: 44px;
     padding-right: 44px;
     display: flex;
@@ -28,19 +29,42 @@
 
     &:last-child { margin-right: 0; }
 
+    &_head {
+      background-color: #A6A19F;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      padding: 30px 55px;
+      text-align: center;
+      font-family: 'Open Sans';
+      color: #F3F7F8;
+      font-style: italic;
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    &_body {
+      padding: 30px 40px 50px 50px;
+    }
+
     &_name {
       text-align: center;
       margin-bottom: 24px;
       color: #A6A19F;
+      font-family: 'TT Prosto Sans';
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 42px;
     }
 
     &_box {
+      overflow: hidden;
       border-radius: 5px;
       background-color: #fff;
       box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
-      padding: 50px 40px 50px 50px;
       position: relative;
-      min-height: 450px;
+      height: 100%;
     }
 
     &_footer {
@@ -59,10 +83,19 @@
       margin-bottom: 30px;
       text-align: center;
       color: #2E2B77;
+      font-family: 'TT Prosto Sans';
+      font-size: 48px;
+      line-height: 48px;
+      font-weight: bold;
+
+      span { font-weight: 200; }
     }
 
     &_text,
     &_list {
+      font-family: 'TT Prosto Sans';
+      font-size: 14px;
+      line-height: 20px;
       color: #2E2B77;
       margin: 0;
       padding: 0;
@@ -83,6 +116,10 @@
 
     &.highlighted {
 
+      .cost_item_head {
+        background-color: #8681FC;
+      }
+
       .cost_item_name {
         font-weight: bold;
         color: #8681FC;
@@ -90,7 +127,7 @@
 
       .cost_item_box {
         background-color: #F3F7F8;
-        background-image: url('../images/bg-cost.png');
+        // background-image: url('../images/bg-cost.png');
       }
     }
   }
