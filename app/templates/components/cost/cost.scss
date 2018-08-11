@@ -1,6 +1,6 @@
 .cost {
   padding-top: 80px;
-  padding-bottom: 90px;
+  padding-bottom: 80px;
 
   &_wrap {
     max-width: 1169px;
@@ -16,6 +16,7 @@
 
   &_list {
     margin-top: 90px;
+    padding-bottom: 180px;
     padding-left: 44px;
     padding-right: 44px;
     display: flex;
@@ -26,6 +27,7 @@
   &_item {
     margin-right: 20px;
     width: 340px;
+    position: relative;
 
     &:last-child { margin-right: 0; }
 
@@ -45,7 +47,7 @@
     }
 
     &_body {
-      padding: 30px 40px 50px 50px;
+      padding: 30px 40px 30px 50px;
     }
 
     &_name {
@@ -54,7 +56,7 @@
       color: #A6A19F;
       font-family: 'TT Prosto Sans';
       font-size: 28px;
-      font-weight: 400;
+      font-weight: 100;
       line-height: 42px;
     }
 
@@ -73,9 +75,17 @@
       left: 0;
       right: 0;
       text-align: center;
+      font-family: 'TT Prosto Sans';
+      font-size: 17px;
+      line-height: 17px;
+      font-weight: 100;
 
       a.more-link {
         color: #A6A19F;
+
+        &:hover {
+          color: #2E2B77;
+        }
       }
     }
 
@@ -123,6 +133,13 @@
       .cost_item_name {
         font-weight: bold;
         color: #8681FC;
+        position: relative;
+
+        .label {
+          position: absolute;
+          top: -10px;
+          right: 29px;
+        }
       }
 
       .cost_item_box {
