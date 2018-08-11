@@ -2,11 +2,13 @@
    Пути к файлам, с котороыми работаем:
    сборка, исходники и файлы для watch
 */
+
+const env = require('minimist')(process.argv.slice(2));
+
 const src  = 'app/';
 const dist = 'dist/';
 
-
-module.exports = {
+let config = {
 
   // Пути к исходникам проекта
   source: {
@@ -38,5 +40,14 @@ module.exports = {
     styles:          dist + 'assets/styles',
     images:          dist + 'assets/images',
     resources:       dist
+  },
+
+  errorHandler: require('./utils/errors'),
+
+  env: {
+    development: !!env.development,
+    production:  !!env.production
   }
 };
+
+module.exports = config;

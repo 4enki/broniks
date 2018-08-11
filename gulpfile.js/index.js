@@ -5,10 +5,12 @@
   Sergey Glazov
   https://github.com/4enki/spt
 */
-const gulp = require('gulp');
+const gulp        = require('gulp');
 const runSequence = require('run-sequence');
+const chalk       = require('chalk');
+const log         = console.log;
 
-const paths = require('./paths')
+const config      = require('./config')
 
 require('require-dir')('./tasks', {recurse: true});
 
@@ -19,7 +21,7 @@ require('require-dir')('./tasks', {recurse: true});
   gulp.task('default', function(cb) {
     return runSequence(
       'copy',
-      ['html', 'scripts', 'styles'],
+     ['html', 'scripts', 'styles'],
       'watch',
       'cleancache',
       'server',
@@ -27,13 +29,28 @@ require('require-dir')('./tasks', {recurse: true});
     );
   });
 
-  // Одноразовая сборка проекта
+  // Одноразовая сборка проекта в браузер
   gulp.task('one', function(cb) {
     return runSequence(
       'copy',
-      ['html', 'scripts', 'styles'],
+     ['html', 'scripts', 'styles:build'],
       'server',
       cb
+    );
+  });
+
+  // Одноразовая сборка проекта без вотчеров и браузера
+  gulp.task('build', function(cb) {
+    return (
+      log( chalk.green (
+          'Собираем сборку в окружении: ' +
+          chalk.bold( config.env.production ? 'production' : 'development' )
+      ) ),
+      runSequence(
+        'copy',
+       ['html', 'scripts', 'styles:build'],
+        cb
+      )
     );
   });
 
@@ -42,7 +59,7 @@ require('require-dir')('./tasks', {recurse: true});
     return runSequence(
       'cleanup',
       'copy',
-      ['html', 'scripts', 'styles'],
+     ['html', 'scripts', 'styles:build'],
       'build-zip',
       'cleanup',
       cb

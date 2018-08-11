@@ -1,7 +1,7 @@
 {
   "name": "bronix",
   "version": "1.0.0",
-  "description": "A template for bronix",
+  "description": "A template for a bronix",
   "author": "Sergey Glazov <github@4enki.ru> (https://github.com/4enki)",
   "license": "MIT",
   "repository": {
@@ -14,9 +14,10 @@
   },
   "scripts": {
     "start": "gulp",
-    "one": "gulp one",
-    "zip": "gulp zip --build",
-    "gulp": "node ./node_modules/gulp/bin/gulp.js"
+    "one":   "gulp one",
+    "zip":   "gulp zip --production",
+    "prod":  "gulp build --production",
+    "gulp":  "node ./node_modules/gulp/bin/gulp.js"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.0",
@@ -38,6 +39,7 @@
     "gulp-flatten": "^0.4.0",
     "gulp-front-matter": "^1.3.0",
     "gulp-gh-pages": "^0.5.4",
+    "gulp-htmlmin": "^4.0.0",
     "gulp-imagemin": "^4.1.0",
     "gulp-nunjucks-render": "^2.2.1",
     "gulp-plumber": "^1.1.0",
@@ -75,8 +77,5 @@
       "semi": 2
     }
   },
-  "sasslintConfig": "sass-lint.yml",
-  "dependencies": {
-    "gulp-htmlmin": "^4.0.0"
-  }
+  "sasslintConfig": "sass-lint.yml"
 }
