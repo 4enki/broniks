@@ -97,3 +97,59 @@
     }
   }
 }
+
+.case_step {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  &_item {
+    padding: 15px 19px;
+    font-family: 'TT Prosto Sans';
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #6B797F;
+    text-transform: lowercase;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    height: 86px;
+  }
+
+  &_info {
+    border-color: #C0C8CB;
+    position: relative;
+    margin-right: 25px;
+
+    &:after,
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 100%;
+      width: 0;
+      height: 0;
+      border-style: solid;
+    }
+
+    &:before {
+      top: 1px;
+      border-color: transparent transparent transparent #C0C8CB;
+      border-width: 41px 0 41px 25px;
+    }
+
+    &:after {
+      top: 3px;
+      border-color: transparent transparent transparent #ffffff;
+      border-width: 39px 0 39px 24px;
+    }
+  }
+
+  &_help {
+    background-color: #F2F2F2;
+    border-color: #F2F2F2;
+  }
+}
