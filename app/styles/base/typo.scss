@@ -90,7 +90,18 @@ h2, .h2 {
   color: #1D1D1D;
 }
 
-h3, .h3 { font-size: $font-size-h3; }
+h3, .h3 {
+  font-size: $font-size-h3;
+
+  &-light {
+    font-family: 'TT Prosto Sans';
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 100;
+    color: #2E2B77;
+    text-transform: uppercase;
+  }
+}
 h4, .h4 { font-size: $font-size-h4; }
 h5, .h5 { font-size: $font-size-h5; }
 h6, .h6 { font-size: $font-size-h6; }

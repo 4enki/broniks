@@ -33,3 +33,9 @@
   backface-visibility: hidden;
   perspective: 1000px;
 }
+
+// анимация для форма блока карты во время её подгрузки
+@keyframes mapBgAnimation {
+  0% { background-position: 0 0; }
+  100% { background-position: 35px 35px; }
+}
