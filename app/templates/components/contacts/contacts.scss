@@ -45,6 +45,14 @@
     .form-horizontal {
       max-width: 530px;
     }
+
+    a.text-color {
+      color: #666666;
+
+      &:hover {
+        color: #2E2B77;
+      }
+    }
   }
 }
 
