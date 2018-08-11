@@ -33,6 +33,23 @@ a {
   }
 }
 
+.go-link {
+  color: #1D1D1D;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+
+  &_ico {
+    margin-left: 10px;
+  }
+
+  &:hover {
+    color: #2E2B77;
+  }
+}
+
 .button {
   background-color: #2E2B77;
   border: 1px solid #2E2B77;

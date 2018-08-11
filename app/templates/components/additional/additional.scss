@@ -14,4 +14,72 @@
     align-content: center;
     justify-content: space-between;
   }
+
+  &_cards {
+    margin-top: 40px;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+    align-items: stretch;
+    align-content: stretch;
+  }
+
+  .col-xs-6,
+  .col-xs-12 {
+    margin: 0;
+    padding: 0;
+  }
+
+  &_card {
+    background-color: red;
+    width: 100%;
+    height: 276px;
+    margin-bottom: 30px;
+    margin-right: 0;
+    position: relative;
+
+    &-bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      background-attachment: scroll;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    &-info {
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: rgba(37, 50, 244, .7);
+      border-radius: 0 0 100px 0;
+      padding: 21px 85px 21px 25px;
+      color: #FFF;
+      font-family: 'TT Prosto Sans';
+      font-size: 14px;
+      font-weight: 100;
+      line-height: 14px;
+
+      &_title {
+        margin-bottom: 10px;
+      }
+
+      &_cost {
+        font-size: 35px;
+        line-height: 35px;
+      }
+    }
+
+    &--big {
+      width: 100%;
+      height: calc( 276px * 2 );
+    }
+  }
 }
