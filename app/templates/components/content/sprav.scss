@@ -9,6 +9,22 @@
     padding-bottom: 50px;
   }
 
+  &-types {
+    padding-left: 30px;
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    .form-radio {
+      flex-basis: 50%;
+      max-width: 50%;
+      margin-bottom: 20px;
+    }
+  }
+
   &_map {
     height: 1065px;
     background-image: linear-gradient(
