@@ -12,6 +12,20 @@
     align-items: center;
     align-content: center;
     justify-content: space-between;
+
+    .switch {
+      display: flex;
+      align-items: center;
+      align-content: center;
+
+      .form-radio {
+        margin-right: 40px;
+
+        .label {
+          margin-left: 10px;
+        }
+      }
+    }
   }
 
   &_list {
