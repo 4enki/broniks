@@ -59,9 +59,25 @@
 
     .menu-link {
       color: #2E2B77;
+      padding: 20px 0;
 
       &:hover {
         font-weight: 100;
+      }
+    }
+
+    .menu {
+      transition: all .1s ease;
+      visibility: hidden;
+      opacity: 0;
+      width: 0;
+
+      &.is-active {
+        margin-left: 20px;
+        transition: all .2s ease;
+        opacity: 1;
+        width: auto;
+        visibility: visible;
       }
     }
   }
@@ -78,7 +94,19 @@
       margin-right: 20px;
     }
 
-    &_actions { }
+    &_actions {
+      transition: all .3s ease;
+      opacity: 1;
+      visibility: visible;
+      width: auto;
+
+      &.is-hide {
+        width: 0;
+        transition: all .2s ease;
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
   }
 }
 
@@ -110,7 +138,7 @@
   width: 40px;
   height: 28px;
   flex-direction: column;
-  transition: .3s ease;
+  transition: all .3s ease;
   position: relative;
   justify-content: space-between;
 
