@@ -11,7 +11,31 @@
   align-content: center;
   justify-content: center;
   padding-top: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
+}
+
+.prices-total {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: space-between;
+
+  &_cost {
+    text-align: right;
+    font-family: 'TT Prosto Sans';
+    font-size: 72px;
+    line-height: 112px;
+    color: #2E2B77;
+    font-weight: bold;
+    margin-top: -20px;
+
+    span {
+      font-weight: 100;
+    }
+  }
 }
 
 .price {

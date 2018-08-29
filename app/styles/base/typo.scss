@@ -95,10 +95,14 @@ h2, .h2 {
   font-size: 36px;
   line-height: 53px;
   color: #2E2B77;
-  font-weight: 200;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
+
+  &.lighter {
+    font-weight: 100;
+  }
 }
 
 h3, .h3 {
@@ -152,5 +156,23 @@ code {
 
   p:last-child {
     margin-bottom: 0;
+  }
+}
+
+.light-list {
+  list-style-type: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-family: 'TT Prosto Sans';
+
+  & > li {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 16px;
+    color: #2E2B77;
+    font-weight: 200;
+
+    &:last-child { margin-bottom: 0; }
   }
 }
