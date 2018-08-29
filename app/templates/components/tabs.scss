@@ -8,7 +8,7 @@
   font-family: 'TT Prosto Sans';
 
   &_item {
-    margin: 0;
+    margin-right: 2px;
 
     &.is-active .tabs-list_link {
       background-color: #2E2B77;
@@ -16,6 +16,8 @@
       color: #ffffff;
       font-weight: bold;
     }
+
+    &:last-child { margin-right: 0; }
   }
 
   &_link {
@@ -29,7 +31,8 @@
     padding: 10px 20px 9px 20px;
 
     &:hover {
-
+      color: #2E2B77;
+      border-color: #2E2B77;
     }
   }
 }

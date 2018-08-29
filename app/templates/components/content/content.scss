@@ -8,6 +8,28 @@
 
   &_headline {
     margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+    &-sides {
+      margin-top: 70px;
+      justify-content: space-between;
+
+      .switch {
+        display: flex;
+        align-items: center;
+        align-content: center;
+
+        .form-radio {
+          margin-right: 40px;
+
+          .label {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
   }
 
   &-box {
