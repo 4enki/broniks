@@ -1,0 +1,73 @@
+.about-people {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 60px;
+
+  &_photo {
+    margin-right: 44px;
+    min-width: 150px;
+    flex-basis: 150px;
+
+    img { vertical-align: middle; }
+  }
+
+  &_info {
+    font-family: 'TT Prosto Sans';
+    color: #707070;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  &_name {
+    font-style: italic;
+  }
+
+  &_position {
+    font-weight: 100;
+  }
+}
+
+.about-statistics {
+  margin-top: 110px;
+  margin-bottom: 150px;
+  background-color: #2E2B77;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #ffffff;
+
+  &_wrap {
+    max-width: 1169px;
+    margin: 0 auto;
+  }
+
+  &-list {
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: space-between;
+  }
+
+  &_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  &_value {
+    font-family: 'Open Sans';
+    font-size: 46px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  &_description {
+    font-family: 'TT Prosto Sans';
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #ffffff;
+  }
+}
