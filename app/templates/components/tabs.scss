@@ -1,0 +1,35 @@
+.tabs-list {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: 'TT Prosto Sans';
+
+  &_item {
+    margin: 0;
+
+    &.is-active .tabs-list_link {
+      background-color: #2E2B77;
+      border-color: #2E2B77;
+      color: #ffffff;
+      font-weight: bold;
+    }
+  }
+
+  &_link {
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #A6A19F;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 200;
+    padding: 10px 20px 9px 20px;
+
+    &:hover {
+
+    }
+  }
+}
