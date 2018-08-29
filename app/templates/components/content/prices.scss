@@ -108,4 +108,11 @@
       font-weight: 400;
     }
   }
+
+  &_info {
+    color: #666;
+    font-family: $font-family-base;
+    font-size: 14px;
+    line-height: 30px;
+  }
 }
