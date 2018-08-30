@@ -73,7 +73,7 @@
 }
 
 .about-team {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 30px;
   background-color: #fff;
 
@@ -105,11 +105,27 @@
     display: flex;
     align-items: center;
     align-content: center;
+    font-family: 'TT Prosto Sans';
+    color: #707070;
   }
 
   &_photo {
     margin-right: 30px;
 
     img { vertical-align: bottom; }
+  }
+
+  &_name {
+    font-size: 18px;
+    line-height: 26px;
+    font-style: italic;
+    margin-bottom: 14px;
+  }
+
+  &_position,
+  &_token {
+    font-size: 14px;
+    line-height: 26px;
+    font-style: italic;
   }
 }
