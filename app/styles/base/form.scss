@@ -106,6 +106,7 @@ textarea {
 .radio {
   display: none;
 }
+
 .checkbox-custom,
 .radio-custom {
   width: 20px;
@@ -114,12 +115,14 @@ textarea {
   border-radius: 3px;
   position: relative;
 }
+
 .checkbox-custom,
 .radio-custom,
 .label {
   display: inline-block;
   vertical-align: middle;
 }
+
 .checkbox:checked + .checkbox-custom::before,
 .radio:checked + .radio-custom::before {
   content: "";
@@ -132,6 +135,7 @@ textarea {
   background: #2E2B77;
   border-radius: 2px;
 }
+
 .radio-custom,
 .radio:checked + .radio-custom::before {
   border-radius: 50%;
