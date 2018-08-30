@@ -62,6 +62,10 @@
   display: flex;
   align-items: stretch;
   align-content: stretch;
+
+  &-center {
+    justify-content: center;
+  }
 }
 
 .case_switch {
