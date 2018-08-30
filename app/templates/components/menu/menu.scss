@@ -38,6 +38,10 @@
     text-transform: uppercase;
     padding: 35px 0;
     font-weight: bold;
+
+    &:hover {
+      color: #8681FC;
+    }
   }
 
   &.menu-vertical {
