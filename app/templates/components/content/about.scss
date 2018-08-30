@@ -90,8 +90,9 @@
 .team {
 
   &_item {
-    flex-basis: 49%;
-    min-width: 49%;
+    flex: 1 45%;
+    // flex-basis: 49%;
+    // min-width: 49%;
     margin-right: 50px;
     margin-bottom: 70px;
 
@@ -101,8 +102,6 @@
   }
 
   &_box {
-    display: -webkit-flex;
-    display: -ms-flex;
     display: flex;
     align-items: center;
     align-content: center;
