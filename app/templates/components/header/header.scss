@@ -43,8 +43,15 @@
     right: 0;
     width: 100%;
     z-index: 10;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: rgba(255, 255, 255, .89);
     min-height: auto;
+
+    &.is-fixed {
+
+      .header_wrap {
+        padding: 10px 0 15px 0;
+      }
+    }
 
     .header_wrap {
       max-width: 1169px;
