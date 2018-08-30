@@ -35,6 +35,10 @@ main {
   padding-top: 120px;
 }
 
+.main-page main {
+  padding-top: 0;
+}
+
 .hide {
   @include hidden;
 }
