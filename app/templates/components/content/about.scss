@@ -261,3 +261,30 @@
     }
   }
 }
+
+.about-memory {
+  padding-bottom: 100px;
+}
+
+.memory {
+
+  &_wrap {
+    position: relative;
+  }
+
+  &_nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #707070;
+
+    &-left {
+      left: -55px;
+    }
+
+    &-right {
+      right: -55px;
+    }
+  }
+}
