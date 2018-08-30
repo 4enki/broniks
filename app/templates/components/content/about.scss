@@ -71,3 +71,46 @@
     color: #ffffff;
   }
 }
+
+.about-team {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  background-color: #fff;
+
+  &_list {
+    max-width: 1169px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.team {
+
+  &_item {
+    flex-basis: 49%;
+    min-width: 49%;
+    margin-right: 50px;
+    margin-bottom: 70px;
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+
+  &_box {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+
+  &_photo {
+    margin-right: 30px;
+
+    img { vertical-align: bottom; }
+  }
+}
