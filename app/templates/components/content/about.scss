@@ -180,18 +180,21 @@
   color: #ffffff;
   font-size: 14px;
   line-height: 24px;
+  padding-bottom: 100px;
 
   &-list {
     display: flex;
     align-items: stretch;
     align-content: stretch;
-    flex-wrap: wrap;
   }
 
   &_item {
     flex-basis: 33.33333333%;
     max-width: 33.33333333%;
     background-color: rgba(29, 29, 29, .8);
+    margin-right: 20px;
+
+    &:last-child { margin-right: 0; }
   }
 
   &_box {
