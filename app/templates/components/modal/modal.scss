@@ -93,6 +93,54 @@
       }
     }
   }
+
+  &-agent {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    &_photo {
+      margin-bottom: 30px;
+
+      img { vertical-align: bottom; }
+    }
+
+
+    &_info {
+      font-family: 'TT Prosto Sans';
+      color: #707070;
+      font-size: 14px;
+      line-height: 28px;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    &_name {
+      font-style: italic;
+      text-align: center;
+    }
+
+    &_position {
+      font-weight: 100;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    &_token {
+      font-style: italic;
+      text-align: left;
+    }
+  }
+
+  &-actions {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
 }
 
 .my-mfp-zoom-in .zoom-anim-dialog {
