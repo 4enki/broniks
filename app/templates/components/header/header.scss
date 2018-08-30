@@ -175,20 +175,22 @@
 
         .hamburger_i {
           animation: pulse 1.8s tocross;
-          background-color: #ffffff;
+          background-color: #262d30;
+          border-color: #262d30;
 
           &:nth-child(1) {
-            transform: translate(0px, 13px) rotate(45deg);
+            transform: translate(0px, 12px) rotate(45deg);
           }
 
           &:nth-child(2) {
             background-color: #262d30;
+            border-color: #262d30;
             opacity: 0;
             transform: translate(0px, 0px);
           }
 
           &:nth-child(3) {
-            transform: translate(0px, -13px) rotate(-45deg);
+            transform: translate(0px, -12px) rotate(-45deg);
           }
         }
       }
@@ -197,7 +199,7 @@
 
   &_i {
     background-color: #666666;
-    height: 2px;
+    height: 4px;
     border: 1px solid #707070;
     border-radius: 2px;
     width: 100%;
