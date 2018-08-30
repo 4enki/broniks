@@ -45,6 +45,7 @@
     z-index: 10;
     background-color: rgba(255, 255, 255, .89);
     min-height: auto;
+    transition: all .2s ease;
 
     &.is-fixed {
 
@@ -54,6 +55,7 @@
     }
 
     .header_wrap {
+      transition: all .2s ease;
       max-width: 1169px;
       height: auto;
       margin: 0 auto;

@@ -2,8 +2,6 @@ $(document).ready(function() {
   var topMenu        = $('.header--light');
   var topMenuHeight  = topMenu.outerHeight();
 
-  var menuWrap = $('.header-nav');
-
   $(window).scroll(function() {
 
     if( $(window).scrollTop() > topMenuHeight ) {
