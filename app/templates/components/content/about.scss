@@ -131,9 +131,11 @@
 }
 
 .partners-list {
+  width: 1094px;
   display: flex;
   align-items: center;
   align-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -147,5 +149,10 @@
     width: 180px;
     height: 180px;
     margin-right: 45px;
+    margin-bottom: 30px;
+
+    &:nth-child(5n) {
+      margin-right: 0;
+    }
   }
 }
