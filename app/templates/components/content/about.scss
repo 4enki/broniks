@@ -238,3 +238,26 @@
     margin-bottom: 30px;
   }
 }
+
+.certificates {
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  &_item {
+    margin-right: 30px;
+
+    &:last-child { margin-right: 0; }
+  }
+
+  &_link {
+
+    img {
+      vertical-align: bottom;
+    }
+  }
+}
