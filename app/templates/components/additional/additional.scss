@@ -19,25 +19,11 @@
     margin-top: 40px;
   }
 
-  .row {
-    margin-left: 0;
-    margin-right: 0;
-    align-items: stretch;
-    align-content: stretch;
-  }
-
-  .col-xs-6,
-  .col-xs-12 {
-    margin: 0;
-    padding: 0;
-  }
-
   &_card {
     width: 270px;
     height: 270px;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     margin-right: 0;
-    position: relative;
 
     &:hover {
 
@@ -94,8 +80,18 @@
     }
 
     &--big {
-      width: 100%;
-      height: calc( 276px * 2 );
+      width: 570px;
+      height: 570px;
+    }
+
+    &--long {
+      width: 570px;
+      height: 270px;
+    }
+
+    &--high {
+      width: 270px;
+      height: 570px;
     }
   }
 }
