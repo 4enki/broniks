@@ -8,11 +8,36 @@
     margin: 0 auto;
   }
 
+  &_box {
+    position: relative;
+  }
+
   &_headline {
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: space-between;
+  }
+
+  &_nav {
+    position: absolute;
+    transition: .3s ease;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #707070;
+
+    &:hover {
+      color: #2E2B77;
+    }
+
+    &-left {
+      left: -55px;
+    }
+
+    &-right {
+      right: -55px;
+    }
   }
 
   &_cards {
