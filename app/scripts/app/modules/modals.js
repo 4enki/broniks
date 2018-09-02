@@ -13,7 +13,7 @@ $(document).ready(function() {
     preloader: false,
 
     midClick: false,
-    removalDelay: 300,
+    removalDelay: 100,
     mainClass: 'my-mfp-zoom-in'
   });
 

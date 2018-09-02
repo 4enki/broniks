@@ -4,8 +4,6 @@
   border-radius: 3px;
   z-index: 100;
   text-align: left;
-  min-height: 400px;
-  max-width: 324px;
   margin: 40px auto;
   position: relative;
   box-sizing: border-box;
@@ -30,6 +28,23 @@
 
     &:hover {
       color: #2E2B77;
+    }
+  }
+
+  &-card {
+    min-height: 400px;
+    max-width: 324px;
+  }
+
+  &-card-big {
+    max-width: 558px;
+    max-height: 795px;
+  }
+
+  &-rekvizity {
+
+    .modal_content {
+      padding: 0;
     }
   }
 
