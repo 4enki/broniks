@@ -37,23 +37,21 @@ main {
 
 .main-page {
 
-  main {
-   padding-top: 0;
- }
+  main { padding-top: 0; }
 
- .additional_headline {
+  .additional_headline {
 
-   h2, .h2 {
-     font-family: 'Montserrat';
-     font-size: $font-size-h2;
-     line-height: 40px;
-     font-weight: bold;
-     margin: 0;
-     padding: 0;
-     color: #1D1D1D;
-     text-transform: none;
-   }
- }
+    h2, .h2 {
+      font-family: 'Montserrat';
+      font-size: $font-size-h2;
+      line-height: 40px;
+      font-weight: bold;
+      margin: 0;
+      padding: 0;
+      color: #1D1D1D;
+      text-transform: none;
+    }
+  }
 }
 
 .hide {
