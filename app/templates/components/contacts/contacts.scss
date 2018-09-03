@@ -58,13 +58,28 @@
 
 .balloon {
   text-align: left;
+  padding: 20px;
 
   &_body {
-    font-size: 18px;
+    font-size: 22px;
     text-align: left;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
 
-    &_footer {
-      text-align: left;
+  &_footer {
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+
+    .map-place {
+      display: block;
+    }
+
+    .map-tel-link {
+      margin-top: 5px;
+      color: #2E2B77;
+      display: block;
     }
   }
 }
