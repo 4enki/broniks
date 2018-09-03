@@ -10,19 +10,19 @@
       </div>
       <!-- end .modal_logo -->
       <!-- begin .modal-form -->
-      <form action="" class="modal-form">
+      <form method="post" action="forms.php" class="modal-form _call_agent">
         <!-- begin .form-group -->
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Как Вас зовут?">
+          <input type="text" class="form-control" placeholder="Как Вас зовут?" name="name" required>
         </div>
         <!-- end .form-group -->
         <!-- begin .form-group -->
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Ваш номер телефона?">
+          <input type="tel" class="form-control" placeholder="Ваш номер телефона?" name="tel" required>
         </div>
         <!-- end .form-group -->
         <div class="form-actions">
-          <button type="button" name="button" class="button">Вызвать агента</button>
+          <button type="button" name="button" class="button _call_agent_btn">Вызвать агента</button>
         </div>
       </form>
       <!-- end .modal-form -->
@@ -90,7 +90,7 @@
       <!-- end .modal-agent -->
       <!-- begin .modal-actions -->
       <div class="modal-actions">
-        <button type="button" name="button" class="button">Вызвать агента</button>
+        <button type="button" name="button" class="button" disabled>Вызвать агента</button>
       </div>
       <!-- end .modal-actions -->
     </div>
