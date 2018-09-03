@@ -113,6 +113,8 @@
       opacity: 1;
       visibility: visible;
       width: auto;
+      margin-left: auto;
+      margin-right: 10px;
 
       &.is-hide {
         width: 0;

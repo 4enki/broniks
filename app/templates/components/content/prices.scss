@@ -92,7 +92,7 @@
     display: flex;
     align-items: stretch;
     align-content: stretch;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
   }
 
@@ -115,6 +115,9 @@
   }
 
   &_info {
+    display: none;
+    visibility: hidden;
+
     margin-top: auto;
     color: #666;
     font-family: $font-family-base;
