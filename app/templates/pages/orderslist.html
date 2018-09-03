@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
   <meta charset="UTF-8">
-  <title>LA Moving Centre List</title>
+  <title>Сайт «Броникс»</title>
   <link rel="shortcut icon" href="assets/images/i/favicon.ico" type="image/x-icon"/>
   <link rel="icon" href="assets/images/i/favicon.ico" type="image/x-icon"/>
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
@@ -110,18 +110,14 @@
     <table cellspacing="0" border="0" width="100%">
       <thead>
         <tr>
-          <th>Sending time</th>
-          <th>Full name</th>
-          <th>Phone or email</th>
-          <th>Zipe code from</th>
-          <th>Zipe code to</th>
-          <th>Message</th>
-          <th>Form Type</th>
+          <th>Дата</th>
+          <th>Представились</th>
+          <th>Телефонный номер</th>
         </tr>
       </thead>
       <tbody>
         <?
-          $fileorder = 'messforms.txt';
+          $fileorder = 'dataforms.txt';
           if (file_exists($fileorder)) {
             include("dataforms.txt");
           } else {

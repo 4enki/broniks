@@ -23,17 +23,18 @@ if ($) $(function () {
     e.preventDefault();
     let form           = $(this);
     let formInput      = form.find('.form-control');
+    let formSendBtn    = $('._call_agent_btn');
 
-    let name     = form.find('input[name="name"]').val();
-    let tel      = form.find('input[name="tel"]').val();
+    let call_name     = form.find('input[name="call_name"]').val();
+    let call_tel      = form.find('input[name="call_tel"]').val();
 
     if(formInput.val().length > 0) {
       $.ajax({
         type: "POST",
         url: "forms.php",
         data: {
-          'name': name,
-          'tel': tel
+          'call_name': call_name,
+          'call_tel': call_tel
         },
         success: function() {
 
@@ -41,7 +42,7 @@ if ($) $(function () {
 
           clear_form();
           formInput.closest('.form-group').removeClass('is-error ui-shake');
-          formOkMessage.addClass('show');
+          formSendBtn.text('Заявка принята');
         },
         error: function() {
 

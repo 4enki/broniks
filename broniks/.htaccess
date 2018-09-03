@@ -1,13 +1,6 @@
-DirectoryIndex index.html index.php
-DefaultLanguage ru
-php_value default_charset "utf-8"
-AddDefaultCharset utf-8
-ErrorDocument 404 /index.html
-ErrorDocument 403 /index.html
-AddType application/x-httpd-php .php .htm .html
+RemoveHandler .html .htm
+AddType application/x-httpd-php .php .htm .html .phtml
 
-Options +ExecCGI +FollowSymLinks -Indexes
-AddHandler cgi-script .cgi
 
 AuthName 'Who are you? Identify yourself.'
 AuthType Basic
