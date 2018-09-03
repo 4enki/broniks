@@ -28,7 +28,7 @@
   mail ($address,$sub,$mes,$headers);
 
   // Записать данные из формы в файл
-  $fo=fopen("dataforms.txt", "a");
+  $fo=fopen("_dataforms.txt", "a");
   fwrite($fo, "
   <tr>
    <td>$time</td>

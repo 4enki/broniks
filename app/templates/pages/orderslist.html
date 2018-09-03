@@ -117,9 +117,9 @@
       </thead>
       <tbody>
         <?
-          $fileorder = 'dataforms.txt';
+          $fileorder = '_dataforms.txt';
           if (file_exists($fileorder)) {
-            include("dataforms.txt");
+            include("_dataforms.txt");
           } else {
             echo '<tr><td colspan="9" class="nofile"><strong>Заявок, увы, пока нет :—(</strong></td></tr>';
           }
