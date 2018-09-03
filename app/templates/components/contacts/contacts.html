@@ -38,7 +38,7 @@
         <p><a href="#rekvizity_bronix" class="light-link _modal-link">банковские реквизиты</a></p>
         <form action="forms.php" class="form-horizontal _check_agent">
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="№ удостоверения" name="check_number" required>
+            <input type="text" class="form-control" placeholder="№ удостоверения" name="check_number" pattern="^[ 0-9]+$" title="Введите номер удостоверения сотрудника" required>
             <button type="submit" class="button">Проверить</button>
           </div>
         </form>
