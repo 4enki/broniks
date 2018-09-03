@@ -36,7 +36,7 @@
   mail ($address,$sub,$mes,$headers);
 
   // Записать данные из формы в файл
-  $fo=fopen("messforms.txt", "a");
+  $fo=fopen("dataforms.txt", "a");
   fwrite($fo, "
   <tr>
    <td>$time</td>
