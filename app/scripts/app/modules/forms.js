@@ -18,12 +18,11 @@ if ($) $(function () {
   }
 
   $('._call_agent').submit(function(e) {
-    console.log('form');
+    console.log('form _call_agent');
 
     e.preventDefault();
     let form           = $(this);
     let formInput      = form.find('.form-control');
-    let formInputEmail = form.find('.form-control[name="feedback"]');
 
     let name     = form.find('input[name="name"]').val();
     let tel      = form.find('input[name="tel"]').val();
@@ -37,50 +36,65 @@ if ($) $(function () {
           'tel': tel
         },
         success: function() {
+
+          console.log('success');
+
           clear_form();
-          formInput.closest('.form-group').removeClass('is-error');
+          formInput.closest('.form-group').removeClass('is-error ui-shake');
           formOkMessage.addClass('show');
         },
         error: function() {
+
+          console.log('error');
+
+          formInput.closest('.form-group').addClass('is-error ui-shake');
+
         }
       });
     } else {
-      formInput.closest('.form-group').addClass('is-error');
+      formInput.closest('.form-group').addClass('is-error ui-shake');
     }
 
     return false;
   });
 
   $('._check_agent').submit(function(e) {
-    console.log('form');
+    console.log('form _check_agent');
 
     e.preventDefault();
     let form           = $(this);
     let formInput      = form.find('.form-control');
-    let formInputEmail = form.find('.form-control[name="feedback"]');
-
-    let name     = form.find('input[name="name"]').val();
-    let tel      = form.find('input[name="tel"]').val();
+    let check_number   = form.find('input[name="check_number"]').val();
 
     if(formInput.val().length > 0) {
       $.ajax({
         type: "POST",
-        url: "forms.php",
+        // url: "forms.php",
         data: {
-          'name': name,
-          'tel': tel
+          'check_number': check_number
         },
         success: function() {
-          clear_form();
-          formInput.closest('.form-group').removeClass('is-error');
-          formOkMessage.addClass('show');
+
+          console.log('success');
+
+          formInput.closest('.form-group').removeClass('is-error ui-shake');
+          $.magnificPopup.open({
+            items: {
+              src: '#check_agent'
+            },
+            type: 'inline'
+          });
         },
         error: function() {
-          formInput.closest('.form-group').addClass('is-error');
+
+          console.log('error');
+
+          formInput.closest('.form-group').addClass('is-error ui-shake');
+
         }
       });
     } else {
-      formInput.closest('.form-group').addClass('is-error');
+      formInput.closest('.form-group').addClass('is-error ui-shake');
     }
 
     return false;

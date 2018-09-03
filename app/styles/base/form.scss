@@ -32,6 +32,13 @@ textarea {
   display: flex;
   margin-bottom: 20px;
   width: 100%;
+
+  &.is-error {
+
+    .form-control {
+      border-color: #dc3545;
+    }
+  }
 }
 
 .form-control {
@@ -61,6 +68,14 @@ textarea {
   .form-group {
     align-items: center;
     align-content: center;
+
+    &.is-error {
+
+      .form-control,
+      .button {
+        border-color: #dc3545;
+      }
+    }
   }
 
   .form-control {
