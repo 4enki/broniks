@@ -4,3 +4,4 @@
 //= modules/tabs
 //= modules/additional
 //= modules/forms
+//= modules/slider
