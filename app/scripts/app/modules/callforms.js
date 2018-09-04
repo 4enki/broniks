@@ -59,46 +59,4 @@ if ($) $(function () {
     return false;
   });
 
-  $('._check_agent').submit(function(e) {
-    console.log('form _check_agent');
-
-    e.preventDefault();
-    let form           = $(this);
-    let formInput      = form.find('.form-control');
-    let check_number   = form.find('input[name="check_number"]').val();
-
-    if(formInput.val().length > 0) {
-      $.ajax({
-        type: "POST",
-        // url: "forms.php",
-        data: {
-          'check_number': check_number
-        },
-        success: function() {
-
-          console.log('success');
-
-          formInput.closest('.form-group').removeClass('is-error ui-shake');
-          $.magnificPopup.open({
-            items: {
-              src: '#check_agent'
-            },
-            type: 'inline'
-          });
-        },
-        error: function() {
-
-          console.log('error');
-
-          formInput.closest('.form-group').addClass('is-error ui-shake');
-
-        }
-      });
-    } else {
-      formInput.closest('.form-group').addClass('is-error ui-shake');
-    }
-
-    return false;
-  });
-
 });
