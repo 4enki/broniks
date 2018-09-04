@@ -29,8 +29,6 @@ if ($) $(function () {
       },
       complete: function(result) {
         if (result.status === 404) {
-          // По желанию можно добавить обработок 404 и прочих 4хх-5хх прелестей
-          return console.warn('User not found');
 
           $.magnificPopup.open({
             items: {
@@ -38,6 +36,9 @@ if ($) $(function () {
             },
             type: 'inline'
           });
+
+          // По желанию можно добавить обработок 404 и прочих 4хх-5хх прелестей
+          // return console.warn('User not found');
 
         } else {
           try {

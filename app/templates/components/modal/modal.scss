@@ -156,6 +156,13 @@
     align-content: center;
     justify-content: center;
   }
+
+  &-stop {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
 }
 
 .my-mfp-zoom-in .zoom-anim-dialog {
