@@ -35,9 +35,13 @@ if ($) $(function () {
         try {
           // Попытка спарсить полученный объект
           let response = JSON.parse(result.responseText);
+          console.log('response', response);
           // Вставка html в вывод, используются бэктики `, они относительно новые и этот вывод чисто для демонстрации, части ответа распихать куда надо на страницу
 
           $('.modal').find('._modal-agent_name').html(`${response.name}`);
+          $('.modal').find('._modal-agent_token-number').html(`${response.name}`);
+          $('.modal').find('._modal-agent_photo_img').attr('src', 'response.picture');
+          $('.modal').find('._modal-agent_photo_img').prop('alt', 'response.name');
 
           $.magnificPopup.open({
             items: {
@@ -47,7 +51,7 @@ if ($) $(function () {
           });
 
           destination
-            .html(`<p>[${response.id}]  <img src="${response.picture}" alt="${response.name}"/></p>`);
+            .html(`<p>[${response.id}]  <img src="${response.picture}" alt=""/></p>`);
         }
         catch(err) {
           // Если ошибка произошла при попытке разобрать JSON
