@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-  var owl     = $('.owl-carousel');
-  var owl2 = $('.additional_lists');
+  var owl  = $('.owl-carousel');
+  var owl2 = $('._additional_lists');
 
   owl.owlCarousel({
     items: 4,
@@ -17,14 +17,6 @@ $(document).ready(function(){
     owl.trigger('prev.owl.carousel');
   });
 
-
-  owl2.owlCarousel();
-  $(".additional_nav-right").click(function(){
-    owl2.trigger('next.owl2.carousel');
-  });
-  $(".additional_nav-left").click(function(){
-    owl2.trigger('prev.owl2.carousel');
-  });
 
 });
 
