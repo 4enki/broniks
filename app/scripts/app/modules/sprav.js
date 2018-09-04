@@ -8,17 +8,18 @@ function init() {
   // Функция, которая по состоянию чекбоксов в меню
   // показывает или скрывает геообъекты из выборки.
   function checkState () {
+
+
     var shownObjects,
       byColor = new ymaps.GeoQueryResult(),
       byShape = new ymaps.GeoQueryResult();
 
     // Отберем объекты по цвету.
-    if ($('#red').prop('checked')) {
+    if ($('#mfc-msk').prop('checked')) {
       // Будем искать по двум параметрам:
       // - для точечных объектов по полю preset;
       // - для контурных объектов по цвету заливки.
-      byColor = myObjects.search('options.fillColor = "#ff1000"')
-        .add(myObjects.search('options.preset = "islands#redIcon"'));
+      byShape = myObjects.search('options.itemType = "mfc"');
     }
     if ($('#green').prop('checked')) {
       byColor = myObjects.search('options.fillColor = "#00ff00"')
@@ -45,12 +46,12 @@ function init() {
 
     // Мы отобрали объекты по цвету и по форме. Покажем на карте объекты,
     // которые совмещают нужные признаки.
-    shownObjects = byColor.intersect(byShape).addToMap(myMap);
+    shownObjects = byColor.intersect(byShape).addToMap(myMapSrav);
     // Объекты, которые не попали в выборку, нужно убрать с карты.
-    myObjects.remove(shownObjects).removeFromMap(myMap);
+    myObjects.remove(shownObjects).removeFromMap(myMapSrav);
   }
 
-  $('#red').click(checkState);
+  $('#mfc-msk').click(checkState);
   $('#green').click(checkState);
   $('#yellow').click(checkState);
   $('#point').click(checkState);
@@ -62,66 +63,46 @@ function init() {
     type: "FeatureCollection",
     features: [
       {
-        type: 'Feature',
+        type: "Feature",
+        properties: {
+          name: "Многофункциональный центр р-на Сокол",
+          description: ""
+        },
         geometry: {
-          type: 'Point',
-          coordinates: [55.34954, 37.721587]
+          type: "Point",
+          coordinates: [55.797083, 37.518228]
         },
         options: {
-          preset: 'islands#yellowIcon'
+          itemType: "mfc",
+          preset: "islands#blueIcon"
         }
-      },
-      {
-        type: 'Feature',
+      }, {
+        type: "Feature",
+        properties: {
+          name: "Многофункциональный центр р-на Ново-Переделкино",
+          description: ""
+        },
         geometry: {
-          type: 'Circle',
-          coordinates: [55.24954, 37.5],
-          radius: 20000
+          type: "Point",
+          coordinates: [55.641422, 37.366251]
         },
         options: {
-          fillColor: "#ffcc00"
+          itemType: "mfc",
+          preset: "islands#blueIcon"
         }
-      },
-      {
-        type: 'Feature',
+      }, {
+        type: "Feature",
+        properties: {
+          name: "Многофункциональный центр р-на Академический",
+          description: ""
+        },
         geometry: {
-          type: 'Polygon',
-          coordinates: [[[55.33954, 37.7], [55.43954, 37.7], [55.33954, 38.7], [55.33954, 37.7]]]
+          type: "Point",
+          coordinates: [55.680722, 37.580131]
         },
         options: {
-          fillColor: "#ffcc00"
-        }
-      },
-      {
-        type: 'Feature',
-        geometry: {
-          type: 'Point',
-          coordinates: [55.24954, 37.4]
-        },
-        options: {
-          preset: 'islands#greenIcon'
-        }
-      },
-      {
-        type: 'Feature',
-        geometry: {
-          type: 'Circle',
-          coordinates: [55.14954, 37.61587],
-          radius: 10000
-        },
-        options: {
-          fillColor: '#00ff00'
-        }
-      },
-      {
-        type: 'Feature',
-        geometry: {
-          type: 'Point',
-          coordinates: [55.14954, 37.61587],
-          radius: 10000
-        },
-        options: {
-          preset: 'islands#redIcon'
+          itemType: "mfc",
+          preset: "islands#blueIcon"
         }
       }
     ]
@@ -130,3 +111,5 @@ function init() {
   myMapSrav.controls.add('zoomControl');
   myMapSrav.controls.remove('typeSelector');
 }
+
+
