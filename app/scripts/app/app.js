@@ -3,5 +3,6 @@
 //= modules/topmenu
 //= modules/tabs
 //= modules/additional
-//= modules/forms
+//= modules/callforms
+//= modules/checkforms
 //= modules/slider
