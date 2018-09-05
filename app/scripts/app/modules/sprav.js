@@ -43,8 +43,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.660521,
-            55.785979
+
+            55.785979, 37.660521
           ]
         },
         options: {
@@ -61,8 +61,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.518228,
-            55.797083
+
+            55.797083, 37.518228
           ]
         },
         options: {
@@ -79,8 +79,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.366251,
-            55.641422
+
+            55.641422, 37.366251
           ]
         },
         options: {
@@ -97,8 +97,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.580131,
-            55.680722
+
+            55.680722, 37.580131
           ]
         },
         options: {
@@ -115,8 +115,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.608958,
-            55.592429
+
+            55.592429, 37.608958
           ]
         },
         options: {
@@ -133,8 +133,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.788324,
-            55.760682
+
+            55.760682, 37.788324
           ]
         },
         options: {
@@ -151,8 +151,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.66998,
-            55.856316
+
+            55.856316, 37.66998
           ]
         },
         options: {
@@ -169,8 +169,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.702346,
-            55.752587
+
+            55.752587, 37.702346
           ]
         },
         options: {
@@ -187,8 +187,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.702346,
-            55.752587
+
+            55.752587, 37.702346
           ]
         },
         options: {
@@ -205,8 +205,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.719558,
-            55.66766
+
+            55.66766, 37.719558
           ]
         },
         options: {
@@ -223,8 +223,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.558436,
-            55.888998
+
+            55.888998, 37.558436
           ]
         },
         options: {
@@ -241,8 +241,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.823592,
-            55.805938
+
+            55.805938, 37.823592
           ]
         },
         options: {
@@ -259,8 +259,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.612883,
-            55.712862
+
+            55.712862, 37.612883
           ]
         },
         options: {
@@ -277,8 +277,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.510287,
-            55.64476
+
+            55.64476, 37.510287
           ]
         },
         options: {
@@ -295,8 +295,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.852266,
-            55.689913
+
+            55.689913, 37.852266
           ]
         },
         options: {
@@ -313,8 +313,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.802949,
-            55.798586
+
+            55.798586, 37.802949
           ]
         },
         options: {
@@ -331,8 +331,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.707449,
-            55.782567
+
+            55.782567, 37.707449
           ]
         },
         options: {
@@ -349,8 +349,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.760225,
-            55.674575
+
+            55.674575, 37.760225
           ]
         },
         options: {
@@ -368,8 +368,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.655257,
-            55.678159
+
+            55.678159, 37.655257
           ]
         },
         options: {
@@ -386,8 +386,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.930141,
-            55.707507
+
+            55.707507, 37.930141
           ]
         },
         options: {
@@ -404,8 +404,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.597279,
-            55.504399
+
+            55.504399, 37.597279
           ]
         },
         options: {
@@ -422,8 +422,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.490245,
-            55.667122
+
+            55.667122, 37.490245
           ]
         },
         options: {
@@ -440,8 +440,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.463215,
-            55.720337
+
+            55.720337, 37.463215
           ]
         },
         options: {
@@ -458,8 +458,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.500486,
-            55.752536
+
+            55.752536, 37.500486
           ]
         },
         options: {
@@ -476,8 +476,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.807647,
-            55.748903
+
+            55.748903, 37.807647
           ]
         },
         options: {
@@ -494,8 +494,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.418605,
-            55.770046
+
+            55.770046, 37.418605
           ]
         },
         options: {
@@ -512,8 +512,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.656721,
-            55.574655
+
+            55.574655, 37.656721
           ]
         },
         options: {
@@ -530,8 +530,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.401537,
-            55.838096
+
+            55.838096, 37.401537
           ]
         },
         options: {
@@ -548,8 +548,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.676637,
-            55.578304
+
+            55.578304, 37.676637
           ]
         },
         options: {
@@ -566,8 +566,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.605427,
-            55.598034
+
+            55.598034, 37.605427
           ]
         },
         options: {
@@ -585,8 +585,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.800865,
-            55.638257
+
+            55.638257, 37.800865
           ]
         },
         options: {
@@ -603,8 +603,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.800865,
-            55.638257
+
+            55.638257, 37.800865
           ]
         },
         options: {
@@ -621,8 +621,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.809228,
-            55.789036
+
+            55.789036, 37.809228
           ]
         },
         options: {
@@ -639,8 +639,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.639779,
-            55.888952
+
+            55.888952, 37.639779
           ]
         },
         options: {
@@ -657,8 +657,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.65699,
-            55.634105
+
+            55.634105, 37.65699
           ]
         },
         options: {
@@ -675,8 +675,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.580418,
-            55.828632
+
+            55.828632, 37.580418
           ]
         },
         options: {
@@ -693,8 +693,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.208066,
-            56.003457
+
+            56.003457, 37.208066
           ]
         },
         options: {
@@ -711,8 +711,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.464994,
-            55.807602
+
+            55.807602, 37.464994
           ]
         },
         options: {
@@ -729,8 +729,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.660377,
-            55.831479
+
+            55.831479, 37.660377
           ]
         },
         options: {
@@ -747,8 +747,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.635593,
-            55.735505
+
+            55.735505, 37.635593
           ]
         },
         options: {
@@ -765,8 +765,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.68571,
-            55.780122
+
+            55.780122, 37.68571
           ]
         },
         options: {
@@ -783,8 +783,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.666036,
-            55.731262
+
+            55.731262, 37.666036
           ]
         },
         options: {
@@ -801,8 +801,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.630122,
-            55.679133
+
+            55.679133, 37.630122
           ]
         },
         options: {
@@ -819,8 +819,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.630122,
-            55.679133
+
+            55.679133, 37.630122
           ]
         },
         options: {
@@ -837,8 +837,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.675011,
-            55.635701
+
+            55.635701, 37.675011
           ]
         },
         options: {
@@ -855,8 +855,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.721588,
-            55.596493
+
+            55.596493, 37.721588
           ]
         },
         options: {
@@ -873,8 +873,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.474363,
-            55.634466
+
+            55.634466, 37.474363
           ]
         },
         options: {
@@ -891,8 +891,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.422692,
-            55.726015
+
+            55.726015, 37.422692
           ]
         },
         options: {
@@ -909,8 +909,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.215576,
-            55.995765
+
+            55.995765, 37.215576
           ]
         },
         options: {
@@ -927,8 +927,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.546111,
-            55.679417
+
+            55.679417, 37.546111
           ]
         },
         options: {
@@ -945,8 +945,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.81536021679667,
-            55.883275247000185
+
+            55.883275247000185, 37.81536021679667
           ]
         },
         options: {
@@ -963,8 +963,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.426177,
-            55.665898
+
+            55.665898, 37.426177
           ]
         },
         options: {
@@ -981,8 +981,8 @@ function initsprav() {
         geometry: {
           type: 'Point',
           coordinates: [
-            37.262181,
-            55.615136
+
+            55.615136, 37.262181
           ]
         },
         options: {
