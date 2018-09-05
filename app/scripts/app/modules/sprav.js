@@ -1,4 +1,5 @@
-function init() {
+ymaps.ready(initsprav);
+function initsprav() {
   var myMapSrav = new ymaps.Map('spravmap', {
     center: [55.30954, 37.721587],
     zoom: 8,
@@ -10,7 +11,7 @@ function init() {
   function checkState () {
 
 
-    var shownObjects,
+    let shownObjects,
       byColor = new ymaps.GeoQueryResult(),
       byShape = new ymaps.GeoQueryResult();
 
