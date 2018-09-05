@@ -27,12 +27,12 @@
       <!-- begin .switch -->
       <div class="switch">
         <label class="form-radio">
-          <input class="radio" type="radio" name="radio-test" checked>
+          <input class="radio" type="radio" name="cremationtype" checked>
           <span class="radio-custom"></span>
           <span class="label">кремация</span>
         </label>
         <label class="form-radio">
-          <input class="radio" type="radio" name="radio-test">
+          <input class="radio" type="radio" name="burialtype">
           <span class="radio-custom"></span>
           <span class="label">погребение</span>
         </label>
@@ -42,20 +42,9 @@
     <!-- end .content_headline -->
 
     <div class="ionTabs" id="prices" data-name="types">
-      <!-- begin .prices-tabs -->
-      <div class="prices-tabs">
-
-        <ul class="ionTabs__head">
-          <li class="ionTabs__tab" data-target="budgetary">бюджетно</li>
-          <li class="ionTabs__tab" data-target="optimally">оптимально</li>
-          <li class="ionTabs__tab" data-target="luxuriously">роскошно</li>
-        </ul>
-
-      </div>
-      <!-- end .prices-tabs -->
 
       <div class="ionTabs__body">
-        <div class="ionTabs__item" data-name="cremationtype">
+        <div class="ionTabs__item ionTabs__item_state_active" data-name="cremationtype">
 
           {% include "./prices/cremation/index.html" %}
 
