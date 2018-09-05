@@ -110,15 +110,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/altufievskoe_kladbishe/">Перейти на страницу Алтуфьевского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Алтуфьевское кладбище '
+          name: 'Алтуфьевское кладбище',
+          iconCaption: 'Алтуфьевское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.59418,
-            55.907047
-          ]
+          coordinates: [55.907047, 37.59418]
         },
         options: {
           itemType: 'cemetery',
@@ -128,15 +125,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/babushkinskoe_kladbishe/">Перейти на страницу Бабушкинского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Бабушкинское кладбище '
+          name: 'Бабушкинское кладбище',
+          iconCaption: 'Бабушкинское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.706425,
-            55.862353
-          ]
+          coordinates: [55.862353, 37.706425]
         },
         options: {
           itemType: 'cemetery',
@@ -146,15 +140,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/bogorodskoe_kladbishe/">Перейти на страницу Богородского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Богородское кладбище '
+          name: 'Богородское кладбище',
+          iconCaption: 'Богородское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.709425,
-            55.804132
-          ]
+          coordinates: [55.804132, 37.709425]
         },
         options: {
           itemType: 'cemetery',
@@ -164,15 +155,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/borisovskoe-kladbishe/">Перейти на страницу Борисовского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Борисовское кладбище '
+          name: 'Борисовское кладбище',
+          iconCaption: 'Борисовское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.734776,
-            55.634624
-          ]
+          coordinates: [55.634624, 37.734776]
         },
         options: {
           itemType: 'cemetery',
@@ -182,15 +170,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/businovskoe-kladbishe/">Перейти на страницу Бусиновского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Бусиновское кладбище '
+          name: 'Бусиновское кладбище',
+          iconCaption: 'Бусиновское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.496165,
-            55.88824
-          ]
+          coordinates: [55.88824, 37.496165]
         },
         options: {
           itemType: 'cemetery',
@@ -200,15 +185,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/butovskoe-kladbishe/">Перейти на страницу Бутовского кладбища  в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Бутовское кладбище '
+          name: 'Бутовское кладбище',
+          iconCaption: 'Бутовское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.564689,
-            55.528202
-          ]
+          coordinates: [55.528202, 37.564689]
         },
         options: {
           itemType: 'cemetery',
