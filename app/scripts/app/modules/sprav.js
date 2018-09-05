@@ -1008,9 +1008,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000048,
-          order: 800000048,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1028,9 +1027,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000049,
-          order: 800000049,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1048,9 +1046,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000050,
-          order: 800000050,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1068,9 +1065,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000051,
-          order: 800000051,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1088,9 +1084,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000052,
-          order: 800000052,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1108,9 +1103,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000053,
-          order: 800000053,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1128,9 +1122,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000054,
-          order: 800000054,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1148,9 +1141,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000055,
-          order: 800000055,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1168,9 +1160,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000056,
-          order: 800000056,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1188,9 +1179,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000057,
-          order: 800000057,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1208,9 +1198,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000058,
-          order: 800000058,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1228,9 +1217,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000059,
-          order: 800000059,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1248,9 +1236,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000060,
-          order: 800000060,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1268,9 +1255,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000061,
-          order: 800000061,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1288,9 +1274,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000062,
-          order: 800000062,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1308,9 +1293,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000063,
-          order: 800000063,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1328,9 +1312,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000064,
-          order: 800000064,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1348,9 +1331,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000065,
-          order: 800000065,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1368,9 +1350,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000066,
-          order: 800000066,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1388,9 +1369,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000067,
-          order: 800000067,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1408,9 +1388,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000068,
-          order: 800000068,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1428,9 +1407,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000069,
-          order: 800000069,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1448,9 +1426,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000070,
-          order: 800000070,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1468,9 +1445,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000071,
-          order: 800000071,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1488,9 +1464,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000072,
-          order: 800000072,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1508,9 +1483,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000073,
-          order: 800000073,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1528,9 +1502,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000074,
-          order: 800000074,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
