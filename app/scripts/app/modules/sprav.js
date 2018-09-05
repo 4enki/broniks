@@ -402,18 +402,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000014,
-          order: 800000014,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113717997',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/dolgoprudnenskoe-kladbishe/">Перейти на страницу Долгопрудненского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Долгопрудненское кладбище '
         },
         geometry: {
@@ -424,18 +420,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000015,
-          order: 800000015,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113717998',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/domodedovskoe-kladbishe/">Перейти на страницу Домодедовского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Домодедовское кладбище '
         },
         geometry: {
@@ -446,18 +438,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000016,
-          order: 800000016,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113717999',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/zaharinskoe-kladbishe/">Перейти на страницу Захарьинского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Захарьинское кладбище '
         },
         geometry: {
@@ -468,18 +456,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000017,
-          order: 800000017,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718000',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/ivanovskoe-kladbishe/">Перейти на страницу Ивановского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Ивановское кладбище '
         },
         geometry: {
@@ -490,18 +474,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000018,
-          order: 800000018,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718001',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/izmailovskoe-kladbishe/">Перейти на страницу Измайловского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Измайловское кладбище '
         },
         geometry: {
@@ -512,18 +492,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000019,
-          order: 800000019,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718002',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/kalitnikovskoe-kladbishe/">Перейти на страницу Калитниковского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Калитниковское кладбище '
         },
         geometry: {
@@ -534,18 +510,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000020,
-          order: 800000020,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718003',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/kapotninskoe-kladbishe/">Перейти на страницу Капотнинского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Капотнинское кладбище '
         },
         geometry: {
@@ -556,18 +528,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000021,
-          order: 800000021,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718004',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/kachalovskoe-kladbishe/">Перейти на страницу Качаловского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Качаловское кладбище '
         },
         geometry: {
@@ -578,18 +546,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000022,
-          order: 800000022,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718005',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/kotlyakovskoe-kladbishe/">Перейти на страницу Котляковского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Котляковское кладбище '
         },
         geometry: {
@@ -600,18 +564,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000023,
-          order: 800000023,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718006',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/kuzminskoe-kladbishe/">Перейти на страницу Кузьминского (мусульманского) кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Кузьминское (мусульманское) кладбище '
         },
         geometry: {
@@ -622,18 +582,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000024,
-          order: 800000024,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718007',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/kuntsevskoe-kladbishe/">Перейти на страницу Кузьминского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Кузьминское кладбище '
         },
         geometry: {
@@ -644,18 +600,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000025,
-          order: 800000025,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718008',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/kuntsevskoe-kladbishe/">Перейти на страницу Кунцевского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Кунцевское кладбище'
         },
         geometry: {
@@ -666,18 +618,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000026,
-          order: 800000026,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718009',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/leonovskoe-kladbishe/">Перейти на страницу Леоновского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Леоновское кладбище'
         },
         geometry: {
@@ -688,18 +636,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000027,
-          order: 800000027,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718010',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/lianozovskoe-kladbishe/">Перейти на страницу Лианозовского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Лианозовское кладбище '
         },
         geometry: {
@@ -710,18 +654,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000028,
-          order: 800000028,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718011',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/lublinskoe-kladbishe/">Перейти на страницу Люблинского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Люблинское кладбище'
         },
         geometry: {
@@ -732,18 +672,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000029,
-          order: 800000029,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718012',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/medvedkovskoe-kladbishe/">Перейти на страницу Медведковского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Медведковское кладбище '
         },
         geometry: {
@@ -754,18 +690,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000030,
-          order: 800000030,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718013',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/mitinskoe-kladbishe/">Перейти на страницу Митинского кладбища  в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Митинское кладбище '
         },
         geometry: {
@@ -776,18 +708,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000031,
-          order: 800000031,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718014',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/miusskoe-kladbishe/">Перейти на страницу Миусского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Миусское кладбище'
         },
         geometry: {
@@ -798,18 +726,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000032,
-          order: 800000032,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718015',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/nikolo-arhangelskoe/">Перейти на страницу Николо-Архангельского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Николо-Архангельское кладбище '
         },
         geometry: {
@@ -820,18 +744,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000033,
-          order: 800000033,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718016',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/nikolo-hovanskoe-kladbishe/">Перейти на страницу Николо-Хованского кладбища  в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Николо-Хованское кладбище '
         },
         geometry: {
@@ -842,18 +762,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000034,
-          order: 800000034,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718017',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/orehovskoe-kladbishe/">Перейти на страницу Ореховского кладбище  в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Ореховское кладбище '
         },
         geometry: {
@@ -864,18 +780,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000035,
-          order: 800000035,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718018',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/orlovskoe-klabishe/">Перейти на страницу Орловского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Орловское кладбище '
         },
         geometry: {
@@ -886,18 +798,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000036,
-          order: 800000036,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718019',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/ostankinskoe-kladbishe/">Перейти на страницу Останкинского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Останкинское кладбище '
         },
         geometry: {
@@ -908,18 +816,14 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000037,
-          order: 800000037,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718020',
         properties: {
           name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/perepechinskoe-kladbishe/">Перейти на страницу Перепечинского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
           iconCaption: 'Перепечинское кладбище '
         },
         geometry: {
