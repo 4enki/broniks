@@ -812,15 +812,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/pokrovskoe-kladbishe/">Перейти на страницу Покровского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Покровское кладбище '
+          name: 'Покровское кладбище',
+          iconCaption: 'Покровское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.63235,
-            55.595282
-          ]
+          coordinates: [55.595282, 37.63235]
         },
         options: {
           itemType: 'cemetery',
@@ -830,15 +827,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/preobrazhenskoe-kladbishe/">Перейти на страницу Преображенского кладбища в Москве  &gt;&gt;&gt;</a></p>',
+          name: 'Преображенское кладбище',
           iconCaption: 'Преображенское кладбище '
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.721355,
-            55.790327
-          ]
+          coordinates: [55.790327, 37.721355]
         },
         options: {
           itemType: 'cemetery',
@@ -848,15 +842,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/pyhtinskoe-kladbishe/">Перейти на страницу Пыхтинского кладбища  в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Пыхтинское кладбище '
+          name: 'Пыхтинское кладбище',
+          iconCaption: 'Пыхтинское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.292113,
-            55.626279
-          ]
+          coordinates: [55.626279, 37.292113]
         },
         options: {
           itemType: 'cemetery',
