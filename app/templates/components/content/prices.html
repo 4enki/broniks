@@ -41,8 +41,7 @@
     </div>
     <!-- end .content_headline -->
 
-
-    <div class="ionTabs" id="prices" data-name="cremation">
+    <div class="ionTabs" id="prices" data-name="types">
       <!-- begin .prices-tabs -->
       <div class="prices-tabs">
 
@@ -56,78 +55,16 @@
       <!-- end .prices-tabs -->
 
       <div class="ionTabs__body">
-        <div class="ionTabs__item" data-name="budgetary">
+        <div class="ionTabs__item" data-name="cremationtype">
 
-          <!-- begin .prices-total -->
-          <div class="prices-total">
-            <!-- begin .prices-total_items -->
-            <div class="prices-total_items">
-              <h3 class="h2-light lighter">Что включено</h3>
-              <ul class="light-list">
-                <li>ритуальные принадлежности</li>
-                <li>подготовка тела умершего</li>
-                <li>транспорт</li>
-                <li>кремация</li>
-              </ul>
-            </div>
-            <!-- end .prices-total_items -->
-            <!-- begin .prices-total_cost -->
-            <div class="prices-total_cost">33.600&thinsp;<span>₽</span></div>
-            <!-- end .prices-total_cost -->
-          </div>
-          <!-- end .prices-total -->
-
-          {% include "./prices/cremation/budgetary.html" %}
+          {% include "./prices/cremation/index.html" %}
 
         </div>
 
-        <div class="ionTabs__item" data-name="optimally">
+        <div class="ionTabs__item" data-name="burialtype">
 
-          <!-- begin .prices-total -->
-          <div class="prices-total">
-            <!-- begin .prices-total_items -->
-            <div class="prices-total_items">
-              <h3 class="h2-light lighter">Что включено</h3>
-              <ul class="light-list">
-                <li>ритуальные принадлежности</li>
-                <li>подготовка тела умершего</li>
-                <li>транспорт</li>
-                <li>кремация</li>
-              </ul>
-            </div>
-            <!-- end .prices-total_items -->
-            <!-- begin .prices-total_cost -->
-            <div class="prices-total_cost">53.000&thinsp;<span>₽</span></div>
-            <!-- end .prices-total_cost -->
-          </div>
-          <!-- end .prices-total -->
+          {% include "./prices/burial/index.html" %}
 
-          {% include "./prices/cremation/optimally.html" %}
-
-        </div>
-
-        <div class="ionTabs__item" data-name="luxuriously">
-
-          <!-- begin .prices-total -->
-          <div class="prices-total">
-            <!-- begin .prices-total_items -->
-            <div class="prices-total_items">
-              <h3 class="h2-light lighter">Что включено</h3>
-              <ul class="light-list">
-                <li>ритуальные принадлежности</li>
-                <li>подготовка тела умершего</li>
-                <li>транспорт</li>
-                <li>кремация</li>
-              </ul>
-            </div>
-            <!-- end .prices-total_items -->
-            <!-- begin .prices-total_cost -->
-            <div class="prices-total_cost">94.570&thinsp;<span>₽</span></div>
-            <!-- end .prices-total_cost -->
-          </div>
-          <!-- end .prices-total -->
-
-          {% include "./prices/cremation/luxuriously.html" %}
         </div>
 
         <div class="ionTabs__preloader"></div>
