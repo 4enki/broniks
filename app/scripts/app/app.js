@@ -6,5 +6,5 @@
 //= modules/callforms
 //= modules/checkforms
 //= modules/slider
-//= modules/contacts
+// = modules/contacts
 //= modules/sprav
