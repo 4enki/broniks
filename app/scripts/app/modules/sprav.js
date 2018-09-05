@@ -272,15 +272,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/golyanovskoe-kladbishe/">Перейти на страницу Гольяновского кладбища  в Москве  &gt;&gt;&gt;</a></p>',
+          name: 'Гольяновское кладбище',
           iconCaption: 'Гольяновское кладбище '
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.813046,
-            55.830978
-          ]
+          coordinates: [55.830978, 37.813046]
         },
         options: {
           itemType: 'cemetery',
@@ -290,15 +287,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/danilovskoye-kladbishe/">Перейти на страницу Даниловского кладбища  в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Даниловское кладбище '
+          name: 'Даниловское кладбище',
+          iconCaption: 'Даниловское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.609029,
-            55.704007
-          ]
+          coordinates: [55.704007, 37.609029]
         },
         options: {
           itemType: 'cemetery',
@@ -308,15 +302,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/danilovskoe-kladbishe/">Перейти на страницу Даниловского мусульманского кладбища  в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Даниловское мусульманское кладбище '
+          name: 'Даниловское мусульманское кладбище',
+          iconCaption: 'Даниловское мусульманское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.602677529052144,
-            55.704697639239015
-          ]
+          coordinates: [55.704697639239015, 37.602677529052144]
         },
         options: {
           itemType: 'cemetery',
@@ -326,15 +317,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/dolgoprudnenskoe-kladbishe/">Перейти на страницу Долгопрудненского кладбища в Москве  &gt;&gt;&gt;</a></p>',
+          name: 'Долгопрудненское кладбище',
           iconCaption: 'Долгопрудненское кладбище '
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.51043,
-            55.916487
-          ]
+          coordinates: [55.916487, 37.51043]
         },
         options: {
           itemType: 'cemetery',
@@ -344,8 +332,8 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/domodedovskoe-kladbishe/">Перейти на страницу Домодедовского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Домодедовское кладбище '
+          name: 'Домодедовское кладбище',
+          iconCaption: 'Домодедовское кладбище'
         },
         geometry: {
           type: 'Point',
@@ -359,8 +347,8 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/zaharinskoe-kladbishe/">Перейти на страницу Захарьинского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Захарьинское кладбище '
+          name: 'Захарьинское кладбище',
+          iconCaption: 'Захарьинское кладбище'
         },
         geometry: {
           type: 'Point',
@@ -374,8 +362,8 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/ivanovskoe-kladbishe/">Перейти на страницу Ивановского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Ивановское кладбище '
+          name: 'Ивановское кладбище',
+          iconCaption: 'Ивановское кладбище'
         },
         geometry: {
           type: 'Point',
@@ -389,8 +377,8 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/izmailovskoe-kladbishe/">Перейти на страницу Измайловского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Измайловское кладбище '
+          name: 'Измайловское кладбище',
+          iconCaption: 'Измайловское кладбище'
         },
         geometry: {
           type: 'Point',
@@ -404,7 +392,7 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/kalitnikovskoe-kladbishe/">Перейти на страницу Калитниковского кладбища в Москве  &gt;&gt;&gt;</a></p>',
+          name: 'Калитниковское кладбище',
           iconCaption: 'Калитниковское кладбище '
         },
         geometry: {
@@ -419,8 +407,8 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/kapotninskoe-kladbishe/">Перейти на страницу Капотнинского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Капотнинское кладбище '
+          name: 'Капотнинское кладбище',
+          iconCaption: 'Капотнинское кладбище'
         },
         geometry: {
           type: 'Point',
@@ -434,8 +422,8 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/kachalovskoe-kladbishe/">Перейти на страницу Качаловского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Качаловское кладбище '
+          name: 'Качаловское кладбище',
+          iconCaption: 'Качаловское кладбище'
         },
         geometry: {
           type: 'Point',
@@ -449,8 +437,8 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/kotlyakovskoe-kladbishe/">Перейти на страницу Котляковского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Котляковское кладбище '
+          name: 'Котляковское кладбище',
+          iconCaption: 'Котляковское кладбище'
         },
         geometry: {
           type: 'Point',
@@ -464,8 +452,8 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/kuzminskoe-kladbishe/">Перейти на страницу Кузьминского (мусульманского) кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Кузьминское (мусульманское) кладбище '
+          name: 'Кузьминское (мусульманское) кладбище',
+          iconCaption: 'Кузьминское (мусульманское) кладбище'
         },
         geometry: {
           type: 'Point',
@@ -479,7 +467,7 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/kuntsevskoe-kladbishe/">Перейти на страницу Кузьминского кладбища в Москве  &gt;&gt;&gt;</a></p>',
+          name: 'Кузьминское кладбище',
           iconCaption: 'Кузьминское кладбище '
         },
         geometry: {
@@ -494,7 +482,7 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/kuntsevskoe-kladbishe/">Перейти на страницу Кунцевского кладбища в Москве  &gt;&gt;&gt;</a></p>',
+          name: 'Кунцевское кладбище',
           iconCaption: 'Кунцевское кладбище'
         },
         geometry: {
@@ -509,7 +497,7 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/leonovskoe-kladbishe/">Перейти на страницу Леоновского кладбища в Москве  &gt;&gt;&gt;</a></p>',
+          name: 'Леоновское кладбище',
           iconCaption: 'Леоновское кладбище'
         },
         geometry: {
