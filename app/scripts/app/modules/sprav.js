@@ -1,6 +1,6 @@
 ymaps.ready(initsprav);
 function initsprav() {
-  var myMapSrav = new ymaps.Map('spravmap', {
+  let myMapSrav = new ymaps.Map('spravmap', {
     center: [55.30954, 37.721587],
     zoom: 8,
     controls: []
@@ -10,54 +10,27 @@ function initsprav() {
   // показывает или скрывает геообъекты из выборки.
   function checkState () {
 
-
-    let shownObjects,
-      byColor = new ymaps.GeoQueryResult(),
-      byShape = new ymaps.GeoQueryResult();
+    let shownObjects;
+    let byType = new ymaps.GeoQueryResult();
 
     // Отберем объекты по цвету.
-    if ($('#mfc-msk').prop('checked')) {
-      // Будем искать по двум параметрам:
-      // - для точечных объектов по полю preset;
-      // - для контурных объектов по цвету заливки.
-      byShape = myObjects.search('options.itemType = "mfc"');
+    if ($('#mfc').prop('checked')) {
+      byType = myObjects.search('options.itemType = "mfc"');
     }
-    if ($('#green').prop('checked')) {
-      byColor = myObjects.search('options.fillColor = "#00ff00"')
-        .add(myObjects.search('options.preset = "islands#greenIcon"'))
-        // После того, как мы нашли все зеленые объекты, добавим к ним
-        // объекты, найденные на предыдущей итерации.
-        .add(byColor);
-    }
-    if ($('#yellow').prop('checked')) {
-      byColor = myObjects.search('options.fillColor = "#ffcc00"')
-        .add(myObjects.search('options.preset = "islands#yellowIcon"'))
-        .add(byColor);
-    }
-    // Отберем объекты по форме.
-    if ($('#point').prop('checked')) {
-      byShape = myObjects.search('geometry.type = "Point"');
-    }
-    if ($('#polygon').prop('checked')) {
-      byShape = myObjects.search('geometry.type = "Polygon"').add(byShape);
-    }
-    if ($('#circle').prop('checked')) {
-      byShape = myObjects.search('geometry.type = "Circle"').add(byShape);
+    if ($('#cemetery').prop('checked')) {
+      byType = myObjects.search('options.itemType = "cemetery"')
+        .add(byType);
     }
 
     // Мы отобрали объекты по цвету и по форме. Покажем на карте объекты,
     // которые совмещают нужные признаки.
-    shownObjects = byColor.intersect(byShape).addToMap(myMapSrav);
+    shownObjects = byType.addToMap(myMapSrav);
     // Объекты, которые не попали в выборку, нужно убрать с карты.
     myObjects.remove(shownObjects).removeFromMap(myMapSrav);
   }
 
-  $('#mfc-msk').click(checkState);
-  $('#green').click(checkState);
-  $('#yellow').click(checkState);
-  $('#point').click(checkState);
-  $('#polygon').click(checkState);
-  $('#circle').click(checkState);
+  $('#mfc').click(checkState);
+  $('#cemetery').click(checkState);
 
   // Создадим объекты из их JSON-описания и добавим их на карту.
   window.myObjects = ymaps.geoQuery({
@@ -1136,8 +1109,7 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000046,
-          order: 800000046,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
@@ -1158,8 +1130,7 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000047,
-          order: 800000047,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
@@ -1180,8 +1151,7 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000048,
-          order: 800000048,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
@@ -1202,114 +1172,19 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000049,
-          order: 800000049,
+          itemType: 'cemetery',
           preset: 'islands#blueIcon'
         }
       },
       {
         type: 'Feature',
-        id: '113718032',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/staro-pokrovskoe-kladbishe/">Перейти на страницу Старо-Покровского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
+          name: 'Старо-Покровское кладбище',
           iconCaption: 'Старо-Покровское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.62448,
-            55.6133
-          ]
-        },
-        options: {
-          zIndex: 800000050,
-          order: 800000050,
-          preset: 'islands#blueIcon'
-        }
-      },
-      {
-        type: 'Feature',
-        id: '113718033',
-        properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/troekurovskoe-kladbishe/">Перейти на страницу Троекуровского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
-          iconCaption: 'Троекуровское кладбище '
-        },
-        geometry: {
-          type: 'Point',
-          coordinates: [
-            37.50222620703084,
-            55.70812182967349
-          ]
-        },
-        options: {
-          zIndex: 800000051,
-          order: 800000051,
-          preset: 'islands#blueIcon'
-        }
-      },
-      {
-        type: 'Feature',
-        id: '113718034',
-        properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/troice-lykovskoe-kladbishe/">Перейти на страницу Троице-Лыковсковского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
-          iconCaption: 'Троице-Лыковское кладбище '
-        },
-        geometry: {
-          type: 'Point',
-          coordinates: [
-            37.398931,
-            55.79179
-          ]
-        },
-        options: {
-          zIndex: 800000052,
-          order: 800000052,
-          preset: 'islands#blueIcon'
-        }
-      },
-      {
-        type: 'Feature',
-        id: '113718035',
-        properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/himkinskoe-kladbishe/">Перейти на страницу Химкинского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
-          iconCaption: 'Химкинское кладбище '
-        },
-        geometry: {
-          type: 'Point',
-          coordinates: [
-            37.378333,
-            55.915225
-          ]
-        },
-        options: {
-          zIndex: 800000053,
-          order: 800000053,
-          preset: 'islands#blueIcon'
-        }
-      },
-      {
-        type: 'Feature',
-        id: '113718036',
-        properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/hovanskoe-kladbishe/">Перейти на страницу Хованского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          description: '',
-          iconContent: '',
-          iconCaption: 'Хованское кладбище'
-        },
-        geometry: {
-          type: 'Point',
-          coordinates: [
-            37.454545423400646,
-            55.61580667392309
-          ]
+          coordinates: [55.6133, 37.62448]
         },
         options: {
           itemType: 'cemetery',
@@ -1318,7 +1193,66 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '113718037',
+        properties: {
+          name: 'Троекуровское кладбище',
+          iconCaption: 'Троекуровское кладбище '
+        },
+        geometry: {
+          type: 'Point',
+          coordinates: [55.70812182967349, 37.50222620703084]
+        },
+        options: {
+          itemType: 'cemetery',
+          preset: 'islands#blueIcon'
+        }
+      },
+      {
+        type: 'Feature',
+        properties: {
+          name: 'Троице-Лыковское кладбище',
+          iconCaption: 'Троице-Лыковское кладбище '
+        },
+        geometry: {
+          type: 'Point',
+          coordinates: [55.79179, 37.398931]
+        },
+        options: {
+          itemType: 'cemetery',
+          preset: 'islands#blueIcon'
+        }
+      },
+      {
+        type: 'Feature',
+        properties: {
+          name: 'Химкинское кладбище',
+          iconCaption: 'Химкинское кладбище '
+        },
+        geometry: {
+          type: 'Point',
+          coordinates: [55.915225, 37.378333]
+        },
+        options: {
+          itemType: 'cemetery',
+          preset: 'islands#blueIcon'
+        }
+      },
+      {
+        type: 'Feature',
+        properties: {
+          name: 'Хованское кладбище',
+          iconCaption: 'Хованское кладбище'
+        },
+        geometry: {
+          type: 'Point',
+          coordinates: [55.61580667392309, 37.454545423400646]
+        },
+        options: {
+          itemType: 'cemetery',
+          preset: 'islands#blueIcon'
+        }
+      },
+      {
+        type: 'Feature',
         properties: {
           name: 'Черкизовское кладбище',
           iconCaption: 'Черкизовское кладбище '
