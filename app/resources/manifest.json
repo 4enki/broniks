@@ -1,10 +1,10 @@
 {
   "lang": "ru",
-  "short_name": "SPT",
-  "name": "A template for a quick start",
+  "short_name": "Broniks",
+  "name": "Broniks",
   "start_url": "/?utm_source=homescreen&utm_medium=pwa-icon",
-  "theme_color": "#ffffff",
-  "background_color": "#FFFFFF",
+  "theme_color": "#1D1D1D",
+  "background_color": "#1D1D1D",
   "display": "standalone",
   "icons": [
     {
