@@ -72,7 +72,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485253',
         properties: {
           name: 'Многофункциональный центр р-на Ново-Переделкино',
           description: ''
@@ -199,7 +198,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485293',
         properties: {
           name: 'Многофункциональный центр р-на Печатники',
           description: ''
@@ -375,14 +373,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000018,
-          order: 800000018,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485364',
         properties: {
           name: 'Многофункциональный центр р-на Некрасовка',
           description: ''
@@ -395,14 +391,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000019,
-          order: 800000019,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485373',
         properties: {
           name: 'Многофункциональный центр р-на Южное Бутово (доп. офис)',
           description: ''
@@ -415,14 +409,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000020,
-          order: 800000020,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485380',
         properties: {
           name: 'Многофункциональный центр р-на Тропарёво-Никулино',
           description: ''
@@ -435,14 +427,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000021,
-          order: 800000021,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485388',
         properties: {
           name: 'Многофункциональный центр р-на Фили-Давыдково',
           description: ''
@@ -455,14 +445,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000022,
-          order: 800000022,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485395',
         properties: {
           name: 'Многофункциональный центр р-на Филёвский Парк',
           description: ''
@@ -475,14 +463,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000023,
-          order: 800000023,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485407',
         properties: {
           name: 'Многофункциональный центр р-на Новогиреево',
           description: ''
@@ -495,14 +481,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000024,
-          order: 800000024,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485415',
         properties: {
           name: 'Многофункциональный центр р-на Крылатское',
           description: ''
@@ -515,14 +499,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000025,
-          order: 800000025,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485426',
         properties: {
           name: 'Многофункциональный центр р-на Бирюлёво Западное',
           description: ''
@@ -535,14 +517,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000026,
-          order: 800000026,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485430',
         properties: {
           name: 'Многофункциональный центр р-на Северное Тушино',
           description: ''
@@ -555,14 +535,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000027,
-          order: 800000027,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485435',
         properties: {
           name: 'Многофункциональный центр р-на Бирюлёво Восточное',
           description: ''
@@ -575,14 +553,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000028,
-          order: 800000028,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485440',
         properties: {
           name: 'Многофункциональный центр р-на Чертаново Центральное',
           description: ''
@@ -595,9 +571,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000029,
-          order: 800000029,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -615,14 +590,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000030,
-          order: 800000030,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485455',
         properties: {
           name: 'Многофункциональный центр р-на Капотня',
           description: ''
@@ -635,14 +608,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000031,
-          order: 800000031,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485462',
         properties: {
           name: 'Многофункциональный центр р-на Восточное Измайлово',
           description: ''
@@ -655,14 +626,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000032,
-          order: 800000032,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485471',
         properties: {
           name: 'Многофункциональный центр р-на Северное Медведково',
           description: ''
@@ -675,14 +644,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000033,
-          order: 800000033,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485477',
         properties: {
           name: 'Многофункциональный центр р-на Москворечье-Сабурово',
           description: ''
@@ -695,14 +662,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000034,
-          order: 800000034,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485485',
         properties: {
           name: 'Многофункциональный центр р-на Бутырский',
           description: ''
@@ -715,14 +680,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000035,
-          order: 800000035,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485492',
         properties: {
           name: 'Многофункциональный центр р-на Матушкино',
           description: ''
@@ -735,14 +698,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000036,
-          order: 800000036,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485500',
         properties: {
           name: 'Многофункциональный центр р-на Щукино',
           description: ''
@@ -755,14 +716,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000037,
-          order: 800000037,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485508',
         properties: {
           name: 'Многофункциональный центр р-на Ростокино',
           description: ''
@@ -775,14 +734,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000038,
-          order: 800000038,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485515',
         properties: {
           name: 'Многофункциональный центр р-на Замоскворечье',
           description: ''
@@ -795,14 +752,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000039,
-          order: 800000039,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485524',
         properties: {
           name: 'Многофункциональный центр р-на Басманный',
           description: ''
@@ -815,14 +770,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000040,
-          order: 800000040,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485532',
         properties: {
           name: 'Многофункциональный центр р-на Южнопортовый',
           description: ''
@@ -835,14 +788,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000041,
-          order: 800000041,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485542',
         properties: {
           name: 'Многофункциональный центр р-на Нагорный',
           description: ''
@@ -855,14 +806,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000042,
-          order: 800000042,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485553',
         properties: {
           name: 'Многофункциональный центр р-на Нагатино-Садовники',
           description: ''
@@ -875,14 +824,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000043,
-          order: 800000043,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485562',
         properties: {
           name: 'Многофункциональный центр р-на Царицыно',
           description: ''
@@ -895,14 +842,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000044,
-          order: 800000044,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485569',
         properties: {
           name: 'Многофункциональный центр р-на Орехово-Борисово Южное',
           description: ''
@@ -915,14 +860,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000045,
-          order: 800000045,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485573',
         properties: {
           name: 'Многофункциональный центр р-на Тёплый Стан',
           description: ''
@@ -935,14 +878,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000046,
-          order: 800000046,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485580',
         properties: {
           name: 'Многофункциональный центр р-на Можайский',
           description: ''
@@ -955,14 +896,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000047,
-          order: 800000047,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485584',
         properties: {
           name: 'Многофункциональный центр р-на Савёлки',
           description: ''
@@ -1017,7 +956,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485606',
         properties: {
           name: 'Многофункциональный центр р-на Солнцево',
           description: ''
@@ -1036,7 +974,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485609',
         properties: {
           name: 'Многофункциональный центр р-на Внуково',
           description: ''
@@ -1055,7 +992,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485612',
         properties: {
           name: 'Многофункциональный центр р-на Тимирязевский',
           description: ''
@@ -1074,7 +1010,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485616',
         properties: {
           name: 'Многофункциональный центр р-на Новокосино',
           description: ''
@@ -1093,7 +1028,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485619',
         properties: {
           name: 'Многофункциональный центр р-на Дмитровский',
           description: ''
@@ -1112,7 +1046,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485624',
         properties: {
           name: 'Многофункциональный центр р-на Лианозово',
           description: ''
@@ -1131,7 +1064,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485629',
         properties: {
           name: 'Многофункциональный центр р-на Марфино',
           description: ''
@@ -1150,7 +1082,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485634',
         properties: {
           name: 'Многофункциональный центр р-на Арбат',
           description: ''
@@ -1169,7 +1100,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485643',
         properties: {
           name: 'Многофункциональный центр р-на Куркино',
           description: ''
@@ -1188,7 +1118,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485647',
         properties: {
           name: 'Многофункциональный центр р-на Восточное Дегунино',
           description: ''
@@ -1207,7 +1136,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485654',
         properties: {
           name: 'Многофункциональный центр р-на Свиблово',
           description: ''
@@ -1226,7 +1154,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485659',
         properties: {
           name: 'Многофункциональный центр р-на Южное Медведково',
           description: ''
@@ -1245,7 +1172,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485664',
         properties: {
           name: 'Многофункциональный центр р-на Хорошевский',
           description: ''
@@ -1264,7 +1190,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485669',
         properties: {
           name: 'Многофункциональный центр р-на Ярославский',
           description: ''
@@ -1283,7 +1208,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485674',
         properties: {
           name: 'Многофункциональный центр р-на Аэропорт',
           description: ''
@@ -1302,7 +1226,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485682',
         properties: {
           name: 'Многофункциональный центр р-на Западное Дегунино',
           description: ''
@@ -1321,7 +1244,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485695',
         properties: {
           name: 'Многофункциональный центр р-на Котловка',
           description: ''
@@ -1340,7 +1262,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485709',
         properties: {
           name: 'Многофункциональный центр р-на Крюково',
           description: ''
@@ -1359,7 +1280,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485718',
         properties: {
           name: 'Многофункциональный центр р-на Таганский',
           description: ''
@@ -1378,7 +1298,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485730',
         properties: {
           name: 'Многофункциональный центр р-на Восточный',
           description: ''
@@ -1397,7 +1316,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485736',
         properties: {
           name: 'Многофункциональный центр р-на Рязанский',
           description: ''
@@ -1416,7 +1334,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485746',
         properties: {
           name: 'Многофункциональный центр р-на Северный',
           description: ''
@@ -1435,7 +1352,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485753',
         properties: {
           name: 'Многофункциональный центр р-на Косино-Ухтомский',
           description: ''
@@ -1454,7 +1370,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485762',
         properties: {
           name: 'Многофункциональный центр р-на Кунцево',
           description: ''
@@ -1473,7 +1388,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485770',
         properties: {
           name: 'Многофункциональный центр р-на Хорошево-Мнёвники',
           description: ''
@@ -1492,7 +1406,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485779',
         properties: {
           name: 'Россия, Москва, Волжский Бульвар квартал 95',
           description: ''
@@ -1511,7 +1424,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485788',
         properties: {
           name: 'Многофункциональный центр р-на Текстильщики',
           description: ''
@@ -1530,7 +1442,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485796',
         properties: {
           name: 'Многофункциональный центр р-на Ломоносовский',
           description: ''
@@ -1549,7 +1460,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485805',
         properties: {
           name: 'Многофункциональный центр р-на Кузьминки',
           description: ''
@@ -1568,7 +1478,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485812',
         properties: {
           name: 'Многофункциональный центр р-на Коптево',
           description: ''
@@ -1587,7 +1496,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485820',
         properties: {
           name: 'Многофункциональный центр р-на Очаково-Матвеевское',
           description: ''
@@ -1606,7 +1514,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485828',
         properties: {
           name: 'Многофункциональный центр р-на Покровское-Стрешнево',
           description: ''
@@ -1625,7 +1532,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485835',
         properties: {
           name: 'Многофункциональный центр р-на Савёловский',
           description: ''
@@ -1644,7 +1550,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485843',
         properties: {
           name: 'Многофункциональный центр р-на Орехово-Борисово Северное',
           description: ''
@@ -1663,7 +1568,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485850',
         properties: {
           name: 'Многофункциональный центр р-на Хамовники',
           description: ''
@@ -1682,7 +1586,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485858',
         properties: {
           name: 'Многофункциональный центр р-на Алтуфьевский',
           description: ''
@@ -1701,7 +1604,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485866',
         properties: {
           name: 'Многофункциональный центр р-на Черёмушки',
           description: ''
@@ -1720,7 +1622,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485873',
         properties: {
           name: 'Многофункциональный центр р-на Чертаново Северное',
           description: ''
@@ -1739,7 +1640,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485881',
         properties: {
           name: 'Многофункциональный центр р-на Алексеевский',
           description: ''
@@ -1758,7 +1658,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485890',
         properties: {
           name: 'Многофункциональный центр р-на Братеево',
           description: ''
@@ -1777,7 +1676,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485898',
         properties: {
           name: 'Многофункциональный центр р-на Южное Тушино',
           description: ''
@@ -1796,7 +1694,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485911',
         properties: {
           name: 'Многофункциональный центр р-на Вешняки',
           description: ''
@@ -1815,7 +1712,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485925',
         properties: {
           name: 'Многофункциональный центр р-на Люблино',
           description: ''
@@ -1834,7 +1730,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485940',
         properties: {
           name: 'Многофункциональный центр района Беговой',
           description: ''
@@ -1853,7 +1748,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485948',
         properties: {
           name: 'Многофункциональный центр р-на Раменки',
           description: ''
@@ -1872,7 +1766,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485964',
         properties: {
           name: 'Многофункциональный центр р-на Останкинский',
           description: ''
@@ -1891,7 +1784,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485981',
         properties: {
           name: 'Многофункциональный центр р-на Марьина Роща',
           description: ''
@@ -1910,7 +1802,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486001',
         properties: {
           name: 'Многофункциональный центр р-на Строгино',
           description: ''
@@ -1929,7 +1820,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486013',
         properties: {
           name: 'Многофункциональный центр р-на Зюзино',
           description: ''
@@ -1948,7 +1838,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486023',
         properties: {
           name: 'Многофункциональный центр р-на Проспект Вернадского',
           description: ''
@@ -1967,7 +1856,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486035',
         properties: {
           name: 'Многофункциональный центр р-на Мещанский',
           description: ''
@@ -1986,7 +1874,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486043',
         properties: {
           name: 'Многофункциональный центр р-на Богородское',
           description: ''
@@ -2005,7 +1892,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486057',
         properties: {
           name: 'Многофункциональный центр р-на Метрогородок',
           description: ''
@@ -2024,7 +1910,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486066',
         properties: {
           name: 'Многофункциональный центр р-на Гольяново',
           description: ''
@@ -2043,7 +1928,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486073',
         properties: {
           name: 'Многофункциональный центр р-на Преображенское',
           description: ''
@@ -2062,7 +1946,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486080',
         properties: {
           name: 'Многофункциональный центр р-на Донской',
           description: ''
@@ -2081,7 +1964,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486090',
         properties: {
           name: 'Многофункциональный центр р-на Тверской',
           description: ''
@@ -2100,7 +1982,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486100',
         properties: {
           name: 'Многофункциональный центр р-на Зябликово',
           description: ''
@@ -2119,7 +2000,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486108',
         properties: {
           name: 'Многофункциональный центр р-на Южное Бутово',
           description: ''
@@ -2138,7 +2018,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486118',
         properties: {
           name: 'Многофункциональный центр р-на Левобережный',
           description: ''
@@ -2157,7 +2036,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486127',
         properties: {
           name: 'Многофункциональный центр р-на Молжаниновский',
           description: ''
@@ -2176,7 +2054,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486137',
         properties: {
           name: 'Многофункциональный центр р-на Ховрино',
           description: ''
@@ -2195,7 +2072,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486145',
         properties: {
           name: 'Многофункциональный центр р-на Ясенево',
           description: ''
@@ -2214,7 +2090,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486154',
         properties: {
           name: 'Многофункциональный центр р-на Войковский',
           description: ''
@@ -2233,7 +2108,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486163',
         properties: {
           name: 'Многофункциональный центр р-на Бибирево',
           description: ''
@@ -2252,7 +2126,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486175',
         properties: {
           name: 'Многофункциональный центр р-на Пресненский',
           description: ''
@@ -2271,7 +2144,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486187',
         properties: {
           name: 'Многофункциональный центр р-на Северное Бутово',
           description: ''
@@ -2290,7 +2162,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486198',
         properties: {
           name: 'Многофункциональный центр поселения Московский',
           description: ''
@@ -2309,7 +2180,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486209',
         properties: {
           name: 'Многофункциональный центр р-на Лосиноостровский',
           description: ''
@@ -2328,7 +2198,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486218',
         properties: {
           name: 'Многофункциональный центр р-на Митино',
           description: ''
@@ -2347,7 +2216,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486228',
         properties: {
           name: 'Россия, Москва, Якиманский переулок, 6с14',
           description: ''
@@ -2366,7 +2234,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486238',
         properties: {
           name: 'Многофункциональный центр р-на Якиманка',
           description: ''
@@ -2385,7 +2252,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486246',
         properties: {
           name: 'Многофункциональный центр р-на Обручевский',
           description: ''
@@ -2404,7 +2270,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88486255',
         properties: {
           name: 'Многофункциональный центр р-на Старое Крюково',
           description: ''
