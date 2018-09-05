@@ -42,21 +42,21 @@
     <!-- end .content_headline -->
 
 
-    <div class="ionTabs" id="tabs_1" data-name="prices">
+    <div class="ionTabs" id="prices" data-name="cremation">
       <!-- begin .prices-tabs -->
       <div class="prices-tabs">
 
         <ul class="ionTabs__head">
-          <li class="ionTabs__tab" data-target="Tab_1_name">Имя вкладки 1</li>
-          <li class="ionTabs__tab" data-target="Tab_2_name">Имя вкладки 2</li>
-          <li class="ionTabs__tab" data-target="Tab_3_name">Имя вкладки 3</li>
+          <li class="ionTabs__tab" data-target="budgetary">бюджетно</li>
+          <li class="ionTabs__tab" data-target="optimally">оптимально</li>
+          <li class="ionTabs__tab" data-target="luxuriously">роскошно</li>
         </ul>
 
       </div>
       <!-- end .prices-tabs -->
 
       <div class="ionTabs__body">
-        <div class="ionTabs__item" data-name="Tab_1_name">
+        <div class="ionTabs__item" data-name="budgetary">
 
           <!-- begin .prices-total -->
           <div class="prices-total">
@@ -77,12 +77,57 @@
           </div>
           <!-- end .prices-total -->
 
+          {% include "./prices/cremation/budgetary.html" %}
+
         </div>
-        <div class="ionTabs__item" data-name="Tab_2_name">
-          Контент вкладки 2
+
+        <div class="ionTabs__item" data-name="optimally">
+
+          <!-- begin .prices-total -->
+          <div class="prices-total">
+            <!-- begin .prices-total_items -->
+            <div class="prices-total_items">
+              <h3 class="h2-light lighter">Что включено</h3>
+              <ul class="light-list">
+                <li>ритуальные принадлежности</li>
+                <li>подготовка тела умершего</li>
+                <li>транспорт</li>
+                <li>кремация</li>
+              </ul>
+            </div>
+            <!-- end .prices-total_items -->
+            <!-- begin .prices-total_cost -->
+            <div class="prices-total_cost">33.600&thinsp;<span>₽</span></div>
+            <!-- end .prices-total_cost -->
+          </div>
+          <!-- end .prices-total -->
+
+          {% include "./prices/cremation/optimally.html" %}
+
         </div>
-        <div class="ionTabs__item" data-name="Tab_3_name">
-          Контент вкладки 3
+
+        <div class="ionTabs__item" data-name="luxuriously">
+
+          <!-- begin .prices-total -->
+          <div class="prices-total">
+            <!-- begin .prices-total_items -->
+            <div class="prices-total_items">
+              <h3 class="h2-light lighter">Что включено</h3>
+              <ul class="light-list">
+                <li>ритуальные принадлежности</li>
+                <li>подготовка тела умершего</li>
+                <li>транспорт</li>
+                <li>кремация</li>
+              </ul>
+            </div>
+            <!-- end .prices-total_items -->
+            <!-- begin .prices-total_cost -->
+            <div class="prices-total_cost">33.600&thinsp;<span>₽</span></div>
+            <!-- end .prices-total_cost -->
+          </div>
+          <!-- end .prices-total -->
+
+          {% include "./prices/cremation/luxuriously.html" %}
         </div>
 
         <div class="ionTabs__preloader"></div>
@@ -93,3 +138,5 @@
   <!-- end .content_wrap -->
 </div>
 <!-- end .content -->
+
+

@@ -1,5 +1,5 @@
 $(document).ready(function() {
 
-  $.ionTabs("#tabs_1");
+  $.ionTabs("#prices");
 
 });

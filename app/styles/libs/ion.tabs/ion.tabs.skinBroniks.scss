@@ -7,7 +7,7 @@
 // Ion.Tabs: Skin details */
 
 .ionTabs {
-  margin: 0 0 30px;
+  margin: 0;
 
   &__head {
     list-style-type: none;
@@ -47,7 +47,7 @@
 
   &__body {
     background: transparent;
-    border: 1px solid red; // дебаг
+    //border: 1px solid red;
   }
 
   &__item {
