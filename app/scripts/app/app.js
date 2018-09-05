@@ -5,5 +5,5 @@
 //= modules/additional
 //= modules/callforms
 //= modules/checkforms
-//= modules/slider
+//= modules/memory
 //= modules/maps
