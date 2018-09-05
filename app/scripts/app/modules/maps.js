@@ -1,9 +1,12 @@
-$(document).ready(function(){
+ymaps.ready(init);
 
-  ymaps.ready(init);
+let doc          = document;
+let zonespravmap = doc.getElementById('spravmap');
+let zonemap      = doc.getElementById('map');
 
-  function init(){
+function init(){
 
+  if (zonemap) {
     let myMap = new ymaps.Map("map", {
       center: [55.614780, 37.527121],
       zoom: 15,
@@ -20,14 +23,17 @@ $(document).ready(function(){
     myMap.geoObjects.add(myPlacemark);
     myMap.controls.add('zoomControl');
     myMap.controls.remove('typeSelector');
+  }
 
-    // а это для справочника
+  // а это для справочника
 
-    let myMapSrav = new ymaps.Map('spravmap', {
+  if (zonespravmap) {
+    let myMapSrav = new ymaps.Map("spravmap", {
       center: [55.753559, 37.609218],
       zoom: 12,
       controls: []
     });
+
 
     // Функция, которая по состоянию чекбоксов в меню
     // показывает или скрывает геообъекты из выборки.
@@ -3202,4 +3208,4 @@ $(document).ready(function(){
     myMapSrav.controls.remove('typeSelector');
   }
 
-});
+}
