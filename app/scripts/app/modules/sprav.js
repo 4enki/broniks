@@ -13,13 +13,13 @@ function initsprav() {
     let shownObjects;
     let byType = new ymaps.GeoQueryResult();
 
-    // Отберем объекты по цвету.
-    if ($('#mfc').prop('checked')) {
-      byType = myObjects.search('options.itemType = "mfc"');
-    }
+
     if ($('#cemetery').prop('checked')) {
       byType = myObjects.search('options.itemType = "cemetery"')
         .add(byType);
+    }
+    if ($('#mfc').prop('checked')) {
+      byType = myObjects.search('options.itemType = "mfc"');
     }
 
     // Мы отобрали объекты по цвету и по форме. Покажем на карте объекты,
