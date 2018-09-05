@@ -15,17 +15,14 @@ function initsprav() {
 
 
     if ($('#cemetery').prop('checked')) {
-      byType = myObjects.search('options.itemType = "cemetery"')
-        .add(byType);
+      byType = myObjects.search('options.itemType = "cemetery"');
     }
     if ($('#mfc').prop('checked')) {
-      byType = myObjects.search('options.itemType = "mfc"');
+      byType = myObjects.search('options.itemType = "mfc"')
+        .add(byType);
     }
 
-    // Мы отобрали объекты по цвету и по форме. Покажем на карте объекты,
-    // которые совмещают нужные признаки.
     shownObjects = byType.addToMap(myMapSrav);
-    // Объекты, которые не попали в выборку, нужно убрать с карты.
     myObjects.remove(shownObjects).removeFromMap(myMapSrav);
   }
 
