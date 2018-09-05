@@ -776,15 +776,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/perlovskoe-kladbishe/">Перейти на страницу Перловского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Перловское кладбище '
+          name: 'Перловское кладбище',
+          iconCaption: 'Перловское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.696157,
-            55.892451
-          ]
+          coordinates: [55.892451, 37.696157]
         },
         options: {
           itemType: 'cemetery',
@@ -794,15 +791,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/perovskoe-kladbishe/">Перейти на страницу Перовского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Перовское кладбище '
+          name: 'Перовское кладбище',
+          iconCaption: 'Перовское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.83854,
-            55.741865
-          ]
+          coordinates: [55.741865, 37.83854]
         },
         options: {
           itemType: 'cemetery',
