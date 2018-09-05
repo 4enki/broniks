@@ -349,10 +349,7 @@ function initsprav() {
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.896023,
-            55.459665
-          ]
+          coordinates: [55.459665, 37.896023]
         },
         options: {
           itemType: 'cemetery',
@@ -367,10 +364,7 @@ function initsprav() {
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.596417,
-            55.495384
-          ]
+          coordinates: [55.495384, 37.596417]
         },
         options: {
           itemType: 'cemetery',
@@ -385,10 +379,7 @@ function initsprav() {
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.83916,
-            55.769312
-          ]
+          coordinates: [55.769312, 37.83916]
         },
         options: {
           itemType: 'cemetery',
@@ -403,10 +394,7 @@ function initsprav() {
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.769729,
-            55.801703
-          ]
+          coordinates: [55.801703, 37.769729]
         },
         options: {
           itemType: 'cemetery',
@@ -421,10 +409,7 @@ function initsprav() {
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.691046,
-            55.732028
-          ]
+          coordinates: [55.732028, 37.691046]
         },
         options: {
           itemType: 'cemetery',
@@ -439,10 +424,7 @@ function initsprav() {
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.790561,
-            55.638221
-          ]
+          coordinates: [55.638221, 37.790561]
         },
         options: {
           itemType: 'cemetery',
@@ -457,10 +439,7 @@ function initsprav() {
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.581487,
-            55.571164
-          ]
+          coordinates: [55.571164, 37.581487]
         },
         options: {
           itemType: 'cemetery',
@@ -475,10 +454,7 @@ function initsprav() {
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.638503,
-            55.619813
-          ]
+          coordinates: [55.619813, 37.638503]
         },
         options: {
           itemType: 'cemetery',
@@ -493,10 +469,7 @@ function initsprav() {
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.806809010619766,
-            55.70253919177521
-          ]
+          coordinates: [55.70253919177521, 37.806809010619766]
         },
         options: {
           itemType: 'cemetery',
@@ -511,10 +484,7 @@ function initsprav() {
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.801745,
-            55.70283
-          ]
+          coordinates: [55.70283, 37.801745]
         },
         options: {
           itemType: 'cemetery',
@@ -529,10 +499,7 @@ function initsprav() {
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.417688,
-            55.707517
-          ]
+          coordinates: [55.707517, 37.417688]
         },
         options: {
           itemType: 'cemetery',
@@ -547,10 +514,7 @@ function initsprav() {
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.646426,
-            55.844157
-          ]
+          coordinates: [55.844157, 37.646426]
         },
         options: {
           itemType: 'cemetery',
@@ -560,15 +524,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/lianozovskoe-kladbishe/">Перейти на страницу Лианозовского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Лианозовское кладбище '
+          name: 'Лианозовское кладбище',
+          iconCaption: 'Лианозовское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.564159,
-            55.911996
-          ]
+          coordinates: [55.911996, 37.564159]
         },
         options: {
           itemType: 'cemetery',
@@ -578,15 +539,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/lublinskoe-kladbishe/">Перейти на страницу Люблинского кладбища в Москве  &gt;&gt;&gt;</a></p>',
+          name: 'Люблинское кладбище',
           iconCaption: 'Люблинское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.78401716400118,
-            55.681782824093986
-          ]
+          coordinates: [55.681782824093986, 37.78401716400118]
         },
         options: {
           itemType: 'cemetery',
@@ -596,15 +554,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/medvedkovskoe-kladbishe/">Перейти на страницу Медведковского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Медведковское кладбище '
+          name: 'Медведковское кладбище',
+          iconCaption: 'Медведковское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.63774,
-            55.864823
-          ]
+          coordinates: [55.864823, 37.63774]
         },
         options: {
           itemType: 'cemetery',
@@ -614,15 +569,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/mitinskoe-kladbishe/">Перейти на страницу Митинского кладбища  в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Митинское кладбище '
+          name: 'Митинское кладбище',
+          iconCaption: 'Митинское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.347045,
-            55.877162
-          ]
+          coordinates: [55.877162, 37.347045]
         },
         options: {
           itemType: 'cemetery',
@@ -632,15 +584,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/miusskoe-kladbishe/">Перейти на страницу Миусского кладбища в Москве  &gt;&gt;&gt;</a></p>',
+          name: 'Миусское кладбище',
           iconCaption: 'Миусское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.598097,
-            55.79387
-          ]
+          coordinates: [55.79387, 37.598097]
         },
         options: {
           itemType: 'cemetery',
@@ -650,15 +599,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/nikolo-arhangelskoe/">Перейти на страницу Николо-Архангельского кладбища в Москве  &gt;&gt;&gt;</a></p>',
+          name: 'Николо-Архангельское кладбище',
           iconCaption: 'Николо-Архангельское кладбище '
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.898341,
-            55.741034
-          ]
+          coordinates: [55.741034, 37.898341]
         },
         options: {
           itemType: 'cemetery',
@@ -668,15 +614,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/nikolo-hovanskoe-kladbishe/">Перейти на страницу Николо-Хованского кладбища  в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Николо-Хованское кладбище '
+          name: 'Николо-Хованское кладбище',
+          iconCaption: 'Николо-Хованское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.441885396849955,
-            55.60864103350812
-          ]
+          coordinates: [55.60864103350812, 37.441885396849955]
         },
         options: {
           itemType: 'cemetery',
@@ -686,15 +629,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/orehovskoe-kladbishe/">Перейти на страницу Ореховского кладбище  в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Ореховское кладбище '
+          name: 'Ореховское кладбище',
+          iconCaption: 'Ореховское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.695025,
-            55.606934
-          ]
+          coordinates: [55.606934, 37.695025]
         },
         options: {
           itemType: 'cemetery',
@@ -704,15 +644,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/orlovskoe-klabishe/">Перейти на страницу Орловского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Орловское кладбище '
+          name: 'Орловское кладбище',
+          iconCaption: 'Орловское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.378099,
-            55.631574
-          ]
+          coordinates: [55.631574, 37.378099]
         },
         options: {
           itemType: 'cemetery',
@@ -722,15 +659,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/ostankinskoe-kladbishe/">Перейти на страницу Останкинского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Останкинское кладбище '
+          name: 'Останкинское кладбище',
+          iconCaption: 'Останкинское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.612955,
-            55.816465
-          ]
+          coordinates: [55.816465, 37.612955]
         },
         options: {
           itemType: 'cemetery',
@@ -740,15 +674,12 @@ function initsprav() {
       {
         type: 'Feature',
         properties: {
-          name: '<p><a href="https://ritual.ru/poleznaya-informacia/kladbisha/perepechinskoe-kladbishe/">Перейти на страницу Перепечинского кладбища в Москве  &gt;&gt;&gt;</a></p>',
-          iconCaption: 'Перепечинское кладбище '
+          name: 'Перепечинское кладбище',
+          iconCaption: 'Перепечинское кладбище'
         },
         geometry: {
           type: 'Point',
-          coordinates: [
-            37.387065,
-            56.006462
-          ]
+          coordinates: [56.006462, 37.387065]
         },
         options: {
           itemType: 'cemetery',
