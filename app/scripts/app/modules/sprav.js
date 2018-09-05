@@ -33,9 +33,9 @@ function initsprav() {
   window.myObjects = ymaps.geoQuery({
     type: "FeatureCollection",
     features: [
+      /* mfc */
       {
         type: 'Feature',
-        id: '88485242',
         properties: {
           name: 'Многофункциональный центр р-на Красносельский  ',
           description: ''
@@ -48,14 +48,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000000,
-          order: 800000000,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485248',
         properties: {
           name: 'Многофункциональный центр р-на Сокол',
           description: ''
@@ -68,9 +66,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000001,
-          order: 800000001,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -88,14 +85,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000002,
-          order: 800000002,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485259',
         properties: {
           name: 'Многофункциональный центр р-на Академический',
           description: ''
@@ -108,14 +103,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000003,
-          order: 800000003,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485263',
         properties: {
           name: 'Многофункциональный центр р-на Чертаново Южное',
           description: ''
@@ -128,14 +121,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000004,
-          order: 800000004,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485269',
         properties: {
           name: 'Многофункциональный центр р-на Перово',
           description: ''
@@ -148,14 +139,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000005,
-          order: 800000005,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485274',
         properties: {
           name: 'Многофункциональный центр р-на Бабушкинский',
           description: ''
@@ -168,14 +157,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000006,
-          order: 800000006,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485280',
         properties: {
           name: 'Многофункциональный центр р-на Лефортово',
           description: ''
@@ -188,14 +175,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000007,
-          order: 800000007,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485285',
         properties: {
           name: 'Многофункциональный центр р-на Нижегородский',
           description: ''
@@ -208,9 +193,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000008,
-          order: 800000008,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -228,14 +212,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000009,
-          order: 800000009,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485299',
         properties: {
           name: 'Многофункциональный центр р-на Бескудниковский',
           description: ''
@@ -248,14 +230,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000010,
-          order: 800000010,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485307',
         properties: {
           name: 'Многофункциональный центр р-на Северное Измайлово',
           description: ''
@@ -268,14 +248,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000011,
-          order: 800000011,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485317',
         properties: {
           name: 'Многофункциональный центр р-на Даниловский',
           description: ''
@@ -288,14 +266,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000012,
-          order: 800000012,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485325',
         properties: {
           name: 'Многофункциональный центр р-на Коньково',
           description: ''
@@ -308,14 +284,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000013,
-          order: 800000013,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485331',
         properties: {
           name: 'Многофункциональный центр р-на Выхино-Жулебино',
           description: ''
@@ -328,14 +302,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000014,
-          order: 800000014,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485338',
         properties: {
           name: 'Многофункциональный центр р-на Измайлово',
           description: ''
@@ -348,14 +320,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000015,
-          order: 800000015,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485342',
         properties: {
           name: 'Многофункциональный центр р-на Соколиная Гора',
           description: ''
@@ -368,14 +338,12 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000016,
-          order: 800000016,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
         type: 'Feature',
-        id: '88485350',
         properties: {
           name: 'Многофункциональный центр р-на Марьино',
           description: ''
@@ -388,9 +356,8 @@ function initsprav() {
           ]
         },
         options: {
-          zIndex: 800000017,
-          order: 800000017,
-          preset: 'islands#blueIcon'
+          itemType: "mfc",
+          preset: "islands#redIcon"
         }
       },
       {
@@ -1014,7 +981,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485601',
         properties: {
           name: 'Многофункциональный центр р-на Гагаринский',
           description: ''
@@ -1033,7 +999,6 @@ function initsprav() {
       },
       {
         type: 'Feature',
-        id: '88485603',
         properties: {
           name: 'Многофункциональный центр р-на Ивановское',
           description: ''
