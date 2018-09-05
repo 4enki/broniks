@@ -7,3 +7,4 @@
 //= modules/checkforms
 //= modules/memory
 //= modules/maps
+//= modules/prices
