@@ -11,6 +11,7 @@ $(document).ready(function() {
   });
 
   $('#costs-list').easytabs({
+    updateHash: false,
     tabActiveClass: 'is-active',
     tabs: '.headline_tabs .switch-list > li'
   });

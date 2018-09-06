@@ -68,6 +68,7 @@
       height: 20px;
       border: 2px solid #A6A19F;
       border-radius: 50%;
+      transition: all .3s ease;
     }
 
     &:after {
@@ -82,7 +83,7 @@
       height: 10px;
       background: #2E2B77;
       border-radius: 50%;
-      transition: .3s ease;
+      transition: all .3s ease;
       opacity: 0;
       visibility: hidden;
     }
