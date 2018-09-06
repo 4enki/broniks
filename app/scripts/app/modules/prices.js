@@ -10,4 +10,9 @@ $(document).ready(function() {
     tabs: '> .prices-tabs > ul > li'
   });
 
+  $('#costs-list').easytabs({
+    tabActiveClass: 'is-active',
+    tabs: '.headline_tabs .switch-list > li'
+  });
+
 });

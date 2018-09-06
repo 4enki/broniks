@@ -43,6 +43,19 @@
     width: 340px;
     position: relative;
 
+    color: initial;
+
+    &:hover {
+
+      .cost_item_box {
+        box-shadow: 0 6px 9px rgba(0, 0, 0, .16);
+      }
+
+      .more-link {
+        color: #2e2b77;
+      }
+    }
+
     &:last-child { margin-right: 0; }
 
     &_head {
@@ -81,6 +94,7 @@
       box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
       position: relative;
       height: 100%;
+      transition: all .3s ease;
     }
 
     &_footer {
@@ -92,9 +106,10 @@
       font-family: 'TT Prosto Sans';
       font-size: 17px;
       line-height: 17px;
-      font-weight: 100;
+      font-weight: 300;
 
-      a.more-link {
+      .more-link {
+        transition: all .3s ease;
         color: #A6A19F;
 
         &:hover {
