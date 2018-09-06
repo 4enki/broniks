@@ -82,12 +82,20 @@
       height: 10px;
       background: #2E2B77;
       border-radius: 50%;
+      transition: .3s ease;
+      opacity: 0;
+      visibility: hidden;
     }
 
     &.is-active {
 
       &:before {
         border-color: #2E2B77;
+      }
+
+      &:after {
+        opacity: 1;
+        visibility: visible;
       }
 
       .switch-list_link {color: #666666;}
