@@ -7,7 +7,7 @@
   $soft = getenv(HTTP_USER_AGENT);
   $url_o = getenv(HTTP_REFERER);
 
-  $sub = "=?utf-8?b?".base64_encode("Сайт «Броникс»: новая заявка на вызов агента, ")."?="; // тема письма, принудительно в ЮТФ-8
+  $sub = "=?utf-8?b?".base64_encode("Сайт «Броникс»: появилась новая заявка на вызов агента, ")."?="; // тема письма, принудительно в ЮТФ-8
 
   $address = "yaglazov@gmail.com"; // кому отправляется письмо, указание адресатов через запятую — сработает
 
@@ -17,10 +17,10 @@
   $headers .= "Content-Type: text/html;charset=utf-8 \r\n"; // чтобы всё пришло в правильной кодировке!
 
   $mes  = "<html><body style='font-family:Arial,sans-serif;'>";
-  $mes .= "<h1 style='font-weight:400;border-bottom:1px dotted #f3f3f3;font-size:22px;padding-bottom:8px;color:#2E2B77;'>Сайт «Броникс»: новая заявка на вызов агента:</h1>\r\n";
+  $mes .= "<h1 style='font-weight:400;border-bottom:1px dotted #f3f3f3;font-size:22px;padding-bottom:8px;color:#2E2B77;'>Сайт «Броникс»: появилась новая заявка на вызов агента.</h1>\r\n";
     if (isset($_POST['call_name'])){$mes .= "<p style=\"margin-left:20px;font-size:14px;\"><strong>Представились:</strong> ".$name."<br />\r\n";}
     if (isset($_POST['call_tel'])) {$mes .= "<strong>Телефонный номер:</strong> ".$tel."</p>\r\n";}
-  $mes .= "<p style=\"color:#444;font-size:10px;padding-top:10px;border-top:1px dotted #dae5e8;\">IP: ".$ip."<br />\r\n";
+  $mes .= "<p style=\"color:#444;font-size:12px;padding-top:10px;border-top:1px dotted #dae5e8;\">IP: ".$ip."<br />\r\n";
   $mes .= "Время отправки заявки: ".$time."<br />\r\n";
   $mes .= "Браузер: ".$soft."<br />\r\n";
   $mes .= "Откуда пришёл посетитель: ".$url_o."</p>\r\n";

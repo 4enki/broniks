@@ -1,6 +1,10 @@
 $(document).ready(function() {
 
-  $.ionTabs("#prices", "#burial", "#cremation", {
+  $.ionTabs("#prices", {
+    type: "none",
+  });
+
+  $.ionTabs("#burial", "#cremation", {
     type: "hash",
   });
 
