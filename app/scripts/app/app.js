@@ -8,3 +8,4 @@
 //= modules/memory
 //= modules/maps
 //= modules/prices
+//= modules/faq

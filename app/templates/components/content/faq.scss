@@ -7,7 +7,7 @@
   }
 
   &_item {
-    margin-bottom: 86px;
+    margin-bottom: 50px;
 
     &:last-child { margin-bottom: 0; }
   }
@@ -15,6 +15,7 @@
   &-q {
     margin-bottom: 30px;
     color: #2E2B77;
+    cursor: pointer;
 
     h3 {
       font-size: 28px;
@@ -25,6 +26,7 @@
   }
 
   &-a {
+    display: none;
     font-size: 22px;
     font-weight: 100;
     line-height: 32px;
