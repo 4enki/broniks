@@ -41,25 +41,21 @@
     </div>
     <!-- end .content_headline -->
 
-    <style>
-      .etabs { margin: 0; padding: 0; }
-      .tab { display: inline-block; zoom:1; background: #eee; border: solid 1px #999; border-bottom: none; -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; }
-      .tab a { font-size: 14px; line-height: 2em; display: block; padding: 0 10px; outline: none; }
-      .tab a:hover { text-decoration: underline; }
-      .tab.active { background: #fff; padding-top: 6px; position: relative; top: 1px; border-color: #666; }
-      .tab a.active { font-weight: bold; }
-      .tab-container .panel-container { background: #fff; border: solid #666 1px; padding: 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }
-      .panel-container { margin-bottom: 10px; }
-
-    </style>
-
-    <div id="tab-container" class='tab-container'>
-      <ul class='etabs'>
-        <li class='tab'><a href="#tabs1-html">HTML Markup</a></li>
-        <li class='tab'><a href="#tabs1-js">Required JS</a></li>
-        <li class='tab'><a href="#tabs1-css">Example CSS</a></li>
-      </ul>
-      <div class='panel-container'>
+    <!-- begin .prices-types -->
+    <div id="prices-types" class="prices-types">
+      <!-- begin .prices-tabs -->
+      <div class="prices-tabs">
+        <!-- begin .tabs-list -->
+        <ul class="tabs-list">
+          <li class="tabs-list_item"><a href="#tabs1-html" class="tabs-list_link">бюджетно</a></li>
+          <li class="tabs-list_item"><a href="#tabs1-js" class="tabs-list_link">оптимально</a></li>
+          <li class="tabs-list_item"><a href="#tabs1-css" class="tabs-list_link">роскошно</a></li>
+        </ul>
+        <!-- end .tabs-list -->
+      </div>
+      <!-- end .prices-tabs -->
+      <!-- begin .prices-tabs_panel -->
+      <div class="prices-tabs_panel">
         <div id="tabs1-html">
           <h2>HTML Markup for these tabs</h2>
 
@@ -129,9 +125,11 @@ $('#tab-container').easytabs();
 
         </div>
       </div>
+      <!-- end .prices-tabs_panel -->
     </div>
+    <!-- end .prices-types -->
 
-{#
+    {#
 
     <div class="ionTabs" id="prices" data-name="types">
 

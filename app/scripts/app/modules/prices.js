@@ -1,6 +1,9 @@
 $(document).ready(function() {
 
-  $('#tab-container').easytabs();
+  $('#prices-types').easytabs({
+    tabActiveClass: 'is-active',
+    tabs: '.tabs-list > .tabs-list_item'
+  });
 
 
   // $.ionTabs.setTab("types", "cremationtype");
