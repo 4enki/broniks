@@ -4,5 +4,5 @@ AddType application/x-httpd-php .php .htm .html .phtml
 
 AuthName 'Who are you? Identify yourself.'
 AuthType Basic
-AuthUserFile ./.authfile # test53
+AuthUserFile /home/h808143119/test.broniks.ru/.authfile # test53
 require valid-user
