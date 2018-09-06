@@ -1,7 +1,7 @@
 //= modules/scrolllinks
 //= modules/modals
 //= modules/topmenu
-// = modules/tabs
+//= modules/cases
 //= modules/additional
 //= modules/callforms
 //= modules/checkforms

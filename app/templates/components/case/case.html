@@ -3,12 +3,12 @@
   <!-- begin .case_wrap -->
   <div class="case_wrap">
 
-    <!-- begin .tabs -->
-    <div class="tabs" role="tabs">
+    <!-- begin .cases-list -->
+    <div id="cases-list" class="cases-list">
 
-      <ul class="tabs__menu case_switch">
-        <li class="tabs__menu-item active"><a href="#" class="case_switch_item">дома или в общественном месте</a></li>
-        <li class="tabs__menu-item"><a href="#" class="case_switch_item">в больнице</a></li>
+      <ul class="cases-tabs">
+        <li class="cases-tabs_item" id="select"><a href="#notinhospital" class="cases-tabs_link">дома или в общественном месте</a></li>
+        <li class="cases-tabs_item"><a href="#inhospital" class="cases-tabs_link">в больнице</a></li>
       </ul>
 
       <!-- begin .case_step -->
@@ -26,10 +26,11 @@
       </div>
       <!-- end .case_step -->
 
-      <!-- begin .tabs__content -->
-      <div class="tabs__content">
-        <!-- begin .tabs__content-item -->
-        <div class="tabs__content-item">
+      <!-- begin .prices-tabs_panel -->
+      <div class="prices-tabs_panel panel-container">
+
+        <!-- begin .prices-tabs_panel-item -->
+        <div id="notinhospital">
           <!-- begin .cases -->
           <div class="cases">
 
@@ -132,9 +133,10 @@
           </div>
           <!-- end .cases -->
         </div>
-        <!-- end .tabs__content-item -->
-        <!-- begin .tabs__content-item -->
-        <div class="tabs__content-item">
+        <!-- end .prices-tabs_panel-item -->
+
+        <!-- begin .prices-tabs_panel-item -->
+        <div id="inhospital">
           <!-- begin .cases -->
           <div class="cases cases-center">
 
@@ -213,12 +215,12 @@
           </div>
           <!-- end .cases -->
         </div>
-        <!-- end .tabs__content-item -->
-      </div>
-      <!-- end .tabs__content -->
+        <!-- end .prices-tabs_panel-item -->
 
+      </div>
+      <!-- end .prices-tabs_panel -->
     </div>
-    <!-- end .tabs -->
+    <!-- end .cases-list -->
 
   </div>
   <!-- end .case_wrap -->

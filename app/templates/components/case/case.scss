@@ -68,7 +68,7 @@
   }
 }
 
-.case_switch {
+.cases-tabs {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -84,20 +84,17 @@
   justify-content: center;
   margin-bottom: 42px;
 
-  .tabs__menu-item {
+  &_item {
     margin-right: 2px;
-  }
 
-  .tabs__menu-item.active {
-
-    .case_switch_item {
+    &.is-active .cases-tabs_link {
       background-color: #6B797F;
       color: #ffffff;
       font-weight: bold;
     }
   }
 
-  &_item {
+  &_link {
     color: #A6A19F;
     margin: 0;
     border-radius: 3px;
