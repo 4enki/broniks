@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
   $('#prices-types').easytabs({
+    updateHash: false,
     tabActiveClass: 'is-active',
     tabs: '.headline_tabs .switch-list > li'
   });

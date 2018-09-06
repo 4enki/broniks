@@ -6,3 +6,4 @@ $('._go-to').on('click', function (e) {
   $('body,html').animate({scrollTop: top}, 1500);
 });
 // /помогаем ссылкам с якорями плавно скролиться
+
