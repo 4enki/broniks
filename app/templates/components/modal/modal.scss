@@ -39,6 +39,17 @@
   &-card-big {
     max-width: 558px;
     max-height: 795px;
+
+    .modal_content {
+      position: relative;
+      background-color: #fff;
+
+      .actions-right {
+        position: absolute;
+        right: 30px;
+        bottom: 20px;
+      }
+    }
   }
 
   &-rekvizity {

@@ -97,4 +97,23 @@ button:disabled,
     border-color: #8681FC;
     color: #2E2B77;
   }
+
+  &-dark {
+    background-color: #a6a19f;
+    border-color: #A6A19F;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: 14px 36px 13px 36px;
+
+    &:hover {
+      background-color: #fff;
+      color: #3e3a3b;
+    }
+
+    &:focus {
+      background-color: #F3F7F8;
+      border-color: #8681FC;
+      color: #2E2B77;
+    }
+  }
 }
