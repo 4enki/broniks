@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  $.ionTabs.setTab("types", "cremationtype");
+
   $.ionTabs("#prices", {
     type: "none",
   });
