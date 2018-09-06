@@ -1,0 +1,36 @@
+{#
+  погребение
+  оптимально
+#}
+
+<!-- begin .prices-list -->
+<div class="prices-list">
+
+  {% for i in burial_optimally %}
+  <!-- begin .price-item -->
+  <div class="price-item">
+    <!-- begin .price_photo -->
+    <div class="price_photo">
+      <!-- begin .price_photo-bg -->
+      <div class="price_photo-bg" style="background-image: url('');"></div>
+      <!-- end .price_photo-bg -->
+      <!-- begin .price_photo-cost -->
+      <div class="price_photo-cost">{{i.cost}}&thinsp;₽</div>
+      <!-- end .price_photo-cost -->
+    </div>
+    <!-- end .price_photo -->
+    <!-- begin .price_content -->
+    <div class="price_content">
+      <!-- begin .price_title -->
+      <div class="price_title">
+        <h4 class="h4">{{i.title}}</h4>
+      </div>
+      <!-- end .price_title -->
+    </div>
+    <!-- end .price_content -->
+  </div>
+  <!-- end .price-item -->
+  {% endfor %}
+
+</div>
+<!-- end .prices-list -->
