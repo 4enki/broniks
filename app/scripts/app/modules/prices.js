@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $('#prices-types').easytabs({
+  $('#prices-types').easytabs({
     tabActiveClass: 'is-active',
     tabs: '> .prices-tabs > ul > li'
   });
@@ -11,4 +11,3 @@ $(document).ready(function() {
   });
 
 });
-
