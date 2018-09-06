@@ -55,6 +55,9 @@
   }
 
   &__preloader {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
     height: 50px;
     background: url(../images/preloader-flat.gif) no-repeat 25px 50%;
   }

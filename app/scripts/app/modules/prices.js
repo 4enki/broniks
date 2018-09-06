@@ -4,15 +4,20 @@ $(document).ready(function() {
     type: "hash",
   });
 
-  $('input[name="cremationtype"]').click(function () {
+  let cremationtype = $('input[name="cremationtype"]');
+  let burialtype = $('input[name="burialtype"]');
+
+  cremationtype.click(function () {
     if ( $(this).prop('checked') ) {
       $.ionTabs.setTab("types", "cremationtype");
+      burialtype.prop('checked',false);
     }
   });
 
-  $('input[name="burialtype"]').click(function () {
+  burialtype.click(function () {
     if ( $(this).prop('checked') ) {
       $.ionTabs.setTab("types", "burialtype");
+      cremationtype.prop('checked',false);
     }
   });
 
