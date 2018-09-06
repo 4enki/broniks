@@ -1,18 +1,21 @@
-<div class="ionTabs" id="cremation" data-name="cremation_prices">
+<!-- begin .prices-types -->
+<div id="cremation" class="prices-types_item">
   <!-- begin .prices-tabs -->
   <div class="prices-tabs">
-
-    <ul class="ionTabs__head">
-      <li class="ionTabs__tab ionTabs__tab_state_active" data-target="cremation_budgetary">бюджетно</li>
-      <li class="ionTabs__tab" data-target="cremation_optimally">оптимально</li>
-      <li class="ionTabs__tab" data-target="cremation_luxuriously">роскошно</li>
+    <!-- begin .tabs-list -->
+    <ul class="tabs-list">
+      <li class="tabs-list_item"><a href="#cremation_budgetary" class="tabs-list_link">бюджетно</a></li>
+      <li class="tabs-list_item"><a href="#cremation_optimally" class="tabs-list_link">оптимально</a></li>
+      <li class="tabs-list_item"><a href="#cremation_luxuriously" class="tabs-list_link">роскошно</a></li>
     </ul>
-
+    <!-- end .tabs-list -->
   </div>
   <!-- end .prices-tabs -->
+  <!-- begin .prices-tabs_panel -->
+  <div class="prices-tabs_panel">
 
-  <div class="ionTabs__body">
-    <div class="ionTabs__item ionTabs__item_state_active" data-name="cremation_budgetary">
+    <!-- begin .prices-tabs_panel-item -->
+    <div id="burial_budgetary">
 
       <!-- begin .prices-total -->
       <div class="prices-total">
@@ -36,8 +39,10 @@
       {% include "./budgetary.html" %}
 
     </div>
+    <!-- end .prices-tabs_panel-item -->
 
-    <div class="ionTabs__item" data-name="cremation_optimally">
+    <!-- begin .prices-tabs_panel-item -->
+    <div id="burial_optimally">
 
       <!-- begin .prices-total -->
       <div class="prices-total">
@@ -61,8 +66,10 @@
       {% include "./optimally.html" %}
 
     </div>
+    <!-- end .prices-tabs_panel-item -->
 
-    <div class="ionTabs__item" data-name="cremation_luxuriously">
+    <!-- begin .prices-tabs_panel-item -->
+    <div id="burial_luxuriously">
 
       <!-- begin .prices-total -->
       <div class="prices-total">
@@ -84,8 +91,11 @@
       <!-- end .prices-total -->
 
       {% include "./luxuriously.html" %}
-    </div>
 
-    <div class="ionTabs__preloader"></div>
+    </div>
+    <!-- end .prices-tabs_panel-item -->
+
   </div>
+  <!-- end .prices-tabs_panel -->
 </div>
+<!-- end .prices-types -->
