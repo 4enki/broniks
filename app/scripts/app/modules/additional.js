@@ -5,7 +5,8 @@ $(document).ready(function(){
   owladditional.owlCarousel({
     items: 1,
     startPosition: 0,
-    nav: false
+    nav: false,
+    loop: true
   });
 
   $(".additional_nav-right").click(function(){
