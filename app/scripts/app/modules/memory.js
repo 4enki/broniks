@@ -7,8 +7,7 @@ $(document).ready(function(){
     slideSpeed: 1200,
     lazyLoad: true,
     navigation: false,
-    pagination: false,
-    loop: true
+    pagination: false
   });
   $(".memory_nav-right").click(function(){
     owl.trigger('next.owl.carousel');
