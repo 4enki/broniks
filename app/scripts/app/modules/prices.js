@@ -1,30 +1,56 @@
 $(document).ready(function() {
   var savedHash = location.hash || '#';
   var hashParts = savedHash.split('_');
-  var savedPanel;
 
+  var lock = false;
+  function subTabsSync(a,b,c) {
+      if (lock)
+        return;
+      var currentTab = c.attr('id');
+      if (currentTab.indexOf('burial') > -1)
+        var nextTab = currentTab.replace('burial', 'cremation');
+      else if (currentTab.indexOf('cremation') > -1)
+        var nextTab = currentTab.replace('cremation', 'burial');
+      var nextTabId = '#' +nextTab.split('_')[0] + '1';
+
+      if (!lock) {
+          lock = true;
+           $(nextTabId).easytabs('select', nextTab);
+          setTimeout(function() { lock = false; }, 5);
+      }
+  }
   var config = {
     updateHash: false,
     tabActiveClass: 'is-active',
     tabs: '.headline_tabs .switch-list > li'
   };
+  var subConfig = {
+      tabActiveClass: 'is-active',
+      tabs: '> .prices-tabs > ul > li',
+      updateHash: false,
+  };
+
+
   if (savedHash.length > 1)
     config.defaultTab = hashParts[0] + '-selector';
-  $('#prices-types').easytabs(config).bind('easytabs:before', function(a, b, c) {
-    if (c.attr('id').indexOf('_') > -1)
-      return;
-    savedPanel = location.hash;
-  }).bind('easytabs:after', function(a, b, c) {
-    if (c.attr('id').indexOf('_') > -1)
-      return;
-    var nextId = '#' + c.attr('id');
-    var next = nextId + '_' + savedPanel.split('_')[1];
-    $(nextId + '1').easytabs('select', next);
-    // console.log(savedPanel, '->' , next, a,b,c, this);
-    // history.pushState({}, next);
-  });
+  $('#prices-types').easytabs(config);
 
-  $('#burial1, #cremation1').easytabs({tabActiveClass: 'is-active', tabs: '> .prices-tabs > ul > li'});
+  if (savedHash.indexOf('burial') > -1) {
+      $('#burial1').easytabs(subConfig)
+      .bind('easytabs:before', subTabsSync);
+      subConfig.defaultTab = '#cremation_' + savedHash.split('_')[1] + '-selector';
+      $('#cremation1').easytabs(subConfig)
+      .bind('easytabs:before', subTabsSync);
+  }
+
+  else if (savedHash.indexOf('cremation') > -1) {
+      $('#cremation1').easytabs(subConfig)
+      .bind('easytabs:before', subTabsSync);
+      subConfig.defaultTab = '#burial_' + savedHash.split('_')[1] + '-selector';
+      $('#burial1').easytabs(subConfig)
+      .bind('easytabs:before', subTabsSync);
+
+  }
 
   $('#costs-list').easytabs({updateHash: false, tabActiveClass: 'is-active', tabs: '.headline_tabs .switch-list > li'});
 
