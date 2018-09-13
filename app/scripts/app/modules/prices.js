@@ -16,6 +16,7 @@ $(document).ready(function() {
       if (!lock) {
           lock = true;
            $(nextTabId).easytabs('select', nextTab);
+           $('.prices-tabs_panel.panel-container > div:not(.active)').hide();
           setTimeout(function() { lock = false; }, 5);
       }
   }
