@@ -31,8 +31,8 @@
         <!-- end .headline_tabs -->
         <div class="headline_tabs">
           <ul class="switch-list">
-            <li class="switch-list_item"><a href="#cremationtype" class="switch-list_link">кремация</a></li>
-            <li class="switch-list_item"><a href="#burialtype" class="switch-list_link">погребение</a></li>
+            <li id="cremation-selector" class="switch-list_item"><a href="#cremation" class="switch-list_link">кремация</a></li>
+            <li id="burial-selector" class="switch-list_item"><a href="#burial" class="switch-list_link">погребение</a></li>
           </ul>
         </div>
         <!-- end .headline_tabs -->
@@ -43,7 +43,7 @@
       <div class="prices-tabs_panel panel-container">
 
         <!-- begin .prices-tabs_panel-item -->
-        <div id="cremationtype">
+        <div id="cremation">
 
           {% include "./prices/cremation/index.html" %}
 
@@ -51,7 +51,7 @@
         <!-- end .prices-tabs_panel-item -->
 
         <!-- begin .prices-tabs_panel-item -->
-        <div id="burialtype">
+        <div id="burial">
 
           {% include "./prices/burial/index.html" %}
 
@@ -67,5 +67,3 @@
   <!-- end .content_wrap -->
 </div>
 <!-- end .content -->
-
-
