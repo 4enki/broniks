@@ -791,14 +791,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Басманный',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.780122, 37.68571
-            ]
+            coordinates: [55.780122, 37.68571]
           },
           options: {
             itemType: "mfc",
@@ -809,14 +809,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Южнопортовый',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.731262, 37.666036
-            ]
+            coordinates: [55.731262, 37.666036]
           },
           options: {
             itemType: "mfc",
@@ -827,14 +827,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Нагорный',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.679133, 37.630122
-            ]
+            coordinates: [55.679133, 37.630122]
           },
           options: {
             itemType: "mfc",
@@ -845,14 +845,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Нагатино-Садовники',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.679133, 37.630122
-            ]
+            coordinates: [55.679133, 37.630122]
           },
           options: {
             itemType: "mfc",
@@ -863,14 +863,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Царицыно',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.635701, 37.675011
-            ]
+            coordinates: [55.635701, 37.675011]
           },
           options: {
             itemType: "mfc",
@@ -881,14 +881,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Орехово-Борисово Южное',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.596493, 37.721588
-            ]
+            coordinates: [55.596493, 37.721588]
           },
           options: {
             itemType: "mfc",
@@ -899,14 +899,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Тёплый Стан',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.634466, 37.474363
-            ]
+            coordinates: [55.634466, 37.474363]
           },
           options: {
             itemType: "mfc",
@@ -917,14 +917,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Можайский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.726015, 37.422692
-            ]
+            coordinates: [55.726015, 37.422692]
           },
           options: {
             itemType: "mfc",
@@ -939,10 +939,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.995765, 37.215576
-            ]
+            coordinates: [55.995765, 37.215576]
           },
           options: {
             itemType: "mfc",
@@ -953,14 +950,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Гагаринский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.679417, 37.546111
-            ]
+            coordinates: [55.679417, 37.546111]
           },
           options: {
             itemType: "mfc",
@@ -971,14 +968,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Ивановское',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.883275247000185, 37.81536021679667
-            ]
+            coordinates: [55.883275247000185, 37.81536021679667]
           },
           options: {
             itemType: "mfc",
@@ -989,14 +986,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Солнцево',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.665898, 37.426177
-            ]
+            coordinates: [55.665898, 37.426177]
           },
           options: {
             itemType: "mfc",
@@ -1007,14 +1004,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Внуково',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.615136, 37.262181
-            ]
+            coordinates: [55.615136, 37.262181]
           },
           options: {
             itemType: "mfc",
@@ -1025,7 +1022,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Тимирязевский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2337,7 +2337,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Алабушевское кладбище',
-            iconCaption: 'Алабушевское кладбище '
+            iconCaption: 'Алабушевское кладбище ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2352,7 +2355,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Алексеевское кладбище',
-            iconCaption: 'Алексеевское кладбище'
+            iconCaption: 'Алексеевское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2367,7 +2373,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Алтуфьевское кладбище',
-            iconCaption: 'Алтуфьевское кладбище'
+            iconCaption: 'Алтуфьевское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2382,7 +2391,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Бабушкинское кладбище',
-            iconCaption: 'Бабушкинское кладбище'
+            iconCaption: 'Бабушкинское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2397,7 +2409,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Богородское кладбище',
-            iconCaption: 'Богородское кладбище'
+            iconCaption: 'Богородское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2412,7 +2427,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Борисовское кладбище',
-            iconCaption: 'Борисовское кладбище'
+            iconCaption: 'Борисовское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2427,7 +2445,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Бусиновское кладбище',
-            iconCaption: 'Бусиновское кладбище'
+            iconCaption: 'Бусиновское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2442,7 +2463,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Бутовское кладбище',
-            iconCaption: 'Бутовское кладбище'
+            iconCaption: 'Бутовское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2457,7 +2481,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Владыкинское кладбище',
-            iconCaption: 'Владыкинское кладбище '
+            iconCaption: 'Владыкинское кладбище ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2472,7 +2499,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Востряковское кладбище',
-            iconCaption: 'Востряковское кладбище'
+            iconCaption: 'Востряковское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2487,7 +2517,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Востряковское Южное (Еврейское) кладбище',
-            iconCaption: 'Востряковское Южное (Еврейское) кладбище'
+            iconCaption: 'Востряковское Южное (Еврейское) кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2502,7 +2535,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Головинское кладбище',
-            iconCaption: 'Головинское кладбище'
+            iconCaption: 'Головинское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2517,7 +2553,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Гольяновское кладбище',
-            iconCaption: 'Гольяновское кладбище '
+            iconCaption: 'Гольяновское кладбище ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2532,7 +2571,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Даниловское кладбище',
-            iconCaption: 'Даниловское кладбище'
+            iconCaption: 'Даниловское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2547,7 +2589,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Даниловское мусульманское кладбище',
-            iconCaption: 'Даниловское мусульманское кладбище'
+            iconCaption: 'Даниловское мусульманское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2562,7 +2607,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Долгопрудненское кладбище',
-            iconCaption: 'Долгопрудненское кладбище '
+            iconCaption: 'Долгопрудненское кладбище ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2577,7 +2625,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Домодедовское кладбище',
-            iconCaption: 'Домодедовское кладбище'
+            iconCaption: 'Домодедовское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2592,7 +2643,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Захарьинское кладбище',
-            iconCaption: 'Захарьинское кладбище'
+            iconCaption: 'Захарьинское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2607,7 +2661,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Ивановское кладбище',
-            iconCaption: 'Ивановское кладбище'
+            iconCaption: 'Ивановское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2622,7 +2679,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Измайловское кладбище',
-            iconCaption: 'Измайловское кладбище'
+            iconCaption: 'Измайловское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2637,7 +2697,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Калитниковское кладбище',
-            iconCaption: 'Калитниковское кладбище '
+            iconCaption: 'Калитниковское кладбище ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2652,7 +2715,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Капотнинское кладбище',
-            iconCaption: 'Капотнинское кладбище'
+            iconCaption: 'Капотнинское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2667,7 +2733,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Качаловское кладбище',
-            iconCaption: 'Качаловское кладбище'
+            iconCaption: 'Качаловское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2682,7 +2751,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Котляковское кладбище',
-            iconCaption: 'Котляковское кладбище'
+            iconCaption: 'Котляковское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2697,7 +2769,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Кузьминское (мусульманское) кладбище',
-            iconCaption: 'Кузьминское (мусульманское) кладбище'
+            iconCaption: 'Кузьминское (мусульманское) кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2712,7 +2787,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Кузьминское кладбище',
-            iconCaption: 'Кузьминское кладбище '
+            iconCaption: 'Кузьминское кладбище ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2727,7 +2805,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Кунцевское кладбище',
-            iconCaption: 'Кунцевское кладбище'
+            iconCaption: 'Кунцевское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2742,7 +2823,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Леоновское кладбище',
-            iconCaption: 'Леоновское кладбище'
+            iconCaption: 'Леоновское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2757,7 +2841,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Лианозовское кладбище',
-            iconCaption: 'Лианозовское кладбище'
+            iconCaption: 'Лианозовское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2772,7 +2859,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Люблинское кладбище',
-            iconCaption: 'Люблинское кладбище'
+            iconCaption: 'Люблинское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2787,7 +2877,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Медведковское кладбище',
-            iconCaption: 'Медведковское кладбище'
+            iconCaption: 'Медведковское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2802,7 +2895,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Митинское кладбище',
-            iconCaption: 'Митинское кладбище'
+            iconCaption: 'Митинское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
