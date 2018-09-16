@@ -6,113 +6,31 @@
   <link rel="shortcut icon" href="assets/images/i/favicon.ico" type="image/x-icon"/>
   <link rel="icon" href="assets/images/i/favicon.ico" type="image/x-icon"/>
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <style type="text/css">
-    table a:link {
-      color: #666;
-      font-weight: bold;
-      text-decoration:none;
+    .table .thead-dark th {
+      background-color: #2E2B77;
+      border-color: #2E2B77;
     }
-    table a:visited {
-      color: #999999;
-      font-weight:bold;
-      text-decoration:none;
-    }
-    table a:active,
-    table a:hover {
-      color: #bd5a35;
-      text-decoration:underline;
-    }
-    table {
-      font-family: 'PT Sans', sans-serif;
-      color:#666;
-      font-size:14px;
-      text-shadow: 1px 1px 0px #fff;
-      background:#eaebec;
-      border:#ccc 1px solid;
-      -moz-border-radius:3px;
-      -webkit-border-radius:3px;
-      border-radius:3px;
-      -moz-box-shadow: 0 1px 2px #d1d1d1;
-      -webkit-box-shadow: 0 1px 2px #d1d1d1;
-      box-shadow: 0 1px 2px #d1d1d1;
-    }
-    table th {
-      padding:21px 25px 22px 25px;
-      border-top:1px solid #fafafa;
-      border-bottom:1px solid #e0e0e0;
-      background: #ededed;
-      background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
-      background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
-    }
-    table th:first-child {
-      text-align: left;
-      padding-left:20px;
-    }
-    table tr:first-child th:first-child {
-      -moz-border-radius-topleft:3px;
-      -webkit-border-top-left-radius:3px;
-      border-top-left-radius:3px;
-    }
-    table tr:first-child th:last-child {
-      -moz-border-radius-topright:3px;
-      -webkit-border-top-right-radius:3px;
-      border-top-right-radius:3px;
-    }
-    table tr {
+    .is-empty td {
       text-align: center;
-      padding-left:20px;
-    }
-    table td:first-child {
-      text-align: left;
-      padding-left:20px;
-      border-left: 0;
-    }
-    table td {
-      padding:18px;
-      border-top: 1px solid #ffffff;
-      border-bottom:1px solid #e0e0e0;
-      border-left: 1px solid #e0e0e0;
-      background: #fafafa;
-      background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
-      background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
-    }
-    table tr.even td {
-      background: #f6f6f6;
-      background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
-      background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
-    }
-    table tr:last-child td {
-      border-bottom:0;
-    }
-    table tr:last-child td:first-child {
-      -moz-border-radius-bottomleft:3px;
-      -webkit-border-bottom-left-radius:3px;
-      border-bottom-left-radius:3px;
-    }
-    table tr:last-child td:last-child {
-      -moz-border-radius-bottomright:3px;
-      -webkit-border-bottom-right-radius:3px;
-      border-bottom-right-radius:3px;
-    }
-    table tr:hover td {
-      background: #f2f2f2;
-      background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
-      background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);
-    }
-    .nofile {
-      color: #e50000;
-      font-size: 16px;
-      text-align: center !important;
+      color: #ffffff;
     }
   </style>
   </head>
   <body>
-    <table cellspacing="0" border="0" width="100%">
-      <thead>
+
+  <div class="container-fluid">
+
+    <table cellspacing="0" border="0" width="100%" class="table table-bordered table-hover">
+      <thead class="thead-dark">
         <tr>
-          <th>Дата</th>
-          <th>Представились</th>
-          <th>Телефонный номер</th>
+          <th scope="col">Дата</th>
+          <th scope="col">Представились</th>
+          <th scope="col">Телефонный номер</th>
         </tr>
       </thead>
       <tbody>
@@ -121,10 +39,44 @@
           if (file_exists($fileorder)) {
             include("_dataforms.txt");
           } else {
-            echo '<tr><td colspan="9" class="nofile"><strong>Заявок, увы, пока нет :—(</strong></td></tr>';
+            echo '<tr class="bg-danger is-empty"><td colspan="9">Заявок, увы, пока нет :—(</td></tr>';
           }
         ?>
+
+      <tr>
+        <td>01:38:50 07 Sep 2018</td>
+        <td>Ваня</td>
+        <td>+7999999999999</td>
+      </tr>
+
+      <tr>
+        <td>01:40:32 07 Sep 2018</td>
+        <td>NAme</td>
+        <td>tel number</td>
+      </tr>
+
+      <tr>
+        <td>12:59:54 07 Sep 2018</td>
+        <td>123</td>
+        <td>123123</td>
+      </tr>
+
+      <tr>
+        <td>14:00:51 10 Sep 2018</td>
+        <td>толя</td>
+        <td>76326482716</td>
+      </tr>
+
+      <tr>
+        <td>18:15:20 12 Sep 2018</td>
+        <td>Екатерина</td>
+        <td>+79853646383</td>
+      </tr>
+
       </tbody>
     </table>
+
+    <!-- Content here -->
+  </div>
   </body>
 </html>
