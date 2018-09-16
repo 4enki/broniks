@@ -3695,18 +3695,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Нового Донского кладбища: Россия, Москва, Донская площадь, 1',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Нового Донского кладбища',
+            iconCaption: 'Открытый колумбарий Нового Донского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Нового Донского кладбища',
+            balloonContentBody: 'Москва, Донская площадь, 1',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 954-12-89">8 (495) 954-12-89</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.600046,
-              55.714257
-            ]
+            coordinates: [55.714257, 37.600046]
           },
           options: {
             itemType: 'columbarium',
@@ -3716,18 +3713,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Кузьминского кладбища: Россия, Москва, улица Академика Скрябина, 19',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Кузьминского кладбища',
+            iconCaption: 'Открытый колумбарий Кузьминского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Кузьминского кладбища',
+            balloonContentBody: 'Москва, улица Академика Скрябина, 19',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-25">8 (495) 181-97-25</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.797595,
-              55.705742
-            ]
+            coordinates: [55.704191114812, 37.799139952392]
           },
           options: {
             itemType: 'columbarium',
@@ -3737,18 +3731,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Люблинского кладбища: Россия, Москва, Ставропольская улица, вл74А',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Люблинского кладбища',
+            iconCaption: 'Открытый колумбарий Люблинского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Люблинского кладбища',
+            balloonContentBody: 'Москва, Ставропольская улица, вл74А',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-25">8 (495) 181-97-25</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.781829,
-              55.681021
-            ]
+            coordinates: [55.680037, 37.786635]
           },
           options: {
             itemType: 'columbarium',
