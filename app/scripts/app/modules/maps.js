@@ -43,11 +43,27 @@ function init(){
       let byType = new ymaps.GeoQueryResult();
 
 
+
+      if ($('#mfc').prop('checked')) {
+        byType = myObjects.search('options.itemType = "mfc"')
+          .add(byType);
+      }
+      if ($('#uszn').prop('checked')) {
+        byType = myObjects.search('options.itemType = "uszn"');
+      }
       if ($('#cemetery').prop('checked')) {
         byType = myObjects.search('options.itemType = "cemetery"');
       }
-      if ($('#mfc').prop('checked')) {
-        byType = myObjects.search('options.itemType = "mfc"')
+      if ($('#crematorium').prop('checked')) {
+        byType = myObjects.search('options.itemType = "crematorium"')
+          .add(byType);
+      }
+      if ($('#columbarium').prop('checked')) {
+        byType = myObjects.search('options.itemType = "columbarium"')
+          .add(byType);
+      }
+      if ($('#morgue').prop('checked')) {
+        byType = myObjects.search('options.itemType = "morgue"')
           .add(byType);
       }
 
@@ -56,7 +72,11 @@ function init(){
     }
 
     $('#mfc').click(checkState);
+    $('#uszn').click(checkState);
     $('#cemetery').click(checkState);
+    $('#crematorium').click(checkState);
+    $('#columbarium').click(checkState);
+    $('#morgue').click(checkState);
 
     // Создадим объекты из их JSON-описания и добавим их на карту.
     window.myObjects = ymaps.geoQuery({
