@@ -1318,8 +1318,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.166367,
-              55.970766
+
+              55.970766, 37.166367
             ]
           },
           options: {
@@ -1339,8 +1339,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.682592,
-              55.746405
+
+              55.746405, 37.682592
             ]
           },
           options: {
@@ -1357,8 +1357,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.866055,
-              55.816788
+
+              55.816788, 37.866055
             ]
           },
           options: {
@@ -1378,8 +1378,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.784875,
-              55.715586
+
+              55.715586, 37.784875
             ]
           },
           options: {
@@ -1399,8 +1399,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.547683,
-              55.913243
+
+              55.913243, 37.547683
             ]
           },
           options: {
@@ -1420,8 +1420,7 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.854359,
-              55.711113
+              55.711113, 37.854359
             ]
           },
           options: {
@@ -1441,8 +1440,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.422692,
-              55.726015
+
+              55.726015, 37.422692
             ]
           },
           options: {
@@ -1462,8 +1461,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.473914,
-              55.774968
+
+              55.774968, 37.473914
             ]
           },
           options: {
@@ -1483,8 +1482,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.7456,
-              55.713258
+
+              55.713258, 37.7456
             ]
           },
           options: {
