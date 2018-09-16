@@ -3763,25 +3763,23 @@ function init(){
           }
         },
         /* end columbarium */
-        /* begin */
+        /* begin crematorium */
         {
           type: 'Feature',
-          id: '88244206',
           properties: {
             name: 'Митинский крематорий',
-            description: ''
+            iconCaption: 'Митинский крематорий',
+            balloonContentHeader: 'Митинский крематорий',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.344901121703984,
-              55.87147425798398
-            ]
+            coordinates: [55.87147425798398, 37.344901121703984]
           },
           options: {
-            zIndex: 800000000,
-            order: 800000000,
-            preset: 'islands#blueIcon'
+            itemType: 'cemetery',
+            preset: 'islands#darkBlueIcon'
           }
         },
         {
@@ -3789,19 +3787,18 @@ function init(){
           id: '88244210',
           properties: {
             name: 'Хованский крематорий',
-            description: ''
+            iconCaption: 'Хованский крематорий',
+            balloonContentHeader: 'Хованский крематорий',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.4530456771222,
-              55.61282112936598
-            ]
+            coordinates: [55.61282112936598, 37.4530456771222]
           },
           options: {
-            zIndex: 800000001,
-            order: 800000001,
-            preset: 'islands#blueIcon'
+            itemType: 'cemetery',
+            preset: 'islands#darkBlueIcon'
           }
         },
         {
@@ -3809,22 +3806,21 @@ function init(){
           id: '88244217',
           properties: {
             name: 'Николо-Архангельский крематорий',
-            description: ''
+            iconCaption: 'Николо-Архангельский крематорий',
+            balloonContentHeader: 'Николо-Архангельский крематорий',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.891118,
-              55.741009
-            ]
+            coordinates: [55.741009, 37.891118]
           },
           options: {
-            zIndex: 800000002,
-            order: 800000002,
-            preset: 'islands#blueIcon'
+            itemType: 'cemetery',
+            preset: 'islands#darkBlueIcon'
           }
         }
-        /* end */
+        /* end crematorium */
       ]
     });
 
