@@ -37,19 +37,15 @@ $(document).ready(function() {
   $('#prices-types').easytabs(config);
 
   if (savedHash.indexOf('burial') > -1) {
-      $('#burial1').easytabs(subConfig)
-      .bind('easytabs:before', subTabsSync);
+      $('#burial1').easytabs(subConfig);
       subConfig.defaultTab = '#cremation_' + savedHash.split('_')[1] + '-selector';
-      $('#cremation1').easytabs(subConfig)
-      .bind('easytabs:before', subTabsSync);
+      $('#cremation1').easytabs(subConfig);
   } else if (savedHash.indexOf('cremation') > -1) {
-      $('#cremation1').easytabs(subConfig)
-      .bind('easytabs:before', subTabsSync);
+      $('#cremation1').easytabs(subConfig);
       subConfig.defaultTab = '#burial_' + savedHash.split('_')[1] + '-selector';
-      $('#burial1').easytabs(subConfig)
-      .bind('easytabs:before', subTabsSync);
-
+      $('#burial1').easytabs(subConfig);
   } else $('#burial1, #cremation1').easytabs(subConfig);
+  $('#burial1, #cremation1').bind('easytabs:before', subTabsSync);
 
   $('#costs-list').easytabs({
 	  updateHash: false,
