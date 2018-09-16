@@ -2332,7 +2332,8 @@ function init(){
             preset: "islands#redIcon"
           }
         },
-        /* cemetery */
+        /* end mfc */
+        /* begin cemetery */
         {
           type: 'Feature',
           properties: {
@@ -2913,7 +2914,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Миусское кладбище',
-            iconCaption: 'Миусское кладбище'
+            iconCaption: 'Миусское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2928,7 +2932,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Николо-Архангельское кладбище',
-            iconCaption: 'Николо-Архангельское кладбище '
+            iconCaption: 'Николо-Архангельское кладбище ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2943,7 +2950,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Николо-Хованское кладбище',
-            iconCaption: 'Николо-Хованское кладбище'
+            iconCaption: 'Николо-Хованское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2958,7 +2968,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Ореховское кладбище',
-            iconCaption: 'Ореховское кладбище'
+            iconCaption: 'Ореховское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2973,7 +2986,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Орловское кладбище',
-            iconCaption: 'Орловское кладбище'
+            iconCaption: 'Орловское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2988,7 +3004,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Останкинское кладбище',
-            iconCaption: 'Останкинское кладбище'
+            iconCaption: 'Останкинское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3003,7 +3022,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Перепечинское кладбище',
-            iconCaption: 'Перепечинское кладбище'
+            iconCaption: 'Перепечинское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3018,7 +3040,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Перловское кладбище',
-            iconCaption: 'Перловское кладбище'
+            iconCaption: 'Перловское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3033,7 +3058,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Перовское кладбище',
-            iconCaption: 'Перовское кладбище'
+            iconCaption: 'Перовское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3048,7 +3076,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Покровское кладбище',
-            iconCaption: 'Покровское кладбище'
+            iconCaption: 'Покровское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3063,7 +3094,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Преображенское кладбище',
-            iconCaption: 'Преображенское кладбище '
+            iconCaption: 'Преображенское кладбище ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3078,7 +3112,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Пыхтинское кладбище',
-            iconCaption: 'Пыхтинское кладбище'
+            iconCaption: 'Пыхтинское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3093,7 +3130,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Пятницкое кладбище',
-            iconCaption: 'Пятницкое кладбище'
+            iconCaption: 'Пятницкое кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3108,7 +3148,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Раевское кладбище',
-            iconCaption: 'Раевское кладбище'
+            iconCaption: 'Раевское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3123,7 +3166,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Рогожское кладбище',
-            iconCaption: 'Рогожское кладбище'
+            iconCaption: 'Рогожское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3138,7 +3184,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Рождественское кладбище',
-            iconCaption: 'Рождественское кладбище '
+            iconCaption: 'Рождественское кладбище ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3153,7 +3202,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Рублевское кладбище',
-            iconCaption: 'Рублевское кладбище'
+            iconCaption: 'Рублевское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3168,7 +3220,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Старо-Марковское кладбище',
-            iconCaption: 'Старо-Марковское кладбище'
+            iconCaption: 'Старо-Марковское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3183,7 +3238,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Старо-Покровское кладбище',
-            iconCaption: 'Старо-Покровское кладбище'
+            iconCaption: 'Старо-Покровское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3198,7 +3256,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Троекуровское кладбище',
-            iconCaption: 'Троекуровское кладбище '
+            iconCaption: 'Троекуровское кладбище ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3213,7 +3274,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Троице-Лыковское кладбище',
-            iconCaption: 'Троице-Лыковское кладбище '
+            iconCaption: 'Троице-Лыковское кладбище ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3228,7 +3292,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Химкинское кладбище',
-            iconCaption: 'Химкинское кладбище '
+            iconCaption: 'Химкинское кладбище ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3243,7 +3310,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Хованское кладбище',
-            iconCaption: 'Хованское кладбище'
+            iconCaption: 'Хованское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3258,7 +3328,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Черкизовское кладбище',
-            iconCaption: 'Черкизовское кладбище '
+            iconCaption: 'Черкизовское кладбище ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3273,7 +3346,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Щербинское кладбище',
-            iconCaption: 'Щербинское кладбище'
+            iconCaption: 'Щербинское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3288,7 +3364,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Ясеневское кладбище',
-            iconCaption: 'Ясеневское кладбище'
+            iconCaption: 'Ясеневское кладбище',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3298,7 +3377,410 @@ function init(){
             itemType: 'cemetery',
             preset: 'islands#blueIcon'
           }
+        },
+        /* end cemetery */
+        /* begin columbarium */
+        {
+          type: 'Feature',
+          properties: {
+            name: 'Открытый колумбарий Калитниковского кладбища: Россия, Москва, Большой Калитниковский проезд, 11',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.68915,
+              55.733371
+            ]
+          },
+          options: {
+            itemType: 'columbarium',
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787892',
+          properties: {
+            name: 'Открытый колумбарий Новодевичьего кладбища: Россия, Москва, Лужнецкий проезд, 2',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.556047,
+              55.724013
+            ]
+          },
+          options: {
+            itemType: 'columbarium',
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787900',
+          properties: {
+            name: 'Открытый колумбарий Бусиновского кладбища: Россия, Москва, Краснополянская улица, 18',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.495671,
+              55.887872
+            ]
+          },
+          options: {
+            zIndex: 800000002,
+            order: 800000002,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787906',
+          properties: {
+            name: 'Открытый колумбарий Кунцевского кладбища: Россия, Москва, Рябиновая улица, 1',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.425081,
+              55.70736
+            ]
+          },
+          options: {
+            zIndex: 800000003,
+            order: 800000003,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787913',
+          properties: {
+            name: 'Открытый колумбарий Ваганьковского кладбища: Россия, Москва, улица Сергея Макеева, 15',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.553621,
+              55.768461
+            ]
+          },
+          options: {
+            zIndex: 800000004,
+            order: 800000004,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787919',
+          properties: {
+            name: 'Открытый колумбарий Митинского кладбища: Россия, Москва, Пятницкое шоссе, Пятницкое шоссе, 6-й километр',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.343442,
+              55.865152
+            ]
+          },
+          options: {
+            zIndex: 800000005,
+            order: 800000005,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787923',
+          properties: {
+            name: 'Открытый колумбарий Введенского кладбища: Россия, Москва, Наличная улица, вл1',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.707808,
+              55.765741
+            ]
+          },
+          options: {
+            zIndex: 800000006,
+            order: 800000006,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787928',
+          properties: {
+            name: 'Открытый колумбарий Гольяновского кладбища: Россия, Москва, Курганская улица, 11',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.812228,
+              55.830407
+            ]
+          },
+          options: {
+            zIndex: 800000007,
+            order: 800000007,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787936',
+          properties: {
+            name: 'Открытый колумбарий Николо-Архангельского кладбища: Россия, Московская область, Балашиха, микрорайон Салтыковка, Носовихинское шоссе, 16',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.888819,
+              55.751275
+            ]
+          },
+          options: {
+            zIndex: 800000008,
+            order: 800000008,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787941',
+          properties: {
+            name: 'Открытый колумбарий Перовского кладбища: Россия, Москва, Кетчерская улица, 20',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.838639,
+              55.742762
+            ]
+          },
+          options: {
+            zIndex: 800000009,
+            order: 800000009,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787949',
+          properties: {
+            name: 'Открытый колумбарий Преображенского кладбища: Россия, Москва, улица Преображенский Вал, 17А',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.71972,
+              55.792022
+            ]
+          },
+          options: {
+            zIndex: 800000010,
+            order: 800000010,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787956',
+          properties: {
+            name: 'Открытый колумбарий Владыкинского кладбища: Россия, Москва, Станционная улица, 8',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.592698,
+              55.847048
+            ]
+          },
+          options: {
+            zIndex: 800000011,
+            order: 800000011,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787963',
+          properties: {
+            name: 'Открытый колумбарий Останкинского кладбища: Россия, Москва, Прудовая улица, 11',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.418362,
+              55.6776
+            ]
+          },
+          options: {
+            zIndex: 800000012,
+            order: 800000012,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787970',
+          properties: {
+            name: 'Открытый колумбарий Даниловского кладбища: Россия, Москва, 4-й Рощинский проезд, 30',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.60894,
+              55.703697
+            ]
+          },
+          options: {
+            zIndex: 800000013,
+            order: 800000013,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787977',
+          properties: {
+            name: 'Открытый колумбарий Нового Донского кладбища: Россия, Москва, Донская площадь, 1',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.600046,
+              55.714257
+            ]
+          },
+          options: {
+            zIndex: 800000014,
+            order: 800000014,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787984',
+          properties: {
+            name: 'Открытый колумбарий Кузьминского кладбища: Россия, Москва, улица Академика Скрябина, 19',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.797595,
+              55.705742
+            ]
+          },
+          options: {
+            zIndex: 800000015,
+            order: 800000015,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787991',
+          properties: {
+            name: 'Открытый колумбарий Люблинского кладбища: Россия, Москва, Ставропольская улица, вл74А',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.781829,
+              55.681021
+            ]
+          },
+          options: {
+            zIndex: 800000016,
+            order: 800000016,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88787999',
+          properties: {
+            name: 'Открытый колумбарий Рогожского кладбища: Россия, Москва, Старообрядческая улица, 31А',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.701412,
+              55.740705
+            ]
+          },
+          options: {
+            zIndex: 800000017,
+            order: 800000017,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88788007',
+          properties: {
+            name: 'Открытый колумбарий Ясеневского кладбища: Россия, Москва, Новоясеневский проспект, 46',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.554582,
+              55.598919
+            ]
+          },
+          options: {
+            zIndex: 800000018,
+            order: 800000018,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88788017',
+          properties: {
+            name: 'Открытый колумбарий Зеленоградского кладбища: Россия, Москва, Зеленоград, 4921-й проезд, 3с1',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.259172,
+              55.984315
+            ]
+          },
+          options: {
+            zIndex: 800000019,
+            order: 800000019,
+            preset: 'islands#blueIcon'
+          }
         }
+        /* end columbarium */
       ]
     });
 
