@@ -3202,7 +3202,9 @@ function init(){
           }
         }
       ]
-    }).addToMap(myMapSrav);
+    });
+
+    myObjects.search('options.itemType = "mfc"').addToMap(myMapSrav);;
 
     myMapSrav.controls.add('zoomControl');
     myMapSrav.controls.remove('typeSelector');
