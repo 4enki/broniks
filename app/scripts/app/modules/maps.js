@@ -3778,7 +3778,7 @@ function init(){
             coordinates: [55.87147425798398, 37.344901121703984]
           },
           options: {
-            itemType: 'cemetery',
+            itemType: 'crematorium',
             preset: 'islands#darkBlueIcon'
           }
         },
@@ -3797,7 +3797,7 @@ function init(){
             coordinates: [55.61282112936598, 37.4530456771222]
           },
           options: {
-            itemType: 'cemetery',
+            itemType: 'crematorium',
             preset: 'islands#darkBlueIcon'
           }
         },
@@ -3816,7 +3816,7 @@ function init(){
             coordinates: [55.741009, 37.891118]
           },
           options: {
-            itemType: 'cemetery',
+            itemType: 'crematorium',
             preset: 'islands#darkBlueIcon'
           }
         }
