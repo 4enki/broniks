@@ -3405,18 +3405,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Калитниковского кладбища: Россия, Москва, Большой Калитниковский проезд, 11',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Калитниковского кладбища',
+            iconCaption: 'Открытый колумбарий Калитниковского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Калитниковского кладбища',
+            balloonContentBody: 'Москва, Большой Калитниковский проезд, 11',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.68915,
-              55.733371
-            ]
+            coordinates: [55.732028, 37.691046]
           },
           options: {
             itemType: 'columbarium',
@@ -3426,18 +3423,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Новодевичьего кладбища: Россия, Москва, Лужнецкий проезд, 2',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Новодевичьего кладбища',
+            iconCaption: 'Открытый колумбарий Новодевичьего кладбища',
+            balloonContentHeader: 'Открытый колумбарий Новодевичьего кладбища',
+            balloonContentBody: 'Москва, Лужнецкий проезд, 2',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (499) 246-66-14">8 (499) 246-66-14</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.556047,
-              55.724013
-            ]
+            coordinates: [55.724758, 37.554268]
           },
           options: {
             itemType: 'columbarium',
@@ -3447,40 +3441,33 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Бусиновского кладбища: Россия, Москва, Краснополянская улица, 18',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Бусиновского кладбища',
+            iconCaption: 'Открытый колумбарий Бусиновского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Бусиновского кладбища',
+            balloonContentBody: 'Москва, Краснополянская улица, 18',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.495671,
-              55.887872
-            ]
+            coordinates: [55.888282013137, 37.495928492065]
           },
           options: {
-            zIndex: 800000002,
-            order: 800000002,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Кунцевского кладбища: Россия, Москва, Рябиновая улица, 1',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Кунцевского кладбища',
+            iconCaption: 'Открытый колумбарий Кунцевского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Кунцевского кладбища',
+            balloonContentBody: 'Москва, Рябиновая улица, 1',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.425081,
-              55.70736
-            ]
+            coordinates: [55.707243, 37.420033]
           },
           options: {
             itemType: 'columbarium',
@@ -3774,8 +3761,70 @@ function init(){
             itemType: 'columbarium',
             preset: 'islands#orangeIcon'
           }
-        }
+        },
         /* end columbarium */
+        /* begin */
+        {
+          type: 'Feature',
+          id: '88244206',
+          properties: {
+            name: 'Митинский крематорий',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.344901121703984,
+              55.87147425798398
+            ]
+          },
+          options: {
+            zIndex: 800000000,
+            order: 800000000,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88244210',
+          properties: {
+            name: 'Хованский крематорий',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.4530456771222,
+              55.61282112936598
+            ]
+          },
+          options: {
+            zIndex: 800000001,
+            order: 800000001,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '88244217',
+          properties: {
+            name: 'Николо-Архангельский крематорий',
+            description: ''
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              37.891118,
+              55.741009
+            ]
+          },
+          options: {
+            zIndex: 800000002,
+            order: 800000002,
+            preset: 'islands#blueIcon'
+          }
+        }
+        /* end */
       ]
     });
 
