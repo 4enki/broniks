@@ -1,20 +1,21 @@
 $(document).ready(function() {
-  var savedHash = location.hash || '#';
+  var savedHash = location.hash;
   var hashParts = savedHash.split('_');
 
   var lock = false;
   function subTabsSync(a,b,c) {
       if (lock)
         return;
+
       var currentTab = c.attr('id');
       if (currentTab.indexOf('burial') > -1)
         var nextTab = currentTab.replace('burial', 'cremation');
       else if (currentTab.indexOf('cremation') > -1)
         var nextTab = currentTab.replace('cremation', 'burial');
       var nextTabId = '#' +nextTab.split('_')[0] + '1';
-
       if (!lock) {
           lock = true;
+          console.log('switching', currentTab, nextTab);
            $(nextTabId).easytabs('select', nextTab);
            $('.prices-tabs_panel.panel-container > div:not(.active)').hide();
           setTimeout(function() { lock = false; }, 5);
@@ -28,7 +29,7 @@ $(document).ready(function() {
   var subConfig = {
       tabActiveClass: 'is-active',
       tabs: '> .prices-tabs > ul > li',
-      updateHash: false,
+      // updateHash: false,
   };
 
 
@@ -42,18 +43,20 @@ $(document).ready(function() {
       subConfig.defaultTab = '#cremation_' + savedHash.split('_')[1] + '-selector';
       $('#cremation1').easytabs(subConfig)
       .bind('easytabs:before', subTabsSync);
-  }
-
-  else if (savedHash.indexOf('cremation') > -1) {
+  } else if (savedHash.indexOf('cremation') > -1) {
       $('#cremation1').easytabs(subConfig)
       .bind('easytabs:before', subTabsSync);
       subConfig.defaultTab = '#burial_' + savedHash.split('_')[1] + '-selector';
       $('#burial1').easytabs(subConfig)
       .bind('easytabs:before', subTabsSync);
 
-  }
+  } else $('#burial1, #cremation1').easytabs(subConfig);
 
-  $('#costs-list').easytabs({updateHash: false, tabActiveClass: 'is-active', tabs: '.headline_tabs .switch-list > li'});
+  $('#costs-list').easytabs({
+	  updateHash: false,
+	  tabActiveClass: 'is-active',
+	  tabs: '.headline_tabs .switch-list > li'
+  });
 
   $('html, body').stop().animate({
     scrollTop: $('#prices-types').offset().top - 143
