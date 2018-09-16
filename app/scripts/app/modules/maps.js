@@ -70,7 +70,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -88,7 +88,7 @@ function init(){
             iconCaption: 'Многофункциональный центр р-на Сокол',
             balloonContentHeader: 'Многофункциональный центр р-на Сокол',
             balloonContentBody: 'Чапаевский пер., дом 16',
-            balloonContentFooter: 'Телефон: <a href="tel:+74957777777">+7 (495) 777-77-77</a>',
+            balloonContentFooter: 'Телефон: <a href="tel:+74957777777">+7 (495) 777-77-77</a>'
           },
           geometry: {
             type: 'Point',
@@ -106,8 +106,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -125,8 +124,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -144,8 +142,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -163,8 +160,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -182,8 +178,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -201,8 +196,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -220,8 +214,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -239,8 +232,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -258,8 +250,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -277,8 +268,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -296,8 +286,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -315,8 +304,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -334,8 +322,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -356,8 +343,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -378,8 +364,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -400,8 +385,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -423,8 +407,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -445,8 +428,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -467,8 +449,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -489,8 +470,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -508,8 +488,7 @@ function init(){
             iconCaption: '',
             balloonContentHeader: '',
             balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
-            description: ''
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -524,7 +503,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Филёвский Парк',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -539,7 +521,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Новогиреево',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -554,7 +539,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Крылатское',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -569,7 +557,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Бирюлёво Западное',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -584,7 +575,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Северное Тушино',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -599,7 +593,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Бирюлёво Восточное',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -614,7 +611,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Чертаново Центральное',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -627,35 +627,16 @@ function init(){
         },
         {
           type: 'Feature',
-          id: '88485448',
-          properties: {
-            name: 'Россия, Москва, 2-й квартал Капотни, 22',
-            description: ''
-          },
-          geometry: {
-            type: 'Point',
-            coordinates: [
-
-              55.638257, 37.800865
-            ]
-          },
-          options: {
-            itemType: "mfc",
-            preset: "islands#redIcon"
-          }
-        },
-        {
-          type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Капотня',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.638257, 37.800865
-            ]
+            coordinates: [55.638257, 37.800865]
           },
           options: {
             itemType: "mfc",
@@ -666,14 +647,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Восточное Измайлово',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.789036, 37.809228
-            ]
+            coordinates: [55.789036, 37.809228]
           },
           options: {
             itemType: "mfc",
@@ -684,14 +665,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Северное Медведково',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.888952, 37.639779
-            ]
+            coordinates: [55.888952, 37.639779]
           },
           options: {
             itemType: "mfc",
@@ -702,14 +683,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Москворечье-Сабурово',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.634105, 37.65699
-            ]
+            coordinates: [55.634105, 37.65699]
           },
           options: {
             itemType: "mfc",
@@ -720,14 +701,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Бутырский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.828632, 37.580418
-            ]
+            coordinates: [55.828632, 37.580418]
           },
           options: {
             itemType: "mfc",
@@ -738,14 +719,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Матушкино',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              56.003457, 37.208066
-            ]
+            coordinates: [56.003457, 37.208066]
           },
           options: {
             itemType: "mfc",
@@ -756,14 +737,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Щукино',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.807602, 37.464994
-            ]
+            coordinates: [55.807602, 37.464994]
           },
           options: {
             itemType: "mfc",
@@ -774,14 +755,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Ростокино',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.831479, 37.660377
-            ]
+            coordinates: [55.831479, 37.660377]
           },
           options: {
             itemType: "mfc",
@@ -792,14 +773,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Замоскворечье',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.735505, 37.635593
-            ]
+            coordinates: [55.735505, 37.635593]
           },
           options: {
             itemType: "mfc",
