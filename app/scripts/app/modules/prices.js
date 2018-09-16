@@ -15,7 +15,6 @@ $(document).ready(function() {
       var nextTabId = '#' +nextTab.split('_')[0] + '1';
       if (!lock) {
           lock = true;
-          console.log('switching', currentTab, nextTab);
            $(nextTabId).easytabs('select', nextTab);
            $('.prices-tabs_panel.panel-container > div:not(.active)').hide();
           setTimeout(function() { lock = false; }, 5);
@@ -29,7 +28,7 @@ $(document).ready(function() {
   var subConfig = {
       tabActiveClass: 'is-active',
       tabs: '> .prices-tabs > ul > li',
-      // updateHash: false,
+      updateHash: false,
   };
 
 
