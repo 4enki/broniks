@@ -3490,18 +3490,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Ваганьковского кладбища: Россия, Москва, улица Сергея Макеева, 15',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Ваганьковского кладбища',
+            iconCaption: 'Открытый колумбарий Ваганьковского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Ваганьковского кладбища',
+            balloonContentBody: 'Москва, улица Сергея Макеева, 15',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.553621,
-              55.768461
-            ]
+            coordinates: [55.768309, 37.548914]
           },
           options: {
             itemType: 'columbarium',
@@ -3511,18 +3508,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Митинского кладбища: Россия, Москва, Пятницкое шоссе, Пятницкое шоссе, 6-й километр',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Митинского кладбища',
+            iconCaption: 'Открытый колумбарий Митинского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Митинского кладбища',
+            balloonContentBody: 'Москва, Пятницкое шоссе, Пятницкое шоссе, 6-й километр',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.343442,
-              55.865152
-            ]
+            coordinates: [55.877218395712, 37.346603714355]
           },
           options: {
             itemType: 'columbarium',
@@ -3532,15 +3526,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Введенского кладбища: Россия, Москва, Наличная улица, вл1',
-            description: ''
+            name: 'Открытый колумбарий Введенского кладбища',
+            iconCaption: 'Открытый колумбарий Введенского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Введенского кладбища',
+            balloonContentBody: 'Москва, Наличная улица, вл1',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.707808,
-              55.765741
-            ]
+            coordinates: [55.768861, 37.707611]
           },
           options: {
             itemType: 'columbarium',
@@ -3550,18 +3544,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Гольяновского кладбища: Россия, Москва, Курганская улица, 11',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Гольяновского кладбища',
+            iconCaption: 'Открытый колумбарий Гольяновского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Гольяновского кладбища',
+            balloonContentBody: 'Москва, Курганская улица, 11',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.812228,
-              55.830407
-            ]
+            coordinates: [55.830978, 37.813046]
           },
           options: {
             itemType: 'columbarium',
@@ -3571,18 +3562,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Николо-Архангельского кладбища: Россия, Московская область, Балашиха, микрорайон Салтыковка, Носовихинское шоссе, 16',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Николо-Архангельского кладбища',
+            iconCaption: 'Открытый колумбарий Николо-Архангельского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Николо-Архангельского кладбища',
+            balloonContentBody: 'Московская область, Балашиха, микрорайон Салтыковка, Носовихинское шоссе, 16',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.888819,
-              55.751275
-            ]
+            coordinates: [55.737428855703, 37.899890534605]
           },
           options: {
             itemType: 'columbarium',
@@ -3592,18 +3580,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Перовского кладбища: Россия, Москва, Кетчерская улица, 20',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Перовского кладбища',
+            iconCaption: 'Открытый колумбарий Перовского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Перовского кладбища',
+            balloonContentBody: 'Москва, Кетчерская улица, 20',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.838639,
-              55.742762
-            ]
+            coordinates: [55.741865, 37.83854]
           },
           options: {
             itemType: 'columbarium',
