@@ -1503,8 +1503,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.747855,
-              55.710915
+
+              55.710915, 37.747855
             ]
           },
           options: {
@@ -1524,8 +1524,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.536131,
-              55.676154
+
+              55.676154, 37.536131
             ]
           },
           options: {
@@ -1545,8 +1545,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.75567,
-              55.698401
+
+              55.698401, 37.75567
             ]
           },
           options: {
@@ -1566,8 +1566,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.524381,
-              55.83523
+
+              55.83523, 37.524381
             ]
           },
           options: {
@@ -1584,8 +1584,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.459415,
-              55.682884
+
+              55.682884, 37.459415
             ]
           },
           options: {
@@ -1605,8 +1605,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.44479,
-              55.82666
+
+              55.82666, 37.44479
             ]
           },
           options: {
@@ -1626,8 +1626,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.582826,
-              55.79852
+
+              55.79852, 37.582826
             ]
           },
           options: {
@@ -1647,8 +1647,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.717752,
-              55.599611
+
+              55.599611, 37.717752
             ]
           },
           options: {
@@ -1668,8 +1668,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.584712,
-              55.743031
+
+              55.743031, 37.584712
             ]
           },
           options: {
@@ -1707,8 +1707,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.569854,
-              55.670767
+
+              55.670767, 37.569854
             ]
           },
           options: {
@@ -1728,8 +1728,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.61212,
-              55.623092
+
+              55.623092, 37.61212
             ]
           },
           options: {
@@ -1749,8 +1749,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.66397,
-              55.822443
+
+              55.822443, 37.66397
             ]
           },
           options: {
@@ -1770,8 +1770,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.752356,
-              55.636006
+
+              55.636006, 37.752356
             ]
           },
           options: {
@@ -1791,8 +1791,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.401537,
-              55.838096
+
+              55.838096, 37.401537
             ]
           },
           options: {
@@ -1812,8 +1812,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.833599,
-              55.734532
+
+              55.734532, 37.833599
             ]
           },
           options: {
@@ -1833,8 +1833,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.737048,
-              55.689517
+
+              55.689517, 37.737048
             ]
           },
           options: {
@@ -1854,8 +1854,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.582799,
-              55.789755
+
+              55.789755, 37.582799
             ]
           },
           options: {
@@ -1896,8 +1896,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.612021,
-              55.80916
+
+              55.80916, 37.612021
             ]
           },
           options: {
@@ -1917,8 +1917,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.612021,
-              55.80916
+
+              55.80916, 37.612021
             ]
           },
           options: {
@@ -1935,8 +1935,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.404115,
-              55.802801
+
+              55.802801, 37.404115
             ]
           },
           options: {
@@ -1956,8 +1956,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.593533,
-              55.65789
+
+              55.65789, 37.593533
             ]
           },
           options: {
@@ -1977,8 +1977,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.512263,
-              55.676042
+
+              55.676042, 37.512263
             ]
           },
           options: {
@@ -1998,8 +1998,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.636958,
-              55.784552
+
+              55.784552, 37.636958
             ]
           },
           options: {
@@ -2019,8 +2019,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.733446,
-              55.811513
+
+              55.811513, 37.733446
             ]
           },
           options: {
@@ -2037,8 +2037,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.733446,
-              55.811513
+
+              55.811513, 37.733446
             ]
           },
           options: {
@@ -2058,8 +2058,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.778883,
-              55.810157
+
+              55.810157, 37.778883
             ]
           },
           options: {
@@ -2079,8 +2079,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.718992,
-              55.799861
+
+              55.799861, 37.718992
             ]
           },
           options: {
@@ -2100,8 +2100,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.600486,
-              55.707395
+
+              55.707395, 37.600486
             ]
           },
           options: {
@@ -2121,8 +2121,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.604924,
-              55.767757
+
+              55.767757, 37.604924
             ]
           },
           options: {
@@ -2139,8 +2139,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.7441,
-              55.622848
+
+              55.622848, 37.7441
             ]
           },
           options: {
@@ -2160,8 +2160,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.531927,
-              55.543644
+
+              55.543644, 37.531927
             ]
           },
           options: {
@@ -2199,8 +2199,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.46767,
-              55.860514
+
+              55.860514, 37.46767
             ]
           },
           options: {
@@ -2217,8 +2217,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.46767,
-              55.860514
+
+              55.860514, 37.46767
             ]
           },
           options: {
@@ -2238,8 +2238,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.535403,
-              55.608816
+
+              55.608816, 37.535403
             ]
           },
           options: {
