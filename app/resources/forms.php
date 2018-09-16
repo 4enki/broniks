@@ -33,7 +33,7 @@
   <tr>
    <td>$time</td>
    <td>{$_POST['call_name']}</td>
-   <td>{$_POST['call_tel']}</td>
+   <td><a href=\"tel:{$_POST['call_tel']}\">{$_POST['call_tel']}</a></td>
   </tr>\n");
   fclose($fo);
 ?>
