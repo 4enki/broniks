@@ -66,15 +66,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Многофункциональный центр р-на Красносельский  ',
-            description: ''
+            name: 'Многофункциональный центр р-на Красносельский ',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.785979, 37.660521
-            ]
+            coordinates: [55.785979, 37.660521]
           },
           options: {
             itemType: "mfc",
@@ -85,14 +85,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Сокол',
-            description: ''
+            iconCaption: 'Многофункциональный центр р-на Сокол',
+            balloonContentHeader: 'Многофункциональный центр р-на Сокол',
+            balloonContentBody: 'Чапаевский пер., дом 16',
+            balloonContentFooter: 'Телефон: <a href="tel:+74957777777">+7 (495) 777-77-77</a>',
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.797083, 37.518228
-            ]
+            coordinates: [55.797083, 37.518228]
           },
           options: {
             itemType: "mfc",
@@ -103,14 +103,15 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Ново-Переделкино',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.641422, 37.366251
-            ]
+            coordinates: [55.641422, 37.366251]
           },
           options: {
             itemType: "mfc",
@@ -121,14 +122,15 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Академический',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.680722, 37.580131
-            ]
+            coordinates: [55.680722, 37.580131]
           },
           options: {
             itemType: "mfc",
@@ -139,14 +141,15 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Чертаново Южное',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.592429, 37.608958
-            ]
+            coordinates: [55.592429, 37.608958]
           },
           options: {
             itemType: "mfc",
@@ -157,14 +160,15 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Перово',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.760682, 37.788324
-            ]
+            coordinates: [55.760682, 37.788324]
           },
           options: {
             itemType: "mfc",
@@ -175,14 +179,15 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Бабушкинский',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.856316, 37.66998
-            ]
+            coordinates: [55.856316, 37.66998]
           },
           options: {
             itemType: "mfc",
@@ -193,14 +198,15 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Лефортово',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.752587, 37.702346
-            ]
+            coordinates: [55.752587, 37.702346]
           },
           options: {
             itemType: "mfc",
@@ -211,14 +217,15 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Нижегородский',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.752587, 37.702346
-            ]
+            coordinates: [55.752587, 37.702346]
           },
           options: {
             itemType: "mfc",
@@ -229,14 +236,15 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Печатники',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.66766, 37.719558
-            ]
+            coordinates: [55.66766, 37.719558]
           },
           options: {
             itemType: "mfc",
@@ -247,14 +255,15 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Бескудниковский',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.888998, 37.558436
-            ]
+            coordinates: [55.888998, 37.558436]
           },
           options: {
             itemType: "mfc",
@@ -265,14 +274,15 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Северное Измайлово',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.805938, 37.823592
-            ]
+            coordinates: [55.805938, 37.823592]
           },
           options: {
             itemType: "mfc",
@@ -283,14 +293,15 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Даниловский',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.712862, 37.612883
-            ]
+            coordinates: [55.712862, 37.612883]
           },
           options: {
             itemType: "mfc",
@@ -301,14 +312,15 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Коньково',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.64476, 37.510287
-            ]
+            coordinates: [55.64476, 37.510287]
           },
           options: {
             itemType: "mfc",
@@ -319,6 +331,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Выхино-Жулебино',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
@@ -337,6 +353,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Измайлово',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
@@ -355,6 +375,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Соколиная Гора',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
@@ -373,6 +397,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Марьино',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
@@ -392,6 +420,10 @@ function init(){
           id: '88485357',
           properties: {
             name: 'Многофункциональный центр р-на Нагатинский Затон',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
@@ -410,6 +442,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Некрасовка',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
@@ -428,6 +464,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Южное Бутово (доп. офис)',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
@@ -446,14 +486,15 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Тропарёво-Никулино',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.667122, 37.490245
-            ]
+            coordinates: [55.667122, 37.490245]
           },
           options: {
             itemType: "mfc",
@@ -464,14 +505,15 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Фили-Давыдково',
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>',
             description: ''
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.720337, 37.463215
-            ]
+            coordinates: [55.720337, 37.463215]
           },
           options: {
             itemType: "mfc",
@@ -486,10 +528,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.752536, 37.500486
-            ]
+            coordinates: [55.752536, 37.500486]
           },
           options: {
             itemType: "mfc",
@@ -504,10 +543,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.748903, 37.807647
-            ]
+            coordinates: [55.748903, 37.807647]
           },
           options: {
             itemType: "mfc",
@@ -522,10 +558,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.770046, 37.418605
-            ]
+            coordinates: [55.770046, 37.418605]
           },
           options: {
             itemType: "mfc",
@@ -540,10 +573,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.574655, 37.656721
-            ]
+            coordinates: [55.574655, 37.656721]
           },
           options: {
             itemType: "mfc",
@@ -558,10 +588,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.838096, 37.401537
-            ]
+            coordinates: [55.838096, 37.401537]
           },
           options: {
             itemType: "mfc",
@@ -576,10 +603,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.578304, 37.676637
-            ]
+            coordinates: [55.578304, 37.676637]
           },
           options: {
             itemType: "mfc",
@@ -594,10 +618,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.598034, 37.605427
-            ]
+            coordinates: [55.598034, 37.605427]
           },
           options: {
             itemType: "mfc",
