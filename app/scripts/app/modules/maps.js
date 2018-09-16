@@ -3613,18 +3613,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Преображенского кладбища: Россия, Москва, улица Преображенский Вал, 17А',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Преображенского кладбища',
+            iconCaption: 'Открытый колумбарий Преображенского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Преображенского кладбища',
+            balloonContentBody: 'Москва, улица Преображенский Вал, 17А',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.71972,
-              55.792022
-            ]
+            coordinates: [55.790327, 37.721355]
           },
           options: {
             itemType: 'columbarium',
@@ -3634,37 +3631,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Владыкинского кладбища: Россия, Москва, Станционная улица, 8',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Владыкинского кладбища',
+            iconCaption: 'Открытый колумбарий Владыкинского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Владыкинского кладбища',
+            balloonContentBody: 'Москва, Станционная улица, 8',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.592698,
-              55.847048
-            ]
-          },
-          options: {
-            itemType: 'columbarium',
-            preset: 'islands#orangeIcon'
-          }
-        },
-        {
-          type: 'Feature',
-          id: '88787963',
-          properties: {
-            name: 'Открытый колумбарий Останкинского кладбища: Россия, Москва, Прудовая улица, 11',
-            description: ''
-          },
-          geometry: {
-            type: 'Point',
-            coordinates: [
-              37.418362,
-              55.6776
-            ]
+            coordinates: [55.845254, 37.591351]
           },
           options: {
             itemType: 'columbarium',
@@ -3674,18 +3649,33 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Даниловского кладбища: Россия, Москва, 4-й Рощинский проезд, 30',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Останкинского кладбища',
+            iconCaption: 'Открытый колумбарий Останкинского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Останкинского кладбища',
+            balloonContentBody: 'Москва, Прудовая улица, 11',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.60894,
-              55.703697
-            ]
+            coordinates: [55.816465, 37.612955]
+          },
+          options: {
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: 'Открытый колумбарий Даниловского кладбища',
+            iconCaption: 'Открытый колумбарий Даниловского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Даниловского кладбища',
+            balloonContentBody: 'Москва, 4-й Рощинский проезд, 30',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.704007, 37.609029]
           },
           options: {
             itemType: 'columbarium',
