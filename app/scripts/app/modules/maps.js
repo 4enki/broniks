@@ -84,13 +84,13 @@ function init(){
     window.myObjects = ymaps.geoQuery({
       type: "FeatureCollection",
       features: [
-        /* mfc */
+        /* begin mfc */
         {
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Красносельский ',
-            iconCaption: '',
-            balloonContentHeader: '',
+            iconCaption: 'Многофункциональный центр р-на Красносельский',
+            balloonContentHeader: 'Многофункциональный центр р-на Красносельский',
             balloonContentBody: '',
             balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
@@ -125,8 +125,8 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Ново-Переделкино',
-            iconCaption: '',
-            balloonContentHeader: '',
+            iconCaption: 'Многофункциональный центр р-на Ново-Переделкино',
+            balloonContentHeader: 'Многофункциональный центр р-на Ново-Переделкино',
             balloonContentBody: '',
             balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
@@ -143,8 +143,8 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Академический',
-            iconCaption: '',
-            balloonContentHeader: '',
+            iconCaption: 'Многофункциональный центр р-на Академический',
+            balloonContentHeader: 'Многофункциональный центр р-на Академический',
             balloonContentBody: '',
             balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
@@ -348,10 +348,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.689913, 37.852266
-            ]
+            coordinates: [55.689913, 37.852266]
           },
           options: {
             itemType: "mfc",
@@ -369,10 +366,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.798586, 37.802949
-            ]
+            coordinates: [55.798586, 37.802949]
           },
           options: {
             itemType: "mfc",
@@ -390,10 +384,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.782567, 37.707449
-            ]
+            coordinates: [55.782567, 37.707449]
           },
           options: {
             itemType: "mfc",
@@ -411,10 +402,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.674575, 37.760225
-            ]
+            coordinates: [55.674575, 37.760225]
           },
           options: {
             itemType: "mfc",
@@ -423,7 +411,6 @@ function init(){
         },
         {
           type: 'Feature',
-          id: '88485357',
           properties: {
             name: 'Многофункциональный центр р-на Нагатинский Затон',
             iconCaption: '',
@@ -433,10 +420,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.678159, 37.655257
-            ]
+            coordinates: [55.678159, 37.655257]
           },
           options: {
             itemType: "mfc",
@@ -454,10 +438,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.707507, 37.930141
-            ]
+            coordinates: [55.707507, 37.930141]
           },
           options: {
             itemType: "mfc",
@@ -475,10 +456,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.504399, 37.597279
-            ]
+            coordinates: [55.504399, 37.597279]
           },
           options: {
             itemType: "mfc",
@@ -1052,8 +1030,8 @@ function init(){
           geometry: {
             type: 'Point',
             coordinates: [
-              37.570968,
-              55.810663
+
+              55.810663, 37.570968
             ]
           },
           options: {
@@ -1065,13 +1043,16 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Новокосино',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
             coordinates: [
-              37.871661,
-              55.739792
+
+              55.739792, 37.871661
             ]
           },
           options: {
@@ -1083,13 +1064,16 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Дмитровский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
             coordinates: [
-              37.534864,
-              55.896544
+
+              55.896544, 37.534864
             ]
           },
           options: {
@@ -1101,13 +1085,16 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Лианозово',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
             coordinates: [
-              37.573052,
-              55.894879
+
+              55.894879, 37.573052
             ]
           },
           options: {
@@ -1119,13 +1106,16 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Марфино',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
             coordinates: [
-              37.577912,
-              55.844212
+
+              55.844212, 37.577912
             ]
           },
           options: {
@@ -1137,13 +1127,16 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Арбат',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
             coordinates: [
-              37.59392,
-              55.747819
+
+              55.747819, 37.59392
             ]
           },
           options: {
@@ -1155,13 +1148,16 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Куркино',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
             coordinates: [
-              37.401177,
-              55.89666
+
+              55.89666, 37.401177
             ]
           },
           options: {
@@ -1173,14 +1169,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Восточное Дегунино',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.558436,
-              55.888998
-            ]
+            coordinates: [55.888998, 37.558436]
           },
           options: {
             itemType: "mfc",
@@ -1191,14 +1187,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Свиблово',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.644899,
-              55.857862
-            ]
+            coordinates: [55.857862, 37.644899]
           },
           options: {
             itemType: "mfc",
@@ -1209,14 +1205,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Южное Медведково',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.638719,
-              55.871753
-            ]
+            coordinates: [55.871753, 37.638719]
           },
           options: {
             itemType: "mfc",
@@ -1227,14 +1223,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Хорошевский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.512029,
-              55.786845
-            ]
+            coordinates: [55.786845, 37.512029]
           },
           options: {
             itemType: "mfc",
@@ -1263,14 +1259,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Аэропорт',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.528576,
-              55.799497
-            ]
+            coordinates: [55.799497, 37.528576]
           },
           options: {
             itemType: "mfc",
@@ -1285,10 +1281,7 @@ function init(){
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.509388,
-              55.872663
-            ]
+            coordinates: [55.872663, 37.509388]
           },
           options: {
             itemType: "mfc",
@@ -1299,13 +1292,16 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Котловка',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
             coordinates: [
-              37.606775,
-              55.679798
+
+              55.679798, 37.606775
             ]
           },
           options: {
@@ -1335,7 +1331,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Таганский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1371,7 +1370,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Рязанский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1389,7 +1391,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Северный',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1407,7 +1412,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Косино-Ухтомский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1425,7 +1433,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Кунцево',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1443,7 +1454,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Хорошево-Мнёвники',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1461,7 +1475,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Россия, Москва, Волжский Бульвар квартал 95',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1479,7 +1496,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Текстильщики',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1497,7 +1517,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Ломоносовский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1515,7 +1538,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Кузьминки',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1533,7 +1559,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Коптево',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1569,7 +1598,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Покровское-Стрешнево',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1587,7 +1619,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Савёловский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1605,7 +1640,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Орехово-Борисово Северное',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1623,7 +1661,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Хамовники',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1659,7 +1700,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Черёмушки',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1677,7 +1721,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Чертаново Северное',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1695,7 +1742,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Алексеевский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1713,7 +1763,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Братеево',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1731,7 +1784,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Южное Тушино',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1749,7 +1805,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Вешняки',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1767,7 +1826,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Люблино',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1785,7 +1847,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр района Беговой',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1803,7 +1868,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Раменки',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1821,7 +1889,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Останкинский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1839,7 +1910,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Марьина Роща',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1875,7 +1949,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Зюзино',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1893,7 +1970,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Проспект Вернадского',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1911,7 +1991,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Мещанский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1929,7 +2012,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Богородское',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1965,7 +2051,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Гольяново',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -1983,7 +2072,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Преображенское',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2001,7 +2093,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Донской',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2019,7 +2114,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Тверской',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2055,7 +2153,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Южное Бутово',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2091,7 +2192,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Молжаниновский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2127,7 +2231,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Ясенево',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2145,7 +2252,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Войковский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2163,7 +2273,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Бибирево',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2199,7 +2312,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Северное Бутово',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2217,7 +2333,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр поселения Московский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2235,7 +2354,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Лосиноостровский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2271,7 +2393,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Россия, Москва, Якиманский переулок, 6с14',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2289,7 +2414,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Якиманка',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2307,7 +2435,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Обручевский',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2325,7 +2456,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Старое Крюково',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -2343,7 +2477,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Силино',
-            iconCaption: 'Многофункциональный центр р-на Силино'
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3784,7 +3921,6 @@ function init(){
         },
         {
           type: 'Feature',
-          id: '88244210',
           properties: {
             name: 'Хованский крематорий',
             iconCaption: 'Хованский крематорий',
@@ -3803,7 +3939,6 @@ function init(){
         },
         {
           type: 'Feature',
-          id: '88244217',
           properties: {
             name: 'Николо-Архангельский крематорий',
             iconCaption: 'Николо-Архангельский крематорий',
