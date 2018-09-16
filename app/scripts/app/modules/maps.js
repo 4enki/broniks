@@ -3757,17 +3757,16 @@ function init(){
         },
         {
           type: 'Feature',
-          id: '88787999',
           properties: {
-            name: 'Открытый колумбарий Рогожского кладбища: Россия, Москва, Старообрядческая улица, 31А',
-            description: ''
+            name: 'Открытый колумбарий Рогожского кладбища',
+            iconCaption: 'Открытый колумбарий Рогожского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Рогожского кладбища',
+            balloonContentBody: 'Москва, Старообрядческая улица, 31А',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-25">8 (495) 181-97-25</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.701412,
-              55.740705
-            ]
+            coordinates: [55.742174, 37.702984]
           },
           options: {
             itemType: 'columbarium',
@@ -3777,18 +3776,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Открытый колумбарий Ясеневского кладбища: Россия, Москва, Новоясеневский проспект, 46',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            name: 'Открытый колумбарий Ясеневского кладбища',
+            iconCaption: 'Открытый колумбарий Ясеневского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Ясеневского кладбища',
+            balloonContentBody: 'Москва, Новоясеневский проспект, 46',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-25">8 (495) 181-97-25</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.554582,
-              55.598919
-            ]
+            coordinates: [55.600633, 37.552301]
           },
           options: {
             itemType: 'columbarium',
