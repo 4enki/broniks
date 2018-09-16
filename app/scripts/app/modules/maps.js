@@ -49,10 +49,12 @@ function init(){
           .add(byType);
       }
       if ($('#uszn').prop('checked')) {
-        byType = myObjects.search('options.itemType = "uszn"');
+        byType = myObjects.search('options.itemType = "uszn"')
+          .add(byType);
       }
       if ($('#cemetery').prop('checked')) {
-        byType = myObjects.search('options.itemType = "cemetery"');
+        byType = myObjects.search('options.itemType = "cemetery"')
+          .add(byType);
       }
       if ($('#crematorium').prop('checked')) {
         byType = myObjects.search('options.itemType = "crematorium"')
@@ -3418,15 +3420,17 @@ function init(){
           },
           options: {
             itemType: 'columbarium',
-            preset: 'islands#blueIcon'
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88787892',
           properties: {
             name: 'Открытый колумбарий Новодевичьего кладбища: Россия, Москва, Лужнецкий проезд, 2',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3437,15 +3441,17 @@ function init(){
           },
           options: {
             itemType: 'columbarium',
-            preset: 'islands#blueIcon'
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88787900',
           properties: {
             name: 'Открытый колумбарий Бусиновского кладбища: Россия, Москва, Краснополянская улица, 18',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3462,10 +3468,12 @@ function init(){
         },
         {
           type: 'Feature',
-          id: '88787906',
           properties: {
             name: 'Открытый колумбарий Кунцевского кладбища: Россия, Москва, Рябиновая улица, 1',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3475,17 +3483,18 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000003,
-            order: 800000003,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88787913',
           properties: {
             name: 'Открытый колумбарий Ваганьковского кладбища: Россия, Москва, улица Сергея Макеева, 15',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3495,17 +3504,18 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000004,
-            order: 800000004,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88787919',
           properties: {
             name: 'Открытый колумбарий Митинского кладбища: Россия, Москва, Пятницкое шоссе, Пятницкое шоссе, 6-й километр',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3515,14 +3525,12 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000005,
-            order: 800000005,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88787923',
           properties: {
             name: 'Открытый колумбарий Введенского кладбища: Россия, Москва, Наличная улица, вл1',
             description: ''
@@ -3535,17 +3543,18 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000006,
-            order: 800000006,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88787928',
           properties: {
             name: 'Открытый колумбарий Гольяновского кладбища: Россия, Москва, Курганская улица, 11',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3555,17 +3564,18 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000007,
-            order: 800000007,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88787936',
           properties: {
             name: 'Открытый колумбарий Николо-Архангельского кладбища: Россия, Московская область, Балашиха, микрорайон Салтыковка, Носовихинское шоссе, 16',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3575,17 +3585,18 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000008,
-            order: 800000008,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88787941',
           properties: {
             name: 'Открытый колумбарий Перовского кладбища: Россия, Москва, Кетчерская улица, 20',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3595,17 +3606,18 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000009,
-            order: 800000009,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88787949',
           properties: {
             name: 'Открытый колумбарий Преображенского кладбища: Россия, Москва, улица Преображенский Вал, 17А',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3615,17 +3627,18 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000010,
-            order: 800000010,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88787956',
           properties: {
             name: 'Открытый колумбарий Владыкинского кладбища: Россия, Москва, Станционная улица, 8',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3635,9 +3648,8 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000011,
-            order: 800000011,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
@@ -3655,17 +3667,18 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000012,
-            order: 800000012,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88787970',
           properties: {
             name: 'Открытый колумбарий Даниловского кладбища: Россия, Москва, 4-й Рощинский проезд, 30',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3675,17 +3688,18 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000013,
-            order: 800000013,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88787977',
           properties: {
             name: 'Открытый колумбарий Нового Донского кладбища: Россия, Москва, Донская площадь, 1',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3695,17 +3709,18 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000014,
-            order: 800000014,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88787984',
           properties: {
             name: 'Открытый колумбарий Кузьминского кладбища: Россия, Москва, улица Академика Скрябина, 19',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3715,17 +3730,18 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000015,
-            order: 800000015,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88787991',
           properties: {
             name: 'Открытый колумбарий Люблинского кладбища: Россия, Москва, Ставропольская улица, вл74А',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3735,9 +3751,8 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000016,
-            order: 800000016,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
@@ -3755,17 +3770,18 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000017,
-            order: 800000017,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88788007',
           properties: {
             name: 'Открытый колумбарий Ясеневского кладбища: Россия, Москва, Новоясеневский проспект, 46',
-            description: ''
+            iconCaption: '',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
           },
           geometry: {
             type: 'Point',
@@ -3775,29 +3791,26 @@ function init(){
             ]
           },
           options: {
-            zIndex: 800000018,
-            order: 800000018,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         },
         {
           type: 'Feature',
-          id: '88788017',
           properties: {
-            name: 'Открытый колумбарий Зеленоградского кладбища: Россия, Москва, Зеленоград, 4921-й проезд, 3с1',
-            description: ''
+            name: 'Открытый колумбарий Зеленоградского кладбища',
+            iconCaption: 'Открытый колумбарий Зеленоградского кладбища',
+            balloonContentHeader: 'Открытый колумбарий Зеленоградского кладбища',
+            balloonContentBody: 'Москва, Зеленоград, 4921-й проезд, 3с1',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-25">8 (495) 181-97-25</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              37.259172,
-              55.984315
-            ]
+            coordinates: [55.984315, 37.259172]
           },
           options: {
-            zIndex: 800000019,
-            order: 800000019,
-            preset: 'islands#blueIcon'
+            itemType: 'columbarium',
+            preset: 'islands#orangeIcon'
           }
         }
         /* end columbarium */
