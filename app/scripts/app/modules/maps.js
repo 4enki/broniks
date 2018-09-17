@@ -3402,10 +3402,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Троице-Лыковское кладбище',
-            iconCaption: 'Троице-Лыковское кладбище ',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Троице-Лыковское кладбище',
+            balloonContentHeader: 'Троице-Лыковское кладбище',
+            balloonContentBody: 'Москва, СЗАО, улица Твардовского, дом 12, корпус 3',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3421,9 +3421,9 @@ function init(){
           properties: {
             name: 'Химкинское кладбище',
             iconCaption: 'Химкинское кладбище ',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Химкинское кладбище',
+            balloonContentBody: 'Москва, САО, Новосходненское шоссе, 1',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
