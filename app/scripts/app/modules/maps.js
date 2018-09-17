@@ -2845,9 +2845,9 @@ function init(){
           properties: {
             name: 'Капотнинское кладбище',
             iconCaption: 'Капотнинское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Капотнинское кладбище',
+            balloonContentBody: 'Москва, ЮВАО, Большой Капотнинский пр., 11',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -2863,9 +2863,9 @@ function init(){
           properties: {
             name: 'Качаловское кладбище',
             iconCaption: 'Качаловское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Качаловское кладбище',
+            balloonContentBody: 'Москва, ЮЗАО, Старокачаловская улица, 8',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
