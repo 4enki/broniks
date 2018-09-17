@@ -2736,10 +2736,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Долгопрудненское кладбище',
-            iconCaption: 'Долгопрудненское кладбище ',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Долгопрудненское кладбище',
+            balloonContentHeader: 'Долгопрудненское кладбище',
+            balloonContentBody: 'Московская область, г. Долгопрудный, Лихачевский проезд, 1',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -2755,9 +2755,9 @@ function init(){
           properties: {
             name: 'Домодедовское кладбище',
             iconCaption: 'Домодедовское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Домодедовское кладбище',
+            balloonContentBody: 'Московская область, Домодедовский р-н, д. Истомиха',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -2773,9 +2773,9 @@ function init(){
           properties: {
             name: 'Захарьинское кладбище',
             iconCaption: 'Захарьинское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Захарьинское кладбище',
+            balloonContentBody: 'Москва, ЮЗАО, ул. Николая Сироткина',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -2791,9 +2791,9 @@ function init(){
           properties: {
             name: 'Ивановское кладбище',
             iconCaption: 'Ивановское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Ивановское кладбище',
+            balloonContentBody: 'Москва, ТиНАО, п. Воскресенское, дер. Ямонтово, 33',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -2809,9 +2809,9 @@ function init(){
           properties: {
             name: 'Измайловское кладбище',
             iconCaption: 'Измайловское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Измайловское кладбище',
+            balloonContentBody: 'Москва, ВАО, Измайловский пр., вл. 30',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -2826,10 +2826,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Калитниковское кладбище',
-            iconCaption: 'Калитниковское кладбище ',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Калитниковское кладбище',
+            balloonContentHeader: 'Калитниковское кладбище',
+            balloonContentBody: 'Москва, ЦАО, Большой Калитниковский пр., 11',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
