@@ -2434,17 +2434,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Обручевский',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Многофункциональный центр р-на Обручевский',
+            balloonContentHeader: 'Многофункциональный центр р-на Обручевский',
+            balloonContentBody: 'Ленинский просп., 103, Москва',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 499 739‑75-30">+7 499 739‑75-30</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.665274, 37.514338
-            ]
+            coordinates: [55.665274, 37.514338]
           },
           options: {
             itemType: "mfc",
@@ -2455,17 +2452,14 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Старое Крюково',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Многофункциональный центр р-на Старое Крюково',
+            balloonContentHeader: 'Многофункциональный центр р-на Старое Крюково',
+            balloonContentBody: 'к828, Зеленоград',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 777‑77-77">+7 495 777‑77-77</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.980659, 37.182141
-            ]
+            coordinates: [55.980659, 37.182141]
           },
           options: {
             itemType: "mfc",
@@ -2476,10 +2470,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Силино',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Многофункциональный центр р-на Силино',
+            balloonContentHeader: 'Многофункциональный центр р-на Силино',
+            balloonContentBody: 'Панфиловский просп., к1105, Зеленоград',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 777‑77-77">+7 495 777‑77-77</a>'
           },
           geometry: {
             type: 'Point',
