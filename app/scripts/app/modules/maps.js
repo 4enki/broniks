@@ -2391,39 +2391,15 @@ function init(){
         {
           type: 'Feature',
           properties: {
-            name: 'Россия, Москва, Якиманский переулок, 6с14',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
-          },
-          geometry: {
-            type: 'Point',
-            coordinates: [
-
-              55.733792, 37.610745
-            ]
-          },
-          options: {
-            itemType: "mfc",
-            preset: "islands#redIcon"
-          }
-        },
-        {
-          type: 'Feature',
-          properties: {
             name: 'Многофункциональный центр р-на Якиманка',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Многофункциональный центр р-на Якиманка',
+            balloonContentHeader: 'Многофункциональный центр р-на Якиманка',
+            balloonContentBody: 'Якиманский пер., 6, стр. 1, Москва',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 777‑77-77">+7 495 777‑77-77</a>'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-
-              55.733493, 37.609973
-            ]
+            coordinates: [55.733493, 37.609973]
           },
           options: {
             itemType: "mfc",
@@ -2491,9 +2467,9 @@ function init(){
           properties: {
             name: 'Алабушевское кладбище',
             iconCaption: 'Алабушевское кладбище ',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Алабушевское кладбище',
+            balloonContentBody: 'Москва, ЗелАО, г. Зеленоград, пос. Алабушево',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-25">8 (495) 181-97-25</a>'
           },
           geometry: {
             type: 'Point',
@@ -2509,9 +2485,9 @@ function init(){
           properties: {
             name: 'Алексеевское кладбище',
             iconCaption: 'Алексеевское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Алексеевское кладбище',
+            balloonContentBody: 'Москва, СВАО, ул. Церковная горка, 26а (ранее – проспект Мира, 130)',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-05">8 (495) 181-97-05</a>'
           },
           geometry: {
             type: 'Point',
@@ -2527,9 +2503,9 @@ function init(){
           properties: {
             name: 'Алтуфьевское кладбище',
             iconCaption: 'Алтуфьевское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Алтуфьевское кладбище',
+            balloonContentBody: 'Москва, СВАО, Алтуфьевское шоссе, 104',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-05">8 (495) 181-97-05</a>'
           },
           geometry: {
             type: 'Point',
@@ -2545,9 +2521,9 @@ function init(){
           properties: {
             name: 'Бабушкинское кладбище',
             iconCaption: 'Бабушкинское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Бабушкинское кладбище',
+            balloonContentBody: 'Москва, СВАО, Ярославское ш., 52',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-05">8 (495) 181-97-05</a>'
           },
           geometry: {
             type: 'Point',
@@ -2563,9 +2539,9 @@ function init(){
           properties: {
             name: 'Богородское кладбище',
             iconCaption: 'Богородское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Богородское кладбище',
+            balloonContentBody: 'Московская обл., Ногинский р-н, сельское поселение Аксено-Бутырское, дер. Тимохово',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-05">8 (495) 181-97-05</a>'
           },
           geometry: {
             type: 'Point',
