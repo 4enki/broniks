@@ -3923,8 +3923,1859 @@ function init(){
             itemType: 'crematorium',
             preset: 'islands#darkBlueIcon'
           }
-        }
+        },
         /* end crematorium */
+        /* begin */
+        {
+          type: 'Feature',
+          properties: {
+            name: 'МОРГ ГКБ №1 ИМ. ПИРОГОВА',
+            iconCaption: 'МОРГ ГКБ №1 ИМ. ПИРОГОВА',
+            balloonContentHeader: 'МОРГ ГКБ №1 ИМ. ПИРОГОВА',
+            balloonContentBody: 'Москва, Ленинский просп., 8, корп. 17',
+            balloonContentFooter: 'Телефоны: <a href="tel:+7 499 764‑50-02">+7 499 764‑50-02</a>, <a href="tel:+7 495 536‑91-54">+7 495 536‑91-54</a>, <a href="tel:+7 495 536‑96-07">+7 495 536‑96-07</a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.723465, 37.598169]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: 'МОРГ ИН ИМ. Н.Н.БУРДЕНКО',
+            iconCaption: 'МОРГ ИН ИМ. Н.Н.БУРДЕНКО',
+            balloonContentHeader: 'МОРГ ИН ИМ. Н.Н.БУРДЕНКО',
+            balloonContentBody: 'Москва, Госпитальная площадь, д.3, строение 16',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.774527, 37.598456]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГВВ №2',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.689278, 37.810207]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКТБ №3',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.88461, 37.38216]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГВВ №3',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.888382, 37.705544]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКБ №4',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.712639, 37.630679]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКТБ №7',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.788009, 37.691171]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКБ №7 ИМ. С.С.ЮДИНА',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.662583, 37.636949]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКБ №12',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.616514, 37.652616]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКБ №13',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.719642, 37.667016]
+          },
+          options: {
+            zIndex: 800000009,
+            order: 800000009,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ФЮГКБ №13',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.702008, 37.679601]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКБ №15',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.731146, 37.836645]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКБ №17',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.642819, 37.415362]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКБ №20',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.864717, 37.664078]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКБ №23 ИМ. ДАВЫДОВСКОГО',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.746319, 37.649849]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКБ №24',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.798318, 37.578936]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКБ №24',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.799532, 37.569521]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКБ №29 ИМ. БАУМАНА'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.769155, 37.702553]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКБ №31'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.669625, 37.50213]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКБ №33 МИНИСТЕРСТВА СВЯЗИ РФ'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.828834, 37.667438]
+          },
+          options: {
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №36'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.792959,
+              37.736222
+            ]
+          },
+          options: {
+            zIndex: 800000020,
+            order: 800000020,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368327',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №40'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.825037,
+              37.657431
+            ]
+          },
+          options: {
+            zIndex: 800000021,
+            order: 800000021,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368328',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №50'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.812707,
+              37.555454
+            ]
+          },
+          options: {
+            zIndex: 800000022,
+            order: 800000022,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368329',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №51'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.742858,
+              37.484577
+            ]
+          },
+          options: {
+            zIndex: 800000023,
+            order: 800000023,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368330',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №52'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.80441,
+              37.484595
+            ]
+          },
+          options: {
+            zIndex: 800000024,
+            order: 800000024,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368331',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №54'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.806717,
+              37.730571
+            ]
+          },
+          options: {
+            zIndex: 800000025,
+            order: 800000025,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368332',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №55'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.696052,
+              37.602948
+            ]
+          },
+          options: {
+            zIndex: 800000026,
+            order: 800000026,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368333',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №56'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.71164,
+              37.646067
+            ]
+          },
+          options: {
+            zIndex: 800000027,
+            order: 800000027,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368334',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №57'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.798971,
+              37.806524
+            ]
+          },
+          options: {
+            zIndex: 800000028,
+            order: 800000028,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368335',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №60'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.76369,
+              37.792295
+            ]
+          },
+          options: {
+            zIndex: 800000029,
+            order: 800000029,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368336',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №64'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.68599,
+              37.555894
+            ]
+          },
+          options: {
+            zIndex: 800000030,
+            order: 800000030,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368337',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №67'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.771758,
+              37.469593
+            ]
+          },
+          options: {
+            zIndex: 800000031,
+            order: 800000031,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368338',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №68'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.693734,
+              37.753847
+            ]
+          },
+          options: {
+            zIndex: 800000032,
+            order: 800000032,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368339',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №71'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.722796,
+              37.433948
+            ]
+          },
+          options: {
+            zIndex: 800000033,
+            order: 800000033,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368340',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №72'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.743806,
+              37.404555
+            ]
+          },
+          options: {
+            zIndex: 800000034,
+            order: 800000034,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368341',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №81'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.89079,
+              37.529726
+            ]
+          },
+          options: {
+            zIndex: 800000035,
+            order: 800000035,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368342',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №83'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.615456,
+              37.761168
+            ]
+          },
+          options: {
+            zIndex: 800000036,
+            order: 800000036,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368343',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ ИМ. БРАТЬЕВ БАХРУШИНЫХ'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.794067,
+              37.689312
+            ]
+          },
+          options: {
+            zIndex: 800000037,
+            order: 800000037,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368344',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ ИМ. БОТКИНА'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.78115,
+              37.554744
+            ]
+          },
+          options: {
+            zIndex: 800000038,
+            order: 800000038,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368345',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ЦКБ РАН'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.614683,
+              37.524857
+            ]
+          },
+          options: {
+            zIndex: 800000039,
+            order: 800000039,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368346',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ НИИ СП ИМ. СКЛИФОСОВСКОГО'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.77557,
+              37.634227
+            ]
+          },
+          options: {
+            zIndex: 800000040,
+            order: 800000040,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368347',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ ИМ. Е.О.МУХИНА'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.756731,
+              37.813387
+            ]
+          },
+          options: {
+            zIndex: 800000041,
+            order: 800000041,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368348',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ЦКБ СВ. АЛЕКСИЯ'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.715591,
+              37.593183
+            ]
+          },
+          options: {
+            zIndex: 800000042,
+            order: 800000042,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368349',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГИК А.Л.МЯСНИКОВА'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.757121,
+              37.378225
+            ]
+          },
+          options: {
+            zIndex: 800000043,
+            order: 800000043,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368350',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ДГКБ СВ. ВЛАДИМИРА'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.787548,
+              37.695322
+            ]
+          },
+          options: {
+            zIndex: 800000044,
+            order: 800000044,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368351',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ДКБ №9 ИМ. Г.Н.СПЕРАНСКОГО'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.755702,
+              37.543713
+            ]
+          },
+          options: {
+            zIndex: 800000045,
+            order: 800000045,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368352',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ЦКБ МПС ИМ. Н.А.СЕМАШКО'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.829841,
+              37.72369
+            ]
+          },
+          options: {
+            zIndex: 800000046,
+            order: 800000046,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368353',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ЦКБ ГА'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.8253,
+              37.460448
+            ]
+          },
+          options: {
+            zIndex: 800000047,
+            order: 800000047,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368354',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ЦКБ №1'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.7513,
+              37.401581
+            ]
+          },
+          options: {
+            zIndex: 800000048,
+            order: 800000048,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368355',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ЦКБ №1 МПС РФ'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.818296,
+              37.45822
+            ]
+          },
+          options: {
+            zIndex: 800000049,
+            order: 800000049,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368356',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГОСПИТАЛЯ ИМ. Н.Н.БУРДЕНКО'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.771434,
+              37.696795
+            ]
+          },
+          options: {
+            zIndex: 800000050,
+            order: 800000050,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368357',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ РКБ №3'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.718811,
+              37.482547
+            ]
+          },
+          options: {
+            zIndex: 800000051,
+            order: 800000051,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368358',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ПЛ №162'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.687665,
+              37.259827
+            ]
+          },
+          options: {
+            zIndex: 800000052,
+            order: 800000052,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368359',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ОЦ ИМ. Н.Н.БЛОХИНА'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.656509,
+              37.643076
+            ]
+          },
+          options: {
+            zIndex: 800000053,
+            order: 800000053,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368360',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ НИИ ССХ ИМ. А.Н.БАКУЛЕВА'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.76096,
+              37.378234
+            ]
+          },
+          options: {
+            zIndex: 800000054,
+            order: 800000054,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368361',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ РНЦР '
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.652781,
+              37.53367
+            ]
+          },
+          options: {
+            zIndex: 800000055,
+            order: 800000055,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368362',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ДГКБ'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.85486,
+              37.405597
+            ]
+          },
+          options: {
+            zIndex: 800000056,
+            order: 800000056,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368363',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ МДГКБ'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.725549,
+              37.619755
+            ]
+          },
+          options: {
+            zIndex: 800000057,
+            order: 800000057,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368364',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ МОНИКИ ИМ. М.Ф.ВЛАДИМИРСКОГО'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.788237,
+              37.628343
+            ]
+          },
+          options: {
+            zIndex: 800000058,
+            order: 800000058,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368365',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ МСЧ №60'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.831378,
+              37.431127
+            ]
+          },
+          options: {
+            zIndex: 800000059,
+            order: 800000059,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368366',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ МЕДСИ'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.831903,
+              37.411961
+            ]
+          },
+          options: {
+            zIndex: 800000060,
+            order: 800000060,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368367',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №119'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.905099,
+              37.336202
+            ]
+          },
+          options: {
+            zIndex: 800000061,
+            order: 800000061,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368368',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКИБ №2'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.772755,
+              37.739366
+            ]
+          },
+          options: {
+            zIndex: 800000062,
+            order: 800000062,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368369',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКИБ №3'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.651257,
+              37.698016
+            ]
+          },
+          options: {
+            zIndex: 800000063,
+            order: 800000063,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368370',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ПБ №1 им. Н.А.Алексеева'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.700146,
+              37.607969
+            ]
+          },
+          options: {
+            zIndex: 800000064,
+            order: 800000064,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368371',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ПБ №3 им. В.А. Гиляровского '
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.79303735434335,
+              37.70128599999788
+            ]
+          },
+          options: {
+            zIndex: 800000065,
+            order: 800000065,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368372',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ПБ №4 им. П.Б.Ганнушкина'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.797954,
+              37.702301
+            ]
+          },
+          options: {
+            zIndex: 800000066,
+            order: 800000066,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368373',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ПБ №15'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.65145,
+              37.644719
+            ]
+          },
+          options: {
+            zIndex: 800000067,
+            order: 800000067,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368374',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ СМЭ ЦКБ РАН'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.61415,
+              37.524803
+            ]
+          },
+          options: {
+            zIndex: 800000068,
+            order: 800000068,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368375',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ СМЭ № 1'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.638719,
+              37.629771
+            ]
+          },
+          options: {
+            zIndex: 800000069,
+            order: 800000069,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368376',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ СМЭ №2'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.699578,
+              37.408813
+            ]
+          },
+          options: {
+            zIndex: 800000070,
+            order: 800000070,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368377',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ СМЭ №3'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.77512,
+              37.634766
+            ]
+          },
+          options: {
+            zIndex: 800000071,
+            order: 800000071,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368378',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ СМЭ №4'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.769666,
+              37.685305
+            ]
+          },
+          options: {
+            zIndex: 800000072,
+            order: 800000072,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368379',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ СМЭ №5'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.772973,
+              37.469844
+            ]
+          },
+          options: {
+            zIndex: 800000073,
+            order: 800000073,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368380',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ СМЭ №6'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.769155,
+              37.702553
+            ]
+          },
+          options: {
+            zIndex: 800000074,
+            order: 800000074,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368381',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ СМЭ №7'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.8213,
+              37.530274
+            ]
+          },
+          options: {
+            zIndex: 800000075,
+            order: 800000075,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368382',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ СМЭ №8'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.983414,
+              37.236732
+            ]
+          },
+          options: {
+            zIndex: 800000076,
+            order: 800000076,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368383',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ СМЭ №9'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.756325,
+              37.813459
+            ]
+          },
+          options: {
+            zIndex: 800000077,
+            order: 800000077,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368384',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ СМЭ №10'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.780233,
+              37.547567
+            ]
+          },
+          options: {
+            zIndex: 800000078,
+            order: 800000078,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368385',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ СМЭ №11'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.799006,
+              37.807593
+            ]
+          },
+          options: {
+            zIndex: 800000079,
+            order: 800000079,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368386',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ СМЭ №12'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.698827,
+              37.407717
+            ]
+          },
+          options: {
+            zIndex: 800000080,
+            order: 800000080,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368387',
+          properties: {
+            name: '',
+            description: '',
+            iconContent: '',
+            iconCaption: 'МОРГ ГКБ №3'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [
+              55.983333,
+              37.235699
+            ]
+          },
+          options: {
+            zIndex: 800000081,
+            order: 800000081,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ГКИБ №1',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.816065, 37.45866]
+          },
+          options: {
+            zIndex: 800000082,
+            order: 800000082,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          id: '135368389',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ЦНИИ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.765458, 37.796517]
+          },
+          options: {
+            zIndex: 800000083,
+            order: 800000083,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ НМХЦ ИМ.ПИРОГОВА',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.790904, 37.822595]
+          },
+          options: {
+            zIndex: 800000084,
+            order: 800000084,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ЦКББ',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.81844201144643, 37.46536581349121]
+          },
+          options: {
+            zIndex: 800000085,
+            order: 800000085,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ФМБЦ ИМ.БУРНАЗЯНА',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.799229, 37.456217]
+          },
+          options: {
+            zIndex: 800000086,
+            order: 800000086,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ЦПО НИИ ММА ИМ.СЕЧЕНОВА',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.735231, 37.580301]
+          },
+          options: {
+            zIndex: 800000087,
+            order: 800000087,
+            preset: 'islands#blueIcon'
+          }
+        },
+        {
+          type: 'Feature',
+          properties: {
+            name: '',
+            iconCaption: 'МОРГ ЦКБ №2 ОАО «РЖД»',
+            balloonContentHeader: '',
+            balloonContentBody: '',
+            balloonContentFooter: 'Телефон: <a href=""></a>'
+          },
+          geometry: {
+            type: 'Point',
+            coordinates: [55.83384, 37.669324]
+          },
+          options: {
+            zIndex: 800000088,
+            order: 800000088,
+            preset: 'islands#blueIcon'
+          }
+        }
+        /* end */
       ]
     });
 
