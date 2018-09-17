@@ -2557,9 +2557,9 @@ function init(){
           properties: {
             name: 'Борисовское кладбище',
             iconCaption: 'Борисовское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Борисовское кладбище',
+            balloonContentBody: 'Москва, ЮАО, ул. Борисовские пруды, влад. 4',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-05">8 (495) 181-97-05</a>'
           },
           geometry: {
             type: 'Point',
@@ -2575,9 +2575,9 @@ function init(){
           properties: {
             name: 'Бусиновское кладбище',
             iconCaption: 'Бусиновское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Бусиновское кладбище',
+            balloonContentBody: 'Москва, САО, ул. Краснополянская, влад. 18',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-05">8 (495) 181-97-05</a>'
           },
           geometry: {
             type: 'Point',
@@ -2593,9 +2593,9 @@ function init(){
           properties: {
             name: 'Бутовское кладбище',
             iconCaption: 'Бутовское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Бутовское кладбище',
+            balloonContentBody: 'Москва, ЮЗАО, Южное Бутово, 36-й км. Курской железной дороги',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-05">8 (495) 181-97-05</a>'
           },
           geometry: {
             type: 'Point',
@@ -2611,9 +2611,9 @@ function init(){
           properties: {
             name: 'Владыкинское кладбище',
             iconCaption: 'Владыкинское кладбище ',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Владыкинское кладбище',
+            balloonContentBody: 'Москва, СВАО, ул. Станционная, вл. 8а',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-05">8 (495) 181-97-05</a>'
           },
           geometry: {
             type: 'Point',
@@ -2629,9 +2629,9 @@ function init(){
           properties: {
             name: 'Востряковское кладбище',
             iconCaption: 'Востряковское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Востряковское кладбище',
+            balloonContentBody: 'Москва, ЗАО, ул. Озёрная, д. 47 (Боровское ш., 1 а)',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-05">8 (495) 181-97-05</a>'
           },
           geometry: {
             type: 'Point',
@@ -2647,9 +2647,9 @@ function init(){
           properties: {
             name: 'Востряковское Южное (Еврейское) кладбище',
             iconCaption: 'Востряковское Южное (Еврейское) кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Востряковское Южное (Еврейское) кладбище',
+            balloonContentBody: 'Москва, ЗАО, Боровское шоссе, проектируемый проезд № 634',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-05">8 (495) 181-97-05</a>'
           },
           geometry: {
             type: 'Point',
@@ -2665,9 +2665,9 @@ function init(){
           properties: {
             name: 'Головинское кладбище',
             iconCaption: 'Головинское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Головинское кладбище',
+            balloonContentBody: 'Москва, САО, Головинское ш., вл. 13а',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-05">8 (495) 181-97-05</a>'
           },
           geometry: {
             type: 'Point',
@@ -2682,10 +2682,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Гольяновское кладбище',
-            iconCaption: 'Гольяновское кладбище ',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Гольяновское кладбище',
+            balloonContentHeader: 'Гольяновское кладбище',
+            balloonContentBody: 'Москва, ВАО, ул. Курганская, 11',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-05">8 (495) 181-97-05</a>'
           },
           geometry: {
             type: 'Point',
@@ -2701,9 +2701,9 @@ function init(){
           properties: {
             name: 'Даниловское кладбище',
             iconCaption: 'Даниловское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Даниловское кладбище',
+            balloonContentBody: 'Москва, ЮАО, 4-й Рощинский пр., вл. 30',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-05">8 (495) 181-97-05</a>'
           },
           geometry: {
             type: 'Point',
@@ -2719,9 +2719,9 @@ function init(){
           properties: {
             name: 'Даниловское мусульманское кладбище',
             iconCaption: 'Даниловское мусульманское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Даниловское мусульманское кладбище',
+            balloonContentBody: 'Москва, ЮАО, Четвертый Рощинский пр., 10',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-05">8 (495) 181-97-05</a>'
           },
           geometry: {
             type: 'Point',
@@ -3439,9 +3439,9 @@ function init(){
           properties: {
             name: 'Хованское кладбище',
             iconCaption: 'Хованское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Хованское кладбище',
+            balloonContentBody: 'Москва, ТиНАО, поселение «Мосрентген», 21 км Киевского ш.',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3456,10 +3456,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Черкизовское кладбище',
-            iconCaption: 'Черкизовское кладбище ',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Черкизовское кладбище',
+            balloonContentHeader: 'Черкизовское кладбище',
+            balloonContentBody: 'Москва, ВАО, Б. Черкизовская, 17',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3475,9 +3475,9 @@ function init(){
           properties: {
             name: 'Щербинское кладбище',
             iconCaption: 'Щербинское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Щербинское кладбище',
+            balloonContentBody: 'Москва, ЮАО, Подольский район, пос. Стрелковское, Щербинский проезд',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3493,9 +3493,9 @@ function init(){
           properties: {
             name: 'Ясеневское кладбище',
             iconCaption: 'Ясеневское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Ясеневское кладбище',
+            balloonContentBody: 'Москва, ЮЗАО, Новоясеневский пр-т, вл. 42',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
