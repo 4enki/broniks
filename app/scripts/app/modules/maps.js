@@ -4102,9 +4102,8 @@ function init(){
             coordinates: [55.719642, 37.667016]
           },
           options: {
-            zIndex: 800000009,
-            order: 800000009,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
@@ -4565,948 +4564,647 @@ function init(){
         },
         {
           type: 'Feature',
-          id: '135368345',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ЦКБ РАН'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.614683,
-              37.524857
-            ]
+            coordinates: [55.614683, 37.524857]
           },
           options: {
-            zIndex: 800000039,
-            order: 800000039,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368346',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ НИИ СП ИМ. СКЛИФОСОВСКОГО'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.77557,
-              37.634227
-            ]
+            coordinates: [55.77557, 37.634227]
           },
           options: {
-            zIndex: 800000040,
-            order: 800000040,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368347',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ГКБ ИМ. Е.О.МУХИНА'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.756731,
-              37.813387
-            ]
+            coordinates: [55.756731, 37.813387]
           },
           options: {
-            zIndex: 800000041,
-            order: 800000041,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368348',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ЦКБ СВ. АЛЕКСИЯ'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.715591,
-              37.593183
-            ]
+            coordinates: [55.715591, 37.593183]
           },
           options: {
-            zIndex: 800000042,
-            order: 800000042,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368349',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ГИК А.Л.МЯСНИКОВА'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.757121,
-              37.378225
-            ]
+            coordinates: [55.757121, 37.378225]
           },
           options: {
-            zIndex: 800000043,
-            order: 800000043,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368350',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ДГКБ СВ. ВЛАДИМИРА'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.787548,
-              37.695322
-            ]
+            coordinates: [55.787548, 37.695322]
           },
           options: {
-            zIndex: 800000044,
-            order: 800000044,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368351',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ДКБ №9 ИМ. Г.Н.СПЕРАНСКОГО'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.755702,
-              37.543713
-            ]
+            coordinates: [55.755702, 37.543713]
           },
           options: {
-            zIndex: 800000045,
-            order: 800000045,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368352',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ЦКБ МПС ИМ. Н.А.СЕМАШКО'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.829841,
-              37.72369
-            ]
+            coordinates: [55.829841, 37.72369]
           },
           options: {
-            zIndex: 800000046,
-            order: 800000046,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368353',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ЦКБ ГА'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.8253,
-              37.460448
-            ]
+            coordinates: [55.8253, 37.460448]
           },
           options: {
-            zIndex: 800000047,
-            order: 800000047,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368354',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ЦКБ №1'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.7513,
-              37.401581
-            ]
+            coordinates: [55.7513, 37.401581]
           },
           options: {
-            zIndex: 800000048,
-            order: 800000048,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368355',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ЦКБ №1 МПС РФ'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.818296,
-              37.45822
-            ]
+            coordinates: [55.818296, 37.45822]
           },
           options: {
-            zIndex: 800000049,
-            order: 800000049,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368356',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ГОСПИТАЛЯ ИМ. Н.Н.БУРДЕНКО'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.771434,
-              37.696795
-            ]
+            coordinates: [55.771434, 37.696795]
           },
           options: {
-            zIndex: 800000050,
-            order: 800000050,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368357',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ РКБ №3'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.718811,
-              37.482547
-            ]
+            coordinates: [55.718811, 37.482547]
           },
           options: {
-            zIndex: 800000051,
-            order: 800000051,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368358',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ПЛ №162'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.687665,
-              37.259827
-            ]
+            coordinates: [55.687665, 37.259827]
           },
           options: {
-            zIndex: 800000052,
-            order: 800000052,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368359',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ОЦ ИМ. Н.Н.БЛОХИНА'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.656509,
-              37.643076
-            ]
+            coordinates: [55.656509, 37.643076]
           },
           options: {
-            zIndex: 800000053,
-            order: 800000053,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368360',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ НИИ ССХ ИМ. А.Н.БАКУЛЕВА'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.76096,
-              37.378234
-            ]
+            coordinates: [55.76096, 37.378234]
           },
           options: {
-            zIndex: 800000054,
-            order: 800000054,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368361',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ РНЦР '
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.652781,
-              37.53367
-            ]
+            coordinates: [55.652781, 37.53367]
           },
           options: {
-            zIndex: 800000055,
-            order: 800000055,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368362',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ДГКБ'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.85486,
-              37.405597
-            ]
+            coordinates: [55.85486, 37.405597]
           },
           options: {
-            zIndex: 800000056,
-            order: 800000056,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368363',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ МДГКБ'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.725549,
-              37.619755
-            ]
+            coordinates: [55.725549, 37.619755]
           },
           options: {
-            zIndex: 800000057,
-            order: 800000057,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368364',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ МОНИКИ ИМ. М.Ф.ВЛАДИМИРСКОГО'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.788237,
-              37.628343
-            ]
+            coordinates: [55.788237, 37.628343]
           },
           options: {
-            zIndex: 800000058,
-            order: 800000058,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368365',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ МСЧ №60'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.831378,
-              37.431127
-            ]
+            coordinates: [55.831378, 37.431127]
           },
           options: {
-            zIndex: 800000059,
-            order: 800000059,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368366',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ МЕДСИ'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.831903,
-              37.411961
-            ]
+            coordinates: [55.831903, 37.411961]
           },
           options: {
-            zIndex: 800000060,
-            order: 800000060,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368367',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ГКБ №119'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.905099,
-              37.336202
-            ]
+            coordinates: [55.905099, 37.336202]
           },
           options: {
-            zIndex: 800000061,
-            order: 800000061,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368368',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ГКИБ №2'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.772755,
-              37.739366
-            ]
+            coordinates: [55.772755, 37.739366]
           },
           options: {
-            zIndex: 800000062,
-            order: 800000062,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368369',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ГКИБ №3'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.651257,
-              37.698016
-            ]
+            coordinates: [55.651257, 37.698016]
           },
           options: {
-            zIndex: 800000063,
-            order: 800000063,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368370',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ПБ №1 им. Н.А.Алексеева'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.700146,
-              37.607969
-            ]
+            coordinates: [55.700146, 37.607969]
           },
           options: {
-            zIndex: 800000064,
-            order: 800000064,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368371',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ПБ №3 им. В.А. Гиляровского '
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.79303735434335,
-              37.70128599999788
-            ]
+            coordinates: [55.79303735434335, 37.70128599999788]
           },
           options: {
-            zIndex: 800000065,
-            order: 800000065,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368372',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ПБ №4 им. П.Б.Ганнушкина'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.797954,
-              37.702301
-            ]
+            coordinates: [55.797954, 37.702301]
           },
           options: {
-            zIndex: 800000066,
-            order: 800000066,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368373',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ПБ №15'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.65145,
-              37.644719
-            ]
+            coordinates: [55.65145, 37.644719]
           },
           options: {
-            zIndex: 800000067,
-            order: 800000067,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368374',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ СМЭ ЦКБ РАН'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.61415,
-              37.524803
-            ]
+            coordinates: [55.61415, 37.524803]
           },
           options: {
-            zIndex: 800000068,
-            order: 800000068,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368375',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ СМЭ № 1'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.638719,
-              37.629771
-            ]
+            coordinates: [55.638719, 37.629771]
           },
           options: {
-            zIndex: 800000069,
-            order: 800000069,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368376',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ СМЭ №2'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.699578,
-              37.408813
-            ]
+            coordinates: [55.699578, 37.408813]
           },
           options: {
-            zIndex: 800000070,
-            order: 800000070,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368377',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ СМЭ №3'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.77512,
-              37.634766
-            ]
+            coordinates: [55.77512, 37.634766]
           },
           options: {
-            zIndex: 800000071,
-            order: 800000071,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368378',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ СМЭ №4'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.769666,
-              37.685305
-            ]
+            coordinates: [55.769666, 37.685305]
           },
           options: {
-            zIndex: 800000072,
-            order: 800000072,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368379',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ СМЭ №5'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.772973,
-              37.469844
-            ]
+            coordinates: [55.772973, 37.469844]
           },
           options: {
-            zIndex: 800000073,
-            order: 800000073,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368380',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ СМЭ №6'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.769155,
-              37.702553
-            ]
+            coordinates: [55.769155, 37.702553]
           },
           options: {
-            zIndex: 800000074,
-            order: 800000074,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368381',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ СМЭ №7'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.8213,
-              37.530274
-            ]
+            coordinates: [55.8213, 37.530274]
           },
           options: {
-            zIndex: 800000075,
-            order: 800000075,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368382',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ СМЭ №8'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.983414,
-              37.236732
-            ]
+            coordinates: [55.983414, 37.236732]
           },
           options: {
-            zIndex: 800000076,
-            order: 800000076,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368383',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ СМЭ №9'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.756325,
-              37.813459
-            ]
+            coordinates: [55.756325, 37.813459]
           },
           options: {
-            zIndex: 800000077,
-            order: 800000077,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368384',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ СМЭ №10'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.780233,
-              37.547567
-            ]
+            coordinates: [55.780233, 37.547567]
           },
           options: {
-            zIndex: 800000078,
-            order: 800000078,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368385',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ СМЭ №11'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.799006,
-              37.807593
-            ]
+            coordinates: [55.799006, 37.807593]
           },
           options: {
-            zIndex: 800000079,
-            order: 800000079,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368386',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ СМЭ №12'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.698827,
-              37.407717
-            ]
+            coordinates: [55.698827, 37.407717]
           },
           options: {
-            zIndex: 800000080,
-            order: 800000080,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368387',
           properties: {
             name: '',
-            description: '',
-            iconContent: '',
             iconCaption: 'МОРГ ГКБ №3'
           },
           geometry: {
             type: 'Point',
-            coordinates: [
-              55.983333,
-              37.235699
-            ]
+            coordinates: [55.983333, 37.235699]
           },
           options: {
-            zIndex: 800000081,
-            order: 800000081,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
@@ -5523,14 +5221,12 @@ function init(){
             coordinates: [55.816065, 37.45866]
           },
           options: {
-            zIndex: 800000082,
-            order: 800000082,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
           type: 'Feature',
-          id: '135368389',
           properties: {
             name: '',
             iconCaption: 'МОРГ ЦНИИ',
@@ -5543,9 +5239,8 @@ function init(){
             coordinates: [55.765458, 37.796517]
           },
           options: {
-            zIndex: 800000083,
-            order: 800000083,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
@@ -5562,9 +5257,8 @@ function init(){
             coordinates: [55.790904, 37.822595]
           },
           options: {
-            zIndex: 800000084,
-            order: 800000084,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
@@ -5581,9 +5275,8 @@ function init(){
             coordinates: [55.81844201144643, 37.46536581349121]
           },
           options: {
-            zIndex: 800000085,
-            order: 800000085,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
@@ -5600,9 +5293,8 @@ function init(){
             coordinates: [55.799229, 37.456217]
           },
           options: {
-            zIndex: 800000086,
-            order: 800000086,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
@@ -5619,9 +5311,8 @@ function init(){
             coordinates: [55.735231, 37.580301]
           },
           options: {
-            zIndex: 800000087,
-            order: 800000087,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         },
         {
@@ -5638,9 +5329,8 @@ function init(){
             coordinates: [55.83384, 37.669324]
           },
           options: {
-            zIndex: 800000088,
-            order: 800000088,
-            preset: 'islands#blueIcon'
+            itemType: 'morgue',
+            preset: 'islands#blackIcon'
           }
         }
         /* end */
