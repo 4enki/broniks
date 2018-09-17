@@ -30,7 +30,7 @@ function init(){
   if (zonespravmap) {
     let myMapSrav = new ymaps.Map("spravmap", {
       center: [55.753559, 37.609218],
-      zoom: 12,
+      zoom: 11,
       controls: []
     });
 

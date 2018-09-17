@@ -24,7 +24,7 @@ gulp.task('scripts:app', function() {
     .pipe(rigger())
     .pipe(eslint.format())
     .pipe(babel())
-    // .pipe(uglify())
+    .pipe(uglify())
     .pipe(concat('app.js'))
     .pipe(gulp.dest(config.build.scripts))
 });
