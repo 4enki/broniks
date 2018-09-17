@@ -91,8 +91,8 @@ function init(){
             name: 'Многофункциональный центр р-на Красносельский ',
             iconCaption: 'Многофункциональный центр р-на Красносельский',
             balloonContentHeader: 'Многофункциональный центр р-на Красносельский',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentBody: 'Верхняя Красносельская ул., 3, стр. 2, Москва',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 777‑77-77">+7 495 777‑77-77</a>'
           },
           geometry: {
             type: 'Point',
@@ -127,8 +127,8 @@ function init(){
             name: 'Многофункциональный центр р-на Ново-Переделкино',
             iconCaption: 'Многофункциональный центр р-на Ново-Переделкино',
             balloonContentHeader: 'Многофункциональный центр р-на Ново-Переделкино',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentBody: 'Новопеределкинская ул., 12А, Москва',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 777‑77-77">+7 495 777‑77-77</a>'
           },
           geometry: {
             type: 'Point',
@@ -145,8 +145,8 @@ function init(){
             name: 'Многофункциональный центр р-на Академический',
             iconCaption: 'Многофункциональный центр р-на Академический',
             balloonContentHeader: 'Многофункциональный центр р-на Академический',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentBody: 'Новочерёмушкинская ул., 23, корп. 5, Москва',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 777‑77-77">+7 495 777‑77-77</a>'
           },
           geometry: {
             type: 'Point',
@@ -161,10 +161,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Чертаново Южное',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Многофункциональный центр р-на Чертаново Южное',
+            balloonContentHeader: 'Многофункциональный центр р-на Чертаново Южное',
+            balloonContentBody: 'Москва, ул. Россошанская, д. 4, корп. 2',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 (495) 777-77-77">+7 (495) 777-77-77</a>'
           },
           geometry: {
             type: 'Point',
