@@ -3222,10 +3222,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Преображенское кладбище',
-            iconCaption: 'Преображенское кладбище ',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Преображенское кладбище',
+            balloonContentHeader: 'Преображенское кладбище',
+            balloonContentBody: 'Москва, ВАО, улица Преображенский Вал, 17А',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-07">8 (495) 181-98-07</a>'
           },
           geometry: {
             type: 'Point',
@@ -3241,9 +3241,9 @@ function init(){
           properties: {
             name: 'Пыхтинское кладбище',
             iconCaption: 'Пыхтинское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Пыхтинское кладбище',
+            balloonContentBody: 'Москва, НАО, пос. Внуковское, дер. Пыхтино, дом 25, строение 1',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-07">8 (495) 181-98-07</a>'
           },
           geometry: {
             type: 'Point',
@@ -3259,9 +3259,9 @@ function init(){
           properties: {
             name: 'Пятницкое кладбище',
             iconCaption: 'Пятницкое кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Пятницкое кладбище',
+            balloonContentBody: 'Москва, СВАО, Дроболитейный переулок, дом 3, строение 1',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-07">8 (495) 181-98-07</a>'
           },
           geometry: {
             type: 'Point',
@@ -3277,9 +3277,9 @@ function init(){
           properties: {
             name: 'Раевское кладбище',
             iconCaption: 'Раевское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Раевское кладбище',
+            balloonContentBody: 'Москва, СВАО, Олонецкий пр-д, дом 4, корпус 2',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3295,9 +3295,9 @@ function init(){
           properties: {
             name: 'Рогожское кладбище',
             iconCaption: 'Рогожское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Рогожское кладбище',
+            balloonContentBody: 'Москва, ЮВАО, Старообрядческая улица, 31А',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3312,10 +3312,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Рождественское кладбище',
-            iconCaption: 'Рождественское кладбище ',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Рождественское кладбище',
+            balloonContentHeader: 'Рождественское кладбище',
+            balloonContentBody: 'Москва, СЗАО, 1-я Муравская улица, дом 39, строение 1',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3331,9 +3331,9 @@ function init(){
           properties: {
             name: 'Рублевское кладбище',
             iconCaption: 'Рублевское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Рублевское кладбище',
+            balloonContentBody: 'Москва, ЗАО, пос. Рублево',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3349,9 +3349,9 @@ function init(){
           properties: {
             name: 'Старо-Марковское кладбище',
             iconCaption: 'Старо-Марковское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Старо-Марковское кладбище',
+            balloonContentBody: 'Москва, СВАО, Дмитровское ш., вл. 124А',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3367,9 +3367,9 @@ function init(){
           properties: {
             name: 'Старо-Покровское кладбище',
             iconCaption: 'Старо-Покровское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Старо-Покровское кладбище',
+            balloonContentBody: 'Москва, ЮЗАО, Дорожная улица, 12',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3385,9 +3385,9 @@ function init(){
           properties: {
             name: 'Троекуровское кладбище',
             iconCaption: 'Троекуровское кладбище ',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Троекуровское кладбище',
+            balloonContentBody: 'Москва, ЗАО, ул. Рябиновая',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
