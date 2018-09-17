@@ -179,10 +179,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Перово',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Многофункциональный центр р-на Перово',
+            balloonContentHeader: 'Многофункциональный центр р-на Перово',
+            balloonContentBody: '3-я Владимирская ул., 9А, Москва',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 777‑77-77">+7 495 777‑77-77</a>'
           },
           geometry: {
             type: 'Point',
@@ -197,10 +197,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Бабушкинский',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Многофункциональный центр р-на Бабушкинский',
+            balloonContentHeader: 'Многофункциональный центр р-на Бабушкинский',
+            balloonContentBody: 'ул. Лётчика Бабушкина, 1, корп. 1, Москва',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 777‑77-77">+7 495 777‑77-77</a>'
           },
           geometry: {
             type: 'Point',
@@ -215,10 +215,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Лефортово',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Многофункциональный центр р-на Лефортово',
+            balloonContentHeader: 'Многофункциональный центр р-на Лефортово',
+            balloonContentBody: 'пр. Завода Серп и Молот, 10, Москва',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 777‑77-77">+7 495 777‑77-77</a>'
           },
           geometry: {
             type: 'Point',
@@ -233,10 +233,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Нижегородский',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Многофункциональный центр р-на Нижегородский',
+            balloonContentHeader: 'Многофункциональный центр р-на Нижегородский',
+            balloonContentBody: 'пр. Завода Серп и Молот, 10, Москва',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 777‑77-77">+7 495 777‑77-77</a>'
           },
           geometry: {
             type: 'Point',
