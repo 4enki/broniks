@@ -2881,9 +2881,9 @@ function init(){
           properties: {
             name: 'Котляковское кладбище',
             iconCaption: 'Котляковское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Котляковское кладбище',
+            balloonContentBody: 'Москва, ЮАО, ул. Деловая, 20а',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
