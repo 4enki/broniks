@@ -3097,9 +3097,9 @@ function init(){
           properties: {
             name: 'Ореховское кладбище',
             iconCaption: 'Ореховское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Ореховское кладбище',
+            balloonContentBody: 'Москва, ЮАО, Шипиловский проезд, 45',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 325‑28-45">+7 495 325‑28-45</a>'
           },
           geometry: {
             type: 'Point',
@@ -3115,9 +3115,9 @@ function init(){
           properties: {
             name: 'Орловское кладбище',
             iconCaption: 'Орловское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Орловское кладбище',
+            balloonContentBody: 'Москва, ЗАО, Староорловская улица, 107',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 437‑47-00">+7 495 437‑47-00</a>'
           },
           geometry: {
             type: 'Point',
@@ -3133,9 +3133,9 @@ function init(){
           properties: {
             name: 'Останкинское кладбище',
             iconCaption: 'Останкинское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Останкинское кладбище',
+            balloonContentBody: 'Москва, СВАО, Прудовой проезд, дом 13, строение 14',
+            balloonContentFooter: 'Телефоны: <a href="tel:+7 495 602‑21-39">+7 495 602‑21-39</a>, <a href="tel:+7 499 110‑00-00">+7 499 110‑00-00</a>, <a href="tel:+7 499 157‑43-83">+7 499 157‑43-83</a>, <a href="tel:+7 499 610‑00-00">+7 499 610‑00-00</a>'
           },
           geometry: {
             type: 'Point',
@@ -3151,9 +3151,9 @@ function init(){
           properties: {
             name: 'Перепечинское кладбище',
             iconCaption: 'Перепечинское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Перепечинское кладбище',
+            balloonContentBody: 'Московская обл., Солнечногорский р-н, с/п Луневское, дер. Перепечино',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-13">8 (495) 181-97-13</a>'
           },
           geometry: {
             type: 'Point',
@@ -3169,9 +3169,9 @@ function init(){
           properties: {
             name: 'Перловское кладбище',
             iconCaption: 'Перловское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Перловское кладбище',
+            balloonContentBody: 'Москва, СВАО, 92 километр Московской Кольцевой автодороги',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-13">8 (495) 181-97-13</a>'
           },
           geometry: {
             type: 'Point',
@@ -3187,9 +3187,9 @@ function init(){
           properties: {
             name: 'Перовское кладбище',
             iconCaption: 'Перовское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Перовское кладбище',
+            balloonContentBody: 'Москва, ВАО, Кетчерская улица, 20',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-13">8 (495) 181-97-13</a>'
           },
           geometry: {
             type: 'Point',
@@ -3205,9 +3205,9 @@ function init(){
           properties: {
             name: 'Покровское кладбище',
             iconCaption: 'Покровское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Покровское кладбище',
+            balloonContentBody: 'Москва, ЮАО, ул. Подольских Курсантов, 24',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-13">8 (495) 181-97-13</a>'
           },
           geometry: {
             type: 'Point',
@@ -3894,8 +3894,8 @@ function init(){
             name: 'Хованский крематорий',
             iconCaption: 'Хованский крематорий',
             balloonContentHeader: 'Хованский крематорий',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
+            balloonContentBody: 'Москва, ТиНАО, поселение «Мосрентген», 21 км Киевского шоссе, ул. Адмирала Корнилова',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 339‑47-11">+7 495 339‑47-11</a>'
           },
           geometry: {
             type: 'Point',
@@ -3912,8 +3912,8 @@ function init(){
             name: 'Николо-Архангельский крематорий',
             iconCaption: 'Николо-Архангельский крематорий',
             balloonContentHeader: 'Николо-Архангельский крематорий',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-97-01">8 (495) 181-97-01</a>'
+            balloonContentBody: 'Московская обл., Балашиха г., микрорайон Салтыковка, ул. Окольная, вл. 4',
+            balloonContentFooter: 'Телефоны: <a href="tel:+7 495 791‑05-39">+7 495 791‑05-39</a>, <a href="tel:+7 495 791‑26-08">+7 495 791‑26-08</a>, <a href="tel:+7 495 791‑46-74">+7 495 791‑46-74</a>, <a href="tel:+7 499 610‑00-00">+7 499 610‑00-00</a>, <a href="tel:+7 495 702‑19-78">+7 495 702‑19-78</a>'
           },
           geometry: {
             type: 'Point',
