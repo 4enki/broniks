@@ -2899,9 +2899,9 @@ function init(){
           properties: {
             name: 'Кузьминское (мусульманское) кладбище',
             iconCaption: 'Кузьминское (мусульманское) кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Кузьминское (мусульманское) кладбище',
+            balloonContentBody: 'Москва, ЮВАО, ул. Академика Скрябина, 19',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -2917,9 +2917,9 @@ function init(){
           properties: {
             name: 'Кузьминское кладбище',
             iconCaption: 'Кузьминское кладбище ',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Кузьминское кладбище',
+            balloonContentBody: 'Москва, ЮВАО, ул. Академика Скрябина, 19',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -2935,9 +2935,9 @@ function init(){
           properties: {
             name: 'Кунцевское кладбище',
             iconCaption: 'Кунцевское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Кунцевское кладбище',
+            balloonContentBody: 'Москва, ЗАО, ул. Рябиновая, 20',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -2953,9 +2953,9 @@ function init(){
           properties: {
             name: 'Леоновское кладбище',
             iconCaption: 'Леоновское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Леоновское кладбище',
+            balloonContentBody: 'Москва, СВАО, 1-я Леонова ул., 8',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -2971,9 +2971,9 @@ function init(){
           properties: {
             name: 'Лианозовское кладбище',
             iconCaption: 'Лианозовское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Лианозовское кладбище',
+            balloonContentBody: 'Москва, СВАО, 83-й километр МКАД, 1',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -2989,9 +2989,9 @@ function init(){
           properties: {
             name: 'Люблинское кладбище',
             iconCaption: 'Люблинское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Люблинское кладбище',
+            balloonContentBody: 'Москва, ЮВАО, Ставропольская ул., 74А',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3007,9 +3007,9 @@ function init(){
           properties: {
             name: 'Медведковское кладбище',
             iconCaption: 'Медведковское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Медведковское кладбище',
+            balloonContentBody: 'Москва, СВАО, Заповедная ул., вл. 7А',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3025,9 +3025,9 @@ function init(){
           properties: {
             name: 'Митинское кладбище',
             iconCaption: 'Митинское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Митинское кладбище',
+            balloonContentBody: 'Москва, СЗАО, Пятницкое шоссе, 6-й км',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3043,9 +3043,9 @@ function init(){
           properties: {
             name: 'Миусское кладбище',
             iconCaption: 'Миусское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Миусское кладбище',
+            balloonContentBody: 'Москва, СВАО, улица Сущевский Вал, 19',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3060,10 +3060,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Николо-Архангельское кладбище',
-            iconCaption: 'Николо-Архангельское кладбище ',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Николо-Архангельское кладбище',
+            balloonContentHeader: 'Николо-Архангельское кладбище',
+            balloonContentBody: 'Окольная ул., 4, микрорайон Салтыковка, Балашиха',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
@@ -3079,9 +3079,9 @@ function init(){
           properties: {
             name: 'Николо-Хованское кладбище',
             iconCaption: 'Николо-Хованское кладбище',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            balloonContentHeader: 'Николо-Хованское кладбище',
+            balloonContentBody: 'Москва, ТиНАО, поселение «Мосрентген», 21 км Киевского ш.',
+            balloonContentFooter: 'Телефон: <a href="tel:8 (495) 181-98-72">8 (495) 181-98-72</a>'
           },
           geometry: {
             type: 'Point',
