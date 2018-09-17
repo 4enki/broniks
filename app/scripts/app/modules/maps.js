@@ -251,10 +251,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Печатники',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Многофункциональный центр р-на Печатники',
+            balloonContentHeader: 'Многофункциональный центр р-на Печатники',
+            balloonContentBody: 'Шоссейная ул., 86, Москва',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 777‑77-77">+7 495 777‑77-77</a>'
           },
           geometry: {
             type: 'Point',
@@ -269,10 +269,10 @@ function init(){
           type: 'Feature',
           properties: {
             name: 'Многофункциональный центр р-на Бескудниковский',
-            iconCaption: '',
-            balloonContentHeader: '',
-            balloonContentBody: '',
-            balloonContentFooter: 'Телефон: <a href="tel:"></a>'
+            iconCaption: 'Многофункциональный центр р-на Бескудниковский',
+            balloonContentHeader: 'Многофункциональный центр р-на Бескудниковский',
+            balloonContentBody: 'Дубнинская ул., 40А, корп. 1, Москва',
+            balloonContentFooter: 'Телефон: <a href="tel:+7 495 777‑77-77">+7 495 777‑77-77</a>'
           },
           geometry: {
             type: 'Point',
