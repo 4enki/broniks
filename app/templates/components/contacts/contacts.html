@@ -12,12 +12,17 @@
         <h2 class="h2">Контакты</h2>
         <p>Адрес: Литовский б-р, 1 а, Москва, 117593 <br> Телефон: <a href="tel:+74956496494" class="text-color">8 (495) 649-64-94</a></p>
         <p><a href="#rekvizity_bronix" class="light-link _modal-link">банковские реквизиты</a></p>
-        <form action="checks.php" class="form-horizontal _check_agent">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="№ удостоверения" name="check_number" title="Введите номер удостоверения сотрудника" required>
-            <button type="submit" class="button">Проверить</button>
-          </div>
-        </form>
+        <!-- begin .contacts_check -->
+        <div class="contacts_check">
+          <h2 class="h2">Проверка агента</h2>
+          <form action="checks.php" class="form-horizontal _check_agent">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="№ удостоверения" name="check_number" title="Введите номер удостоверения сотрудника" required>
+              <button type="submit" class="button">Проверить</button>
+            </div>
+          </form>
+        </div>
+        <!-- end .contacts_check -->
       </div>
       <!-- end .contacts_box -->
     </div>
